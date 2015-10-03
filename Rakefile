@@ -4,7 +4,7 @@ require "tmpdir"
 require "bundler/setup"
 require "jekyll"
 
-GITHUB_REPONAME = ""
+GITHUB_REPONAME = "pepetd/pepetd.github.io"
 
 desc "Generate site files"
 task :generate do
