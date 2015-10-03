@@ -24,11 +24,23 @@
     color: $cLightTeal;
     margin: 0;
   }
-  &-date {
+  &-meta {
     @include rem(margin, 32px 0 0 0);
 
     color: $cLightTeal;
     font-family: "Courior", monospace;
     font-weight: 700;
+  }
+  &-link {
+    color: $cLightTeal;
+  }
+  &-date {
+
+  }
+  &-category {
+
+  }
+  &-tags {
+
   }
 }
