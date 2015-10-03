@@ -2,6 +2,8 @@
 layout: page
 noBorder: true
 ---
+{% include category-navigation.html %}
+
 {% for post in paginator.posts %}
   <div class="Post">
     <span class="Post-date">{{ post.date | date: "%B %-d, %Y" }}</span>

@@ -1,0 +1,23 @@
+// -----------------------------------------------------------------------------
+// Category Navigation
+// -----------------------------------------------------------------------------
+
+.CategoryNavigation {
+
+  &-link {
+    @include transition(all 200ms ease);
+    @include rem(padding, 4px 10px);
+    @include rem(margin, 0 2px);
+
+    border: 1px solid $cLightGrey;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    &:hover {
+      background-color: $cTeal;
+      color: $cWhite;
+      border-color: transparent;
+    }
+  }
+}

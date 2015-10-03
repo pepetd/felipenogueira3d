@@ -1,6 +1,8 @@
 ---
 layout: page
 ---
+{% include category-navigation.html %}
+
 {% for post in site.categories[page.category] %}
   <div class="Post">
     <span class="Post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
