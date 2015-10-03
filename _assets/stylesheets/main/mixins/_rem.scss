@@ -1,0 +1,51 @@
+// -------------------------------------------------------------------------
+// Convert any property's px values to rem, ignores other values
+//
+// Requires: "rem" function
+//
+// Reference: https://github.com/bitmanic/rem/blob/master/stylesheets/_rem.scss
+//
+// Example:
+//
+// h1 {
+//   @include rem(padding, 16px 1em 2% 0);
+// }
+//
+// h1 {
+//   padding: 16px 1em 2% 0;
+//   padding: 1rem 1em 2% 0;
+// }
+//
+// Notes:
+// - Only use rems when the value should adjust as base font size is scaled
+// - If IE8 support isn't required, this mixin should only be used to
+//   provide generic text element font-size fallbacks for IE8- and Opera Mini.
+// - See http://caniuse.com/#feat=rem for current browser support
+// -------------------------------------------------------------------------
+@mixin rem($property, $px-values) {
+
+  // Output px fallback
+  #{$property}: $px-values;
+
+  // If there is only one pixel value, convert to rems
+  @if (type-of($px-values) == "number" and unit($px-values) == "px") {
+    #{$property}: rem( $px-values );
+  }
+  // If mulitple values, loop through each one and decide whether to convert to rems
+  @else {
+    $rem-values: ();// Empty list to hold values
+    @each $value in $px-values {
+      // Only convert px values to rems
+      @if (type-of($value) == "number" and unit($value) == "px" ) {
+        $rem-values: append($rem-values, rem($value));
+      }
+      // Leave other values as is
+      @else {
+        $rem-values: append($rem-values, $value);
+      }
+    }
+    // Return the property and its list of converted values
+    #{$property}: $rem-values;
+  }
+
+}

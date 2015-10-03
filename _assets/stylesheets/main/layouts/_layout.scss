@@ -1,0 +1,60 @@
+// -------------------------------------------------------------------------
+// Layout
+// -------------------------------------------------------------------------
+
+@mixin defaultPadding {
+  @include rem(padding, 0 16px);
+
+  box-sizing: content-box;
+
+  @include mq(700px) {
+    @include rem(padding, 0 24px);
+  }
+
+  &.-no-padding {
+    box-sizing: border-box;
+    padding: 0;
+  }
+}
+
+.layout {
+
+  // Wrappers
+
+  &-widthDefault {
+    @include defaultPadding;
+
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  // Sidebar Primary Layout
+
+  &-sidebar-primary {
+    @include clearfix;
+    @include rem(margin-left, -36px);
+  }
+
+  &-sidebar,
+  &-primary {
+    @include rem(padding-left, 36px);
+  }
+
+  @include mq($bpMid) {
+    &-sidebar {
+      float: left;
+      width: 33.33%;
+    }
+
+    &-primary {
+      float: left;
+      width: 66.66%;
+
+      &.-right {
+        float: right;
+      }
+    }
+  }
+
+}

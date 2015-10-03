@@ -1,0 +1,22 @@
+// -----------------------------------------------------------------------------
+// Logo
+// -----------------------------------------------------------------------------
+
+.Logo {
+  @include vertCenter(absolute);
+  @include transition(color 200ms ease);
+
+  display: block;
+  line-height: 0;
+
+  &-svg {
+    @include transition(fill 200ms ease);
+    fill: $cWhite;
+    width: 64px;
+    height: 64px;
+
+    &:hover {
+      fill: $cRed;
+    }
+  }
+}

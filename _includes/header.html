@@ -1,0 +1,27 @@
+<div class="Header" role="banner" {% if page.transparentHeader %}style="background-color: transparent"{% endif %}>
+  <div class="Navigation" role+"navigation" {% if page.noBorder %}style="border-bottom: 0"{% endif %}>
+    <a class="Logo" href="/">{% include logo.html %}</a>
+    <div id="navigation-toggle" class="Navigation-toggle" role="button">
+      <div class="Navigation-bars">Menu</div>
+    </div>
+    <ul id="navigation-links" class="Navigation-links">
+      <li class="Navigation-item"><a class="Navigation-link" href="/posts">Posts</a></li>
+      <li class="Navigation-item"><a class="Navigation-link" href="/projects">Projects</a></li>
+      <li class="Navigation-item"><a class="Navigation-link" href="/demoreel">Demo Reel</a></li>
+      <li class="Navigation-item"><a class="Navigation-link" href="/about">About</a></li>
+    </ul>
+  </div>
+  {% if page.title %}
+  <div class="Masthead">
+    <div class="layout-widthDefault">
+      <h1 class="Masthead-headline">{{ page.title }}</h1>
+      {% if page.excerpt %}
+        <p class="Masthead-excerpt">{{ page.excerpt }}</p>
+      {% endif %}
+      {% if page.date %}
+        <p class="Masthead-date">{{ page.date | date: "%B %-d, %Y" }}</p>
+      {% endif %}
+    </div>
+  </div>
+  {% endif %}
+</div>

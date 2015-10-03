@@ -1,0 +1,48 @@
+// -----------------------------------------------------------------------------
+// Buttons
+// -----------------------------------------------------------------------------
+
+.Button {
+  @include transition(all 200ms ease);
+  @include rem(padding, 8px 16px);
+  @include rem(margin, 3px);
+
+  background-color: $cTeal;
+  border-radius: 0;
+  cursor: pointer;
+  color: $cWhite;
+  display: inline-block;
+  position: relative;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  &:hover {
+    background-color: $cDarkTeal;
+    color: $cWhite;
+  }
+  &.Button--large {
+    @include rem(padding, 16px 32px);
+
+    letter-spacing: 3px;
+
+    &:hover {
+      color: $cRed;
+    }
+  }
+  &.Button--reversed {
+    background-color: transparent;
+    border: 1px solid $cWhite;
+
+    &:hover {
+      background-color: $cWhite;
+      color: $cRed;
+    }
+  }
+}
+
+.ButtonGroup {
+
+  .Button {
+    @include rem(margin, 8px 16px);
+  }
+}

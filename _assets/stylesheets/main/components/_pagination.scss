@@ -1,0 +1,22 @@
+// -----------------------------------------------------------------------------
+// Pagination
+// -----------------------------------------------------------------------------
+
+.Pagination {
+  @include rem(margin-top, 64px);
+  @include clearfix;
+
+  &-previous {
+    float: left;
+  }
+  &-next {
+    float: right;
+  }
+  &-text {
+    @include mq($bpMid) {
+      display: inline;
+    }
+
+    display: none;
+  }
+}

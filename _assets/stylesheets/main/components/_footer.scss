@@ -1,0 +1,33 @@
+// -----------------------------------------------------------------------------
+// Footer
+// -----------------------------------------------------------------------------
+
+.Footer {
+  &-inner {
+    @include rem(margin, 64px 0);
+    @include rem(padding, 32px 0);
+    color: $cGrey;
+    border-top: 1px solid $cLightGrey;
+    border-bottom: 1px solid $cLightGrey;
+  }
+  &-links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+  }
+  &-item {
+    display: inline-block;
+    &:after {
+      content: " • ";
+      color: $cLightGrey;
+    }
+    &:last-child:after {
+      content: "";
+    }
+  }
+  &-link {
+    @include transition(color 200ms ease);
+
+  }
+}

@@ -1,0 +1,27 @@
+---
+layout: page
+noBorder: true
+---
+{% for post in paginator.posts %}
+  <div class="Post">
+    <span class="Post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+    <h2 class="Post-title">
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </h2>
+    <p class="Post-excerpt">{{ post.excerpt }}</p>
+  </div>
+{% endfor %}
+
+{% if paginator.total_pages > 1 %}
+  <div class="Pagination">
+  {% if paginator.previous_page %}
+    <div class="Pagination-previous">
+      <a class="Button" href="{{ paginator.previous_page_path | replace: 'index.html',' ' }}">← <span class="Pagination-text">Newer posts</span></a>
+    </div>
+  {% endif %}
+  {% if paginator.next_page %}
+    <div class="Pagination-next">
+      <a class="Button" href="{{ paginator.next_page_path }}"><span class="Pagination-text">Older posts</span> →</a>
+    </div>
+  {% endif %}
+{% endif %}

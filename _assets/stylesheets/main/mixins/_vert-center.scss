@@ -1,0 +1,13 @@
+//------------------------------------------------------------------------
+// Vertically Center an Element
+//------------------------------------------------------------------------
+
+@mixin vertCenter( $position: relative ) {
+  position: $position;
+  top: 50%;
+  @include transform( translateY( -50% ) );
+}
+
+%vertCenter {
+  @include vertCenter;
+}

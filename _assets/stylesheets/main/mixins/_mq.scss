@@ -1,0 +1,69 @@
+// -------------------------------------------------------------------------
+// Media Query Helper
+//
+// Examples: http://sassmeister.com/gist/11261921
+//
+// References:
+// http://alwaystwisted.com/post.php?s=2013-04-01-my-media-query-mixin
+// http://jakearchibald.github.io/sass-ie/
+// -------------------------------------------------------------------------
+
+//------------------------------------------------------------------------//
+// Media Query Mixin
+//------------------------------------------------------------------------//
+@mixin mq( $breakpoints... ) {
+  // If only one argument passed, set $brakpoint equal to that argument
+  @if length( $breakpoints ) == 1 {
+    $breakpoints: nth( $breakpoints, 1 );
+  }
+
+  //------------------------------------------------------------------------//
+  // Sass Map Argument
+  //
+  // Example: mq(( condition: value[, condition: value, ...] ))
+  //------------------------------------------------------------------------//
+  @if type-of( $breakpoints ) == 'map' {
+    // Convert breakpoints map to media query string
+    $mq-conditions: '';
+    @each $type, $value in $breakpoints {
+      $mq-conditions: str-insert( $mq-conditions, 'and (#{$type}: #{$value})', -1);
+    }
+
+    @media screen #{$mq-conditions} {
+      @content;
+    }
+
+  }
+
+  //------------------------------------------------------------------------//
+  // String Argument(s)
+  //
+  // mq( width, [min/max] )
+  //------------------------------------------------------------------------//
+  @else {
+    $mq-width: $breakpoints;
+    $prefix: 'min';// Default
+
+    // If second argument was passed, use as prefix
+    @if length( $breakpoints ) >= 2 {
+      $mq-width: nth( $breakpoints, 1 );
+      $prefix: nth( $breakpoints, 2 );
+    }
+    // If more than 2 args passed, output a warning
+    @else if length( $breakpoints ) > 2 {
+      @warn "Too many arguments passed: mq(#{$breakpoints})";
+    }
+
+    // Generate the media query
+
+    // Change unitless values to px
+    @if unitless( $mq-width ) {
+      $mq-width: $mq-width * 1px;
+    }
+
+    @media screen and (#{$prefix}-width: $mq-width) {
+      @content;
+    }
+  }
+
+}

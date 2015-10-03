@@ -1,0 +1,38 @@
+// -----------------------------------------------------------------------------
+// Landing
+// -----------------------------------------------------------------------------
+
+.Landing {
+  background-image: image-url("hero.jpg");
+  background-position: center center;
+  background-size: cover;
+  min-height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  &-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1;
+  }
+
+  &-content {
+    @include vertCenter(absolute);
+    @include font-size(18px);
+    @include mq($bpMid) {
+      @include font-size(24px);
+    }
+
+    color: $cWhite;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+  }
+}

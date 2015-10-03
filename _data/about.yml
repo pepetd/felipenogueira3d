@@ -1,0 +1,54 @@
+published_titles:
+  - name: "Tom Clancy's Splinter Cell: Blacklist (PC, Xbox 360, PS3)"
+    company: Ubisoft Toronto
+    date: August 2013
+
+  - name: "Kingdoms of Amalur: Reckoning (PC, Xbox 360, PS3)"
+    company: Big Huge Games/38 Studios
+    date: February 2012
+
+  - name: "Kingdoms of Amalur: The Legend of Dead Kel (PC, Xbox 360, PS3)"
+    company: Big Huge Games/38 Studios
+    date: February 2012 - Day 1 DLC
+
+  - name: "Kingdoms of Amalur: Teeth of Naros (PC, Xbox 360, PS3)"
+    company: Big Huge Games/38 Studios
+    date: April 2012 - DLC
+
+awards:
+  - name: Award of Excellence
+    project: 'Creative Communications: Sasktel "Once Upon a Dream"'
+    date: 2010
+
+  - name: Award of Merit
+    project: 'Creative Communications: Sasktel "The Ride"'
+    date: 2010
+
+  - name: Broadcast Advertising Award
+    project: Sasktel "Raving Red"
+    date: 2008
+
+skills:
+  - skill: Self motivated Technical Artist/Character TD
+  - skill: Extensive knowledge and understanding of Game and CG production pipelines
+  - skill: Excellent problem solving and communication skills
+
+specialties:
+  - specialty: Character/Creature Rigging
+  - specialty: Mechanical/Prop/Set Rigging
+  - specialty: Tool Development with 3DSMax, Maya
+  - specialty: Character Studio/Biped
+  - specialty: PFlow, RayFire, Havok, FaceFx, Shroud, Apex Cloth
+  - specialty: Cloth Simulation
+
+softwares:
+  - software: 3DSMax
+  - software: Maya
+  - software: Havok
+  - software: FaceFX
+
+languages:
+  - language: MaxScript
+  - language: Python
+  - language: .NET
+  - language: Mel
