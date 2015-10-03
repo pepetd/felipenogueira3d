@@ -1,7 +1,8 @@
 ---
 layout: post
 title: The Future of 3DS Max
-tags: [3dsmax, autodesk]
+tags: 3dsmax autodesk
+category: general
 excerpt: Some news on the future of 3DS Max.
 ---
 

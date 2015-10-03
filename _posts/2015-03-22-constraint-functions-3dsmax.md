@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Constraint Functions - 3DS Max
-tags: [3dsmax, development, maxscript, snippets]
+tags: 3dsmax development maxscript snippets
+category: scripts
 excerpt: In the past years I started creating my own library of functions and scripts that would automate a lot of the processes that I often use when rigging characters to speed up the rigging process even more.
-category: development
 ---
 
 In the past years I started creating my own library of functions and scripts that would automate a lot of the processes that I often use when rigging characters to speed up the rigging process even more.
