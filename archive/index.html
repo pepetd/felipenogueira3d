@@ -2,7 +2,7 @@
 layout: page
 title: Archive
 ---
-<h2 class="Archive-headline">This year's posts</h2>
+<h2 id="{{ site.time | date: '%Y' }}" class="Archive-headline">This year's posts</h2>
 {% for post in site.posts %}
 {% unless post.next %}
   <ul class="Archive-items">
@@ -11,7 +11,7 @@ title: Archive
   {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
   {% if year != nyear %}
   </ul>
-<h2 class="Archive-headline">{{ post.date | date: '%Y' }}</h2>
+<h2 id="{{ post.date | date: '%Y' }}" class="Archive-headline">{{ post.date | date: '%Y' }}</h2>
   <ul class="Archive-items">
   {% endif %}
 {% endunless %}

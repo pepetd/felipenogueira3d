@@ -33,14 +33,30 @@
   }
   &-link {
     color: $cLightTeal;
+
+    &:hover {
+      color: $cRed;
+    }
   }
   &-date {
+    @include mq($bpMid) {
+      display: inline;
+    }
 
+    display: block;
   }
   &-category {
+    @include mq($bpMid) {
+      display: inline;
+    }
 
+    display: block;
   }
   &-tags {
+    @include mq($bpMid) {
+      display: inline;
+    }
 
+    display: block;
   }
 }
