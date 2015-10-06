@@ -4,4 +4,5 @@
 
 .Page {
   @include rem(margin-top, 64px);
+  @include clearfix;
 }

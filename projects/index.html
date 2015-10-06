@@ -1,13 +1,20 @@
 ---
-layout: page
+layout: projects
 noBorder: true
 ---
 {% assign projects = site.data.projects | get_projects_from_files | sort: "date" %}
-{% for project in projects %}
-  <div class="Project">
-    <span class="Project-date">{{ project.date | date: "%B %-d, %Y" }}</span>
-    <h2 class="Project-title">
-      <a href="/{{ project.dir }}">{{ project.title }}</a>
-    </h2>
-  </div>
-{% endfor %}
+<div class="ProjectsContainer">
+  {% for project in projects %}
+    <div class="Project">
+      <div class="Project-inner">
+        <img class="Project-image" src="{{ project.image | asset_path }}">
+        <div class="Project-overlay"></div>
+        <div class="Project-info">
+          <a class="Project-link" href="/{{ project.dir }}"></a>
+          <h2 class="Project-headline">{{ project.title }}</h3>
+          <i class="Project-icon material-icons md-48">launch</i>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>

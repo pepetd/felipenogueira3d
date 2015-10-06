@@ -1,0 +1,95 @@
+// -----------------------------------------------------------------------------
+// Project
+// -----------------------------------------------------------------------------
+
+.ProjectsContainer {
+  @include rem(margin-top, 64px);
+  @include clearfix;
+}
+
+.Project {
+  @include mq($bpSmall) {
+    width: 50%;
+  }
+  @include mq($bpMid) {
+    width: 25%;
+  }
+
+  float: left;
+  min-height: 100%;
+  width: 100%;
+
+  &:hover {
+    .Project-overlay {
+      opacity: 0.85;
+    }
+    .Project-headline {
+      opacity: 1;
+      margin: 0;
+    }
+    .Project-icon {
+      opacity: 1;
+      margin: 0;
+    }
+  }
+
+  &-inner {
+    position: relative;
+    overflow: hidden;
+  }
+  &-image {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+  }
+  &-overlay {
+    @include transition(opacity, 200ms ease);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $cTeal;
+    opacity: 0;
+  }
+  &-info {
+    @include transition(opacity, 200ms ease);
+    @include rem(padding, 0 20px);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+  }
+  &-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 40;
+  }
+  &-headline {
+    @include transition(opacity, 200ms ease);
+    @include font-size(16px);
+    @include rem(margin, -15px 0 0 0);
+    @include vertCenter(relative);
+
+    width: 100%;
+    text-align: center;
+    color: $cWhite;
+    opacity: 0;
+  }
+  &-icon {
+    @include transition(opacity, 200ms ease);
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: $cWhite;
+    opacity: 0;
+  }
+}

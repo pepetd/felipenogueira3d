@@ -23,7 +23,11 @@
         {% if page.date %}
           <span class="Masthead-date">
             <i class="material-icons">event</i>
-            <a class="Masthead-link" href="/archive#{{ page.date | date: '%Y' }}">{{ page.date | date: "%B %-d, %Y" }}</a>
+            {% if page.post %}
+              <a class="Masthead-link" href="/archive#{{ page.date | date: '%Y' }}">{{ page.date | date: "%B %-d, %Y" }}</a>
+            {% else %}
+              {{ page.date | date: "%B %-d, %Y" }}
+            {% endif %}
           </span>
         {% endif %}
         {% if page.category %}
