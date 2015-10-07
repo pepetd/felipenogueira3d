@@ -1,0 +1,25 @@
+// -------------------------------------------------------------------------
+// Animation
+// -------------------------------------------------------------------------
+
+@include keyframes(fadeInTop) {
+  0% {
+    opacity: 0;
+    @include transform(translateY(-20px));
+  }
+  100% {
+    opacity: 1;
+    @include transform(translateY());
+  }
+}
+
+@include keyframes(fadeInBottom) {
+  0% {
+    opacity: 0;
+    @include transform(translateY(20px));
+  }
+  100% {
+    opacity: 1;
+    @include transform(translateY());
+  }
+}

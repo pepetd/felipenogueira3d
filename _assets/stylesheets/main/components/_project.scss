@@ -7,6 +7,12 @@
   @include clearfix;
 }
 
+@for $i from 1 to 100 {
+  .Project:nth-child(#{$i}) {
+    @include animation-delay($i*50ms);
+  }
+}
+
 .Project {
   @include mq($bpSmall) {
     width: 50%;
@@ -14,6 +20,9 @@
   @include mq($bpMid) {
     width: 25%;
   }
+  @include animation-name(fadeInTop);
+  @include animation-duration(200ms);
+  @include animation-fill-mode(both);
 
   float: left;
   min-height: 100%;

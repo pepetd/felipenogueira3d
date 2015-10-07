@@ -28,6 +28,10 @@
     @include mq($bpMid) {
       @include font-size(24px);
     }
+    @include animation-name(fadeInBottom);
+    @include animation-duration(500ms);
+    @include animation-delay(200ms);
+    @include animation-fill-mode(both);
 
     color: $cWhite;
     left: 0;
