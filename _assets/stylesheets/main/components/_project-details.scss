@@ -1,0 +1,13 @@
+// -----------------------------------------------------------------------------
+// Project Details
+// -----------------------------------------------------------------------------
+
+.ProjectDetails {
+  @include rem(margin-top, 32px);
+  
+  text-align: center;
+  
+  &-headline {
+    border-bottom: 1px solid $cGrey;
+  }
+}
