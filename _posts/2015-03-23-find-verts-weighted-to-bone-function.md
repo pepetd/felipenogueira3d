@@ -12,7 +12,7 @@ The main task was to remove the influence of that bone from all meshes not neces
 
 There are also ways to get the influenced verts of selected bone by hand, but I needed a way to go through hundreds to thousands of meshes in a timely manner.
 
-<iframe src="https://player.vimeo.com/video/60972226" width="500" height="313" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/60972226">Find Verts Weighted To Bone Function.</a> from <a href="https://vimeo.com/pepetd">Felipe Nogueira</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<iframe src="https://player.vimeo.com/video/60972226?color=009688&title=0&byline=0&portrait=0" width="500" height="313" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ```python
 fn findWeightedVertsFn theBone =

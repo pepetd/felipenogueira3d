@@ -1,5 +1,5 @@
 <div class="Header" role="banner" {% if page.transparentHeader %}style="background-color: transparent"{% endif %}>
-  <div class="Navigation" role+"navigation" {% if page.noBorder %}style="border-bottom: 0"{% endif %}>
+  <div class="Navigation" role="navigation" {% if page.noBorder %}style="border-bottom: 0"{% endif %}>
     <a class="Logo" href="/">{% include logo.html %}</a>
     <div id="navigation-toggle" class="Navigation-toggle" role="button">
       <div class="Navigation-bars">Menu</div>
@@ -23,7 +23,7 @@
         {% if page.date %}
           <span class="Masthead-date">
             <i class="material-icons">event</i>
-            {% if page.post %}
+            {% if page.categories %}
               <a class="Masthead-link" href="/archive#{{ page.date | date: '%Y' }}">{{ page.date | date: "%B %-d, %Y" }}</a>
             {% else %}
               {{ page.date | date: "%B %-d, %Y" }}
