@@ -5,6 +5,7 @@ var MenuToggleView = Backbone.View.extend({
 
     this.$button = $('#navigation-toggle');
     this.$links = $('#navigation-links');
+    this.$social = $('#social-links');
 
     this.bindEvents();
   },
@@ -17,9 +18,11 @@ var MenuToggleView = Backbone.View.extend({
     if(!this.$button.hasClass('active') && !this.$links.hasClass('active')) {
       this.$button.addClass('active');
       this.$links.addClass('active');
+      this.$social.addClass('active');
     } else {
       this.$button.removeClass('active');
       this.$links.removeClass('active');
+      this.$social.removeClass('active');
     }
   }
 

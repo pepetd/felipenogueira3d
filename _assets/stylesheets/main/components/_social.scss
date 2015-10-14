@@ -1,0 +1,55 @@
+// -----------------------------------------------------------------------------
+// Social
+// -----------------------------------------------------------------------------
+
+.Social {
+
+  &-links {
+
+    @include mq($bpMid) {
+      @include rem(margin, 0 0 0 64px);
+      @include vertCenter(absolute);
+
+      display: block;
+    }
+
+    line-height: 0;
+    padding: 0;
+    display: none;
+    text-align: center;
+    list-style: none;
+
+    &.active {
+      @include rem(margin, 0 64px 0 64px);
+      @include mq($bpMid) {
+        margin: 0;
+      }
+
+      display: block;
+
+      .Navigation-links {
+        display: block;
+      }
+    }
+  }
+  &-item {
+    display: inline-block;
+  }
+  &-link {
+    @include rem(padding, 8px 16px);
+    @include transition(color 200ms ease);
+    @include mq($bpMid) {
+      display: inline-block;
+    }
+
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 0;
+    color: $cWhite;
+
+    &:hover {
+      color: $cRed;
+    }
+  }
+}
