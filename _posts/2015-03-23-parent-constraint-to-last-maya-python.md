@@ -2,8 +2,7 @@
 layout: post
 title: Parent Constraint to Last - Maya Python
 tags: development maya python snippets
-category: scripts
-excerpt: Snippet to constraint all selected nodes to the last selected.
+category: development
 ---
 
 Snippet to constraint all selected nodes to the last selected.

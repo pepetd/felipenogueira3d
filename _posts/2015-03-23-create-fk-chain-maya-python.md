@@ -2,8 +2,7 @@
 layout: post
 title: Create FK Chain - Maya Python
 tags: development maya python snippets
-category: scripts
-excerpt: Hey guys! first rigging script for python in maya! pretty simple, it creates a FK chain from selected joints with flags to align the controllers to world or to the Joint.
+category: development
 ---
 
 Hey guys! first rigging script for python in maya! pretty simple, it creates a FK chain from selected joints with flags to align the controllers to world or to the Joint. Wrote this script to do Gainer's(Sasktel) spine rig in Maya ( I am re-rigging him in Maya.)

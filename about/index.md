@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Me
-excerpt: My name is Felipe Nogueira. I am a Character TD/Pipeline TD/Technical Artist in the computer graphics industry.
+summary: My name is Felipe Nogueira. I am a Character TD/Pipeline TD/Technical Artist in the computer graphics industry.
 ---
 {% image aboutme.jpg %}
 

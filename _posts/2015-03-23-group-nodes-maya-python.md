@@ -2,8 +2,7 @@
 layout: post
 title: Group Nodes - Maya Python
 tags: development maya python snippets
-category: scripts
-excerpt: Hey guys! Here is a quick snippet to just group nodes under their own little group hierarchie, which will provide us with a driver group and a x_form group.
+category: development
 ---
 
 Hey guys!

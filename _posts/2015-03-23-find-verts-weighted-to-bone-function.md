@@ -3,7 +3,6 @@ layout: post
 title: Find Verts Weighted to Bone Function
 tags: 3dsmax maxscripts scripts
 category: tutorials
-excerpt: Here is a little function I wrote that will go through all selected meshes and find all the vertices weighted to a given bone.
 ---
 
 Here is a little function I wrote that will go through all selected meshes and find all the vertices weighted to a given bone. I had to write this to find all the meshes that had a specific bone in their skin mod, but not just that! I needed to know which of those meshes had verts weighted to this specific bone.

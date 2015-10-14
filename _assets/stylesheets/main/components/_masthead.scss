@@ -15,7 +15,7 @@
     margin: 0;
     line-height: 1;
   }
-  &-excerpt {
+  &-summary {
     @include font-size(18px);
     @include mq($bpMid) {
       @include font-size(24px);
