@@ -1,12 +1,30 @@
 <div class="Footer" role="contentinfo">
   <div class="layout-widthDefault">
     <div class="Footer-inner">
-      &copy; 2008-2015 felipenogueira3d.
-      <ul class="Footer-links">
-        <li class="Footer-item"><a class="Footer-link" href="/sitemap.xml">Site Map</a></li>
-        <li class="Footer-item"><a class="Footer-link" href="/feed.xml">Feed</a></li>
-        <li class="Footer-item"><a class="Footer-link" href="/archive">Archive</a></li>
-      </ul>
+      <div class="Footer-content">
+        Copyright &copy; 2008-2015 felipenogueira3d.com, All Rights Reserved.
+        <ul class="Footer-links">
+          <li class="Footer-item"><a class="Footer-link" href="/sitemap.xml">Site Map</a></li>
+          <li class="Footer-item"><a class="Footer-link" href="/feed.xml">Feed</a></li>
+          <li class="Footer-item"><a class="Footer-link" href="/archive">Archive</a></li>
+        </ul>
+      </div>
+      <div class="Footer-employers">
+        <h3>Places I Worked For:</h3>
+        <ul>
+          {% for employer in site.data.employers %}
+            <li><a href="{{ employer.website }}">{{ employer.company }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="Footer-friends">
+        <h3>Friends &amp; Inspiration:</h3>
+        <ul>
+          {% for friend in site.data.friends %}
+            <li><a href="{{ friend.website }}">{{ friend.friend }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
     </div>
   </div>
 </div>
