@@ -4,8 +4,8 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://felipenogueira3d.com" # the base hostname & protocol for your site
 description: "Felipe Nogueira's personal website."
 permalink: /posts/:title/
-paginate: 10
-paginate_path: /posts/page/:num/
+# paginate: 10
+# paginate_path: /posts/page/:num/
 
 # porject settings
 portfolio_dir: projects

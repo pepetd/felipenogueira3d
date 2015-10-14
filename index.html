@@ -1,13 +1,5 @@
 ---
-layout: landing
-transparentHeader: true
+layout: page
+noBorder: true
 ---
-<div class="Landing">
-  <div class="Landing-overlay"></div>
-  <div class="Landing-content">
-    <div class="layout-widthDefault">
-      <p>{{ site.data.landing.description }}{% for company in site.data.landing.company %} <a href="{{ company.url }}">{{ company.name }}</a>.{% endfor %}</p>
-      <a class="Button Button--large Button--reversed" href="/demoreel">Demo Reel</a>
-    </div>
-  </div>
-</div>
+{% include post-index.html %}
