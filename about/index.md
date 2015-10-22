@@ -56,3 +56,5 @@ I have now worked with companies all across the world on Tv series, commercials,
 - Python
 - .NET
 - Mel
+
+<a class="Button" href="{{ site.baseurl }}/downloads/felipe_nogueira_resume.pdf">Download My Resume</a>
