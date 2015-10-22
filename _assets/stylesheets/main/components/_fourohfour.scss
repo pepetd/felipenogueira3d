@@ -1,0 +1,27 @@
+// -----------------------------------------------------------------------------
+// 404
+// -----------------------------------------------------------------------------
+
+.FourOhFour {
+  
+  &-headline {
+    @include font-size(64px);
+    @include mq($bpMid) {
+      @include font-size(256px);
+    }
+    
+    color: $cGrey;
+    margin: 0;
+    line-height: 1;
+  }
+  &-text {
+    @include font-size(24px);
+    @include mq($bpMid) {
+      @include font-size(96px);
+    }
+    
+    color: $cLightGrey;
+    margin: 0;
+    line-height: 1;
+  }
+}
