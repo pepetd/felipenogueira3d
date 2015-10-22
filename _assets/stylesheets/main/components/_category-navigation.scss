@@ -7,8 +7,12 @@
   &-link {
     @include transition(all 200ms ease);
     @include rem(padding, 4px 10px);
-    @include rem(margin, 0 2px);
+    @include rem(margin, 4px 2px);
+    @include mq($bpSmall) {
+      display: inline-block;
+    }
 
+    display: block;
     border: 1px solid $cLightGrey;
     border-radius: 4px;
     text-transform: uppercase;

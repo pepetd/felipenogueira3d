@@ -10,7 +10,7 @@ module Jekyll
             self.read_yaml(File.join(base, '_layouts'), 'category.html')
 
             self.data['category'] = category
-            self.data['title'] = "Category: #{category.capitalize}"
+            self.data['title'] = "<i class='icon ion-folder ion-48'></i> #{category.capitalize}"
         end
     end
 
@@ -25,7 +25,7 @@ module Jekyll
             self.read_yaml(File.join(base, '_layouts'), 'tag.html')
 
             self.data['tag'] = tag
-            self.data['title'] = "Tag: #{tag.capitalize}"
+            self.data['title'] = "<i class='icon ion-pricetags ion-48'></i> #{tag.capitalize}"
         end
     end
 
