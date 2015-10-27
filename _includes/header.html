@@ -21,7 +21,11 @@
   {% if page.title %}
   <div class="Masthead">
     <div class="layout-widthDefault">
-      <h1 class="Masthead-headline">{{ page.title }}</h1>
+      {% if page.icon %}
+        <h1 class="Masthead-headline">{{ page.icon }} {{ page.title }}</h1>
+      {% else %}
+        <h1 class="Masthead-headline">{{ page.title }}</h1>
+      {% endif %}
       {% if page.summary %}
         <p class="Masthead-summary">{{ page.summary }}</p>
       {% endif %}
