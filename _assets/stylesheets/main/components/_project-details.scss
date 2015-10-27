@@ -3,11 +3,9 @@
 // -----------------------------------------------------------------------------
 
 .ProjectDetails {
-  @include rem(margin-top, 32px);
-  
-  text-align: center;
+  @include rem(margin-top, 64px);
   
   &-headline {
-    border-bottom: 1px solid $cGrey;
+    margin: 0;
   }
 }
