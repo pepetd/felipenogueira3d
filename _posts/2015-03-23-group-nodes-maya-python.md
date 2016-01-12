@@ -9,7 +9,7 @@ Hey guys!
 
 Here is a quick snippet to just group nodes under their own little group hierarchie, which will provide us with a driver group and a x_form group. The x_form group is the one that contains the offset values from the parent node while the driver is the group we will use for all connections needed (sometime I even have two driver groups).
 
-```python
+{% highlight python linenos %}
 ## Imports
 import maya
 import maya.cmds as cmds
@@ -32,4 +32,4 @@ for obj in objs:
     cmds.parent(myDrGroup, myGroup)
 
 ## END.
-```
+{% endhighlight %}

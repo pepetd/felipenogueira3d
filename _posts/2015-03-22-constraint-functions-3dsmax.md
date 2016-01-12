@@ -11,7 +11,7 @@ I have so many rigging functions that one day I realized I could create an entir
 
 In time I will be releasing a function library for all of you to check it out, meanwhile, here is a little preview of some of the functions I use often, the Look-At constraint could use more work but the Position Constraint, Orientation Constraint and Path Constraint Functions are perfect for pretty much anything that I would use them for.
 
-```python
+{% highlight python linenos %}
 -- Position Constraint
 -- PosConst (Affected Node) (Target Node) (Target Weight)
 -- (newCon:true if fresh constrain, false if adding target to existing constrain)
@@ -127,4 +127,4 @@ fn FreezeTransform Obj =
         CurObj.Position.controller[2].z_Position = 0
     )
 )
-```
+{% endhighlight %}

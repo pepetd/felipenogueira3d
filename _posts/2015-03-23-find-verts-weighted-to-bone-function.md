@@ -13,7 +13,7 @@ There are also ways to get the influenced verts of selected bone by hand, but I 
 
 {% livimeo https://vimeo.com/60972226 %}
 
-```python
+{% highlight python linenos %}
 fn findWeightedVertsFn theBone =
 (
     max modify mode
@@ -55,4 +55,4 @@ fn findWeightedVertsFn theBone =
 /*
 findWeightedVertsFn "The Bone Name"
 */
-```
+{% endhighlight %}

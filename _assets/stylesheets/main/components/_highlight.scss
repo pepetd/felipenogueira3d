@@ -1,3 +1,13 @@
+.lineno {
+  color: $cLightGrey;
+  user-select: none;
+
+  &:after {
+    color: $cLightGrey;
+    content: "|";
+  }
+}
+
 .highlight {
     background: #fff;
 

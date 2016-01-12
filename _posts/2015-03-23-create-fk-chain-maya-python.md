@@ -7,7 +7,7 @@ category: development
 
 Hey guys! first rigging script for python in maya! pretty simple, it creates a FK chain from selected joints with flags to align the controllers to world or to the Joint. Wrote this script to do Gainer's(Sasktel) spine rig in Maya ( I am re-rigging him in Maya.)
 
-```python
+{% highlight python linenos %}
 # ------------------------------------------------------------------------------------------------------
 # Rigging Modules
 # -- Method Rigger (Maya)
@@ -87,4 +87,4 @@ def createFKChain(world=True):
 
 createFKChain(world=False)
 ## END.
-```
+{% endhighlight %}

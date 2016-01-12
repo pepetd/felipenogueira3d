@@ -91,7 +91,7 @@
     margin: -15px 0 0 0;
     opacity: 0;
     text-align: center;
-    transition: opacity 200ms ease-in-out;
+    transition: opacity 200ms ease-in-out, margin 200ms ease-in-out;
     width: 100%;
 
     @include vertCenter(relative);

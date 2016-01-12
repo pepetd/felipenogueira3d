@@ -6,7 +6,7 @@
     <h2 class="Post-title">
       <a href="{{ post.url }}">{{ post.title }}</a>
     </h2>
-    <p class="Post-excerpt">{{ post.excerpt }}</p>
+    <p class="Post-excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
   </div>
 {% endfor %}
 

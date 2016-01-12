@@ -29,7 +29,7 @@
 
         &:before,
         &:after {
-          transition-delay: 0ms, 200ms;
+          transition: top 200ms ease-in-out 0ms, bottom 200ms ease-in-out 0ms, transform 200ms ease-in-out 200ms;
         }
 
         &:before {
@@ -53,9 +53,7 @@
     right: 5px;
     text-indent: -9999px;
     top: 21px;
-    transition-property: background-color;
-    transition-duration: 0ms;
-    transition-delay: 200ms;
+    transition: background-color 0ms ease-in-out 200ms;
 
     &:before,
     &:after {
@@ -65,23 +63,17 @@
       height: 3px;
       left: 0;
       position: absolute;
-      transition-duration: 200ms, 200ms;
-      transition-delay: 200ms, 0ms;
       width: 100%;
     }
 
     &:before {
       top: -10px;
-      transition-property: top, transform;
-      transition-duration: 200ms, 200ms;
-      transition-delay: 200ms, 0ms;
+      transition: top 200ms ease-in-out 200ms, transform 200ms ease-in-out 0ms;
     }
 
     &:after {
       bottom: -10px;
-      transition-property: bottom, transform;
-      transition-duration: 200ms, 200ms;
-      transition-delay: 200ms, 0ms;
+      transition: bottom 200ms ease-in-out 200ms, transform 200ms ease-in-out 0ms;
     }
   }
 
