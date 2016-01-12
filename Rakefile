@@ -9,6 +9,7 @@ GITHUB_REPONAME = "pepetd/pepetd.github.io"
 desc "Generate site files"
 task :generate do
   Jekyll::Site.new(Jekyll.configuration({
+    "config" => ["_config.prod.yml", "_config.yml"],
     "source" => ".",
     "destination" => "_site"
   })).process

@@ -41,10 +41,8 @@ gems:
 - jekyll-assets
 - uglifier
 
-# Plugin: jekyll-assets
-assets:
-  compress:
-    css: false
-    js: false
-  cache: false
-  digest: false
+# assets:
+#   compress:
+#     css: false
+#     js: false
+#   digest: false

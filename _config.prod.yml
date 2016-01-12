@@ -1,0 +1,6 @@
+environment: production
+assets:
+  compress:
+    css: true
+    js: true
+  digest: true
