@@ -1,27 +1,23 @@
-// -----------------------------------------------------------------------------
-// Navigation
-// -----------------------------------------------------------------------------
-
 .Navigation {
-  @include clearfix;
-  @include rem(padding, 16px);
-
-  position: relative;
   border-bottom: 1px solid rgba(255,255,255,0.5);
+  padding: 16px;
+  position: relative;
+
+  @extend %clearfix;
 
   &-toggle {
+    cursor: pointer;
+    float: right;
+    height: 44px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 44px;
+
     @include mq($bpMid) {
       display: none;
     }
-
-    position: relative;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-    width: 44px;
-    height: 44px;
-    cursor: pointer;
-    float: right;
 
     &.active {
       @include mq($bpMid) {
@@ -33,105 +29,108 @@
 
         &:before,
         &:after {
-          @include transition-delay(0ms, 200ms);
+          transition-delay: 0ms, 200ms;
         }
-        &:before {
-          @include transform(rotate(45deg));
 
+        &:before {
           top: 0;
+          transform: rotate(45deg);
         }
+
         &:after {
-          @include transform(rotate(-45deg));
           bottom: 0;
+          transform: rotate(-45deg);
         }
       }
     }
   }
-  &-bars {
-    @include transition-property(background-color);
-    @include transition-duration(0ms);
-    @include transition-delay(200ms);
 
-    position: absolute;
-    top: 21px;
-    left: 5px;
-    right: 5px;
-    height: 3px;
+  &-bars {
     background-color: $cWhite;
+    height: 3px;
+    left: 5px;
+    position: absolute;
+    right: 5px;
     text-indent: -9999px;
+    top: 21px;
+    transition-property: background-color;
+    transition-duration: 0ms;
+    transition-delay: 200ms;
 
     &:before,
     &:after {
-      @include transition-duration(200ms, 200ms);
-      @include transition-delay(200ms, 0ms);
-
-      position: absolute;
-      display: block;
-      left: 0;
-      width: 100%;
-      height: 3px;
       background-color: $cWhite;
       content: "";
+      display: block;
+      height: 3px;
+      left: 0;
+      position: absolute;
+      transition-duration: 200ms, 200ms;
+      transition-delay: 200ms, 0ms;
+      width: 100%;
     }
+
     &:before {
-      @include transition-property(top, transform);
-      @include transition-duration(200ms, 200ms);
-      @include transition-delay(200ms, 0ms);
-
       top: -10px;
+      transition-property: top, transform;
+      transition-duration: 200ms, 200ms;
+      transition-delay: 200ms, 0ms;
     }
-    &:after {
-      @include transition-property(bottom, transform);
-      @include transition-duration(200ms, 200ms);
-      @include transition-delay(200ms, 0ms);
 
+    &:after {
       bottom: -10px;
+      transition-property: bottom, transform;
+      transition-duration: 200ms, 200ms;
+      transition-delay: 200ms, 0ms;
     }
   }
-  &-links {
-    @include mq($bpMid) {
-      margin: 0;
-      float: right;
-      display: block;
-    }
 
-    padding: 0;
-    list-style: none;
-    float: none;
+  &-links {
     display: none;
+    float: none;
+    list-style: none;
+    padding: 0;
     text-align: center;
 
+    @include mq($bpMid) {
+      display: block;
+      float: right;
+      margin: 0;
+    }
+
     &.active {
-      @include rem(margin, 0 64px 0 64px);
+      display: block;
+      margin: 0 64px 0 64px;
+
       @include mq($bpMid) {
         margin: 0;
       }
-
-      display: block;
 
       .Navigation-links {
         display: block;
       }
     }
   }
+
   &-item {
+    display: block;
+
     @include mq($bpMid) {
       display: inline-block;
     }
-
-    display: block;
   }
-  &-link {
-    @include rem(padding, 8px 16px);
-    @include transition(color 200ms ease);
-    @include mq($bpMid) {
-      display: inline-block;
-    }
 
+  &-link {
+    color: $cWhite;
     display: block;
+    padding: 8px 16px;
     text-decoration: none;
     text-transform: uppercase;
-    color: $cWhite;
+    transition: color 200ms ease-in-out;
+
+    @include mq($bpMid) {
+      display: inline-block;
+    }
 
     &:hover {
       color: $cRed;

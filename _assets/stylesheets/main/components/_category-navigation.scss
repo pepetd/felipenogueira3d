@@ -1,28 +1,24 @@
-// -----------------------------------------------------------------------------
-// Category Navigation
-// -----------------------------------------------------------------------------
-
 .CategoryNavigation {
 
   &-link {
-    @include transition(all 200ms ease);
-    @include rem(padding, 4px 10px);
-    @include rem(margin, 4px 2px);
+    border: 1px solid $cLightGrey;
+    border-radius: 4px;
+    color: $cGrey;
+    display: block;
+    font-weight: 700;
+    margin: 4px 2px;
+    padding: 4px 10px;
+    text-transform: uppercase;
+    transition: all 200ms ease-in-out;
+
     @include mq($bpSmall) {
       display: inline-block;
     }
 
-    display: block;
-    border: 1px solid $cLightGrey;
-    border-radius: 4px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: $cGrey;
-
     &:hover {
       background-color: $cTeal;
-      color: $cWhite;
       border-color: transparent;
+      color: $cWhite;
     }
   }
 }

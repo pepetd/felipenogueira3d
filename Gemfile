@@ -1,7 +1,11 @@
 source "http://rubygems.org"
+ruby "2.3.0"
 
 gem "jekyll-sitemap"
 gem "jekyll-assets"
-gem "bourbon"
-gem "sass"
+gem "sass-globbing"
+gem "sass-rails"
+gem "autoprefixer-rails"
 gem "uglifier"
+gem "redcarpet"
+gem "pygments.rb"

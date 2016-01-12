@@ -1,36 +1,34 @@
-// -----------------------------------------------------------------------------
-// Masthead
-// -----------------------------------------------------------------------------
-
 .Masthead {
-  @include rem(padding, 64px 0);
+  padding: 64px 0;
 
   &-headline {
-    @include font-size(48px);
-    @include mq($bpMid) {
-      @include font-size(64px);
-    }
-
     color: $cWhite;
-    margin: 0;
+    font-size: 48px;
     line-height: 1;
-  }
-  &-summary {
-    @include font-size(18px);
-    @include mq($bpMid) {
-      @include font-size(24px);
-    }
-
-    color: $cLightTeal;
     margin: 0;
-  }
-  &-meta {
-    @include rem(margin, 32px 0 0 0);
 
+    @include mq($bpMid) {
+      font-size: 64px;
+    }
+  }
+
+  &-summary {
+    color: $cLightTeal;
+    font-size: 18px;
+    margin: 0;
+
+    @include mq($bpMid) {
+      font-size: 24px;
+    }
+  }
+
+  &-meta {
     color: $cLightTeal;
     font-family: "Courior", monospace;
     font-weight: 700;
+    margin: 32px 0 0 0;
   }
+
   &-link {
     color: $cLightTeal;
 
@@ -38,25 +36,28 @@
       color: $cRed;
     }
   }
+
   &-date {
+    display: block;
+
     @include mq($bpMid) {
       display: inline;
     }
-
-    display: block;
   }
+
   &-category {
+    display: block;
+
     @include mq($bpMid) {
       display: inline;
     }
-
-    display: block;
   }
+
   &-tags {
+    display: block;
+
     @include mq($bpMid) {
       display: inline;
     }
-
-    display: block;
   }
 }

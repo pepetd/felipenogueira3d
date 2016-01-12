@@ -1,70 +1,77 @@
-// -----------------------------------------------------------------------------
-// Footer
-// -----------------------------------------------------------------------------
-
 .Footer {
+
   &-inner {
-    @include rem(margin, 64px 0);
-    @include rem(padding, 32px 0);
-    @include clearfix;
+    @extend %clearfix;
 
     color: $cGrey;
     border-top: 1px solid $cLightGrey;
     border-bottom: 1px solid $cLightGrey;
+    margin: 64px 0;
+    padding: 32px 0;
   }
+
   &-links {
+    display: inline-block;
+    list-style: none;
     margin: 0;
     padding: 0;
-    list-style: none;
-    display: inline-block;
   }
+
   &-item {
     display: inline-block;
+
     &:after {
-      content: " • ";
       color: $cLightGrey;
+      content: " • ";
     }
+
     &:last-child:after {
       content: "";
     }
   }
-  &-link {
-    @include transition(color 200ms ease);
 
+  &-link {
+    transition: color 200ms easein-out;
   }
+
   &-employers {
 
     ul {
+      list-style: none;
       margin: 0;
       padding: 0;
-      list-style: none;
     }
+
     li {
       display: inline-block;
-      
+
       &:after {
-        content: " • ";
         color: $cLightGrey;
+        content: " • ";
       }
+
       &:last-child:after {
         content: "";
       }
     }
   }
+
   &-friends {
-    
+
     ul {
+      list-style: none;
       margin: 0;
       padding: 0;
-      list-style: none;
     }
+
     li {
       display: inline-block;
-      
+
       &:after {
-        content: " • ";
         color: $cLightGrey;
+        content: " • ";
       }
+
       &:last-child:after {
         content: "";
       }

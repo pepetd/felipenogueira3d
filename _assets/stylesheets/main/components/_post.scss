@@ -1,22 +1,21 @@
-// -----------------------------------------------------------------------------
-// Post
-// -----------------------------------------------------------------------------
-
 .Post {
-  @include rem(margin-top, 32px);
+  margin-top: 32px;
 
   &-date {
-    margin: 0;
     color: $cLightGrey;
     font-family: "Courior", monospace;
+    margin: 0;
   }
+
   &-title {
     margin: 0;
   }
+
   &-link {
-    @include transition(color 200ms ease);
     text-decoration: none;
+    transition: color 200ms ease-in-out;
   }
+
   &-summary {
     margin: 0;
   }

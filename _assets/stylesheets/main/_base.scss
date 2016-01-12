@@ -47,10 +47,9 @@ body {
 }
 
 a {
-  @include transition(color, 200ms ease);
-
   color: $cTeal;
   text-decoration: none;
+  transition: color 200ms ease-in-out;
 
   &:hover {
     color: $cDarkTeal;
@@ -58,14 +57,13 @@ a {
 }
 
 pre {
-  @include rem(padding, 16px);
-
+  background-color: $cWhite;
   border: 1px solid $cLightGrey;
   border-radius: 5px;
-  background-color: $cWhite;
+  line-height: 1.5;
   max-width: 100%;
   overflow: auto;
-  line-height: 1.5;
+  padding: 16px;
 }
 
 // -------------------------------------------------------------------------

@@ -1,16 +1,14 @@
-// -----------------------------------------------------------------------------
-// Archive
-// -----------------------------------------------------------------------------
-
 .Archive {
 
   &-items {
-    @include rem(margin, 0 0 0 16px);
-    padding: 0;
     list-style: none;
+    margin: 0 0 0 16px;
+    padding: 0;
   }
+
   &-time {
     font-family: "Courier", monospace;
+
     &:after {
       content: " • ";
     }
