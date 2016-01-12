@@ -45,6 +45,6 @@ gems:
 assets:
   compress:
     css: false
-     js: false
+    js: false
   cache: false
   digest: false
