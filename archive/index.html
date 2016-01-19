@@ -2,19 +2,27 @@
 layout: page
 title: Archive
 ---
-<h2 id="{{ site.time | date: '%Y' }}" class="Archive-headline">This year's posts</h2>
 {% for post in site.posts %}
-{% unless post.next %}
-  <ul class="Archive-items">
-{% else %}
-  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-  {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-  {% if year != nyear %}
-  </ul>
-<h2 id="{{ post.date | date: '%Y' }}" class="Archive-headline">{{ post.date | date: '%Y' }}</h2>
+  {% capture this_year %}{{ post.date | date: '%Y' }}{% endcapture %}
+  {% capture next_year %}{{ post.previous.date | date: '%Y' }}{% endcapture %}
+
+  {% if forloop.first %}
+  <h2 id="{{ this_year }}" class="Archive-headline">{{ this_year }}</h2>
   <ul class="Archive-items">
   {% endif %}
-{% endunless %}
-    <li class="Archive-item"><span class="Archive-time">{{ post.date | date:"%d %b" }}</span><a class="Archive-link" href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
+
+  <li class="Archive-item">
+    <span class="Archive-time">{{ post.date | date:"%d %b" }}</span>
+    <a class="Archive-link" href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+
+  {% if forloop.last %}
   </ul>
+  {% else %}
+    {% if this_year != next_year %}
+    </ul>
+    <h2 id="{{ next_year }}" class="Archive-headline">{{ next_year }}</h2>
+    <ul class="Archive-items">
+    {% endif %}
+  {% endif %}
+{% endfor %}
