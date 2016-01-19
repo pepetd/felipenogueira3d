@@ -41,8 +41,9 @@ gems:
 - jekyll-assets
 - uglifier
 
-# assets:
-#   compress:
-#     css: false
-#     js: false
-#   digest: false
+assets:
+  sources:
+    - _assets/images
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/fonts
