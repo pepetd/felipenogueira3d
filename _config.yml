@@ -1,7 +1,7 @@
 # Site settings
 title: Felipe Nogueira # <title> tag content
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://felipenogueira3d.com" # the base hostname & protocol for your site
+url: "http://felipenogueira3d.com" # the base hostname & protocol for your site
 description: "Felipe Nogueira's personal website."
 permalink: /posts/:title/
 # paginate: 10
