@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Felipe Nogueira | Constraint Functions - 3DS Max</title>
+  <meta name="description" content="In the past years I started creating my own library of functions and scripts that would automate a lot of the processes that I often use when rigging charact...">
+  <meta name="theme-color" content="#009688">
+
+  <link rel="canonical" href="http://felipenogueira3d.com/posts/constraint-functions-3dsmax/">
+  <link rel="alternate" type="application/rss+xml" title="Felipe Nogueira" href="http://felipenogueira3d.com/feed.xml" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+  <link rel="stylesheet" href="/assets/main-dce5ece2d32ee98593da672ea34ece4e.css" media:"all">
+</head>
+
+<body>
+<div class="Header" role="banner" >
+  <div class="Navigation" role="navigation" >
+    <a class="Logo" href="/"><svg version="1.1" class="Logo-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+<path d="M404.526,161.689c-1.612-1.465-4.328-2.187-8.097-2.187h-58.584c-3.863,0-6.619,0.722-8.211,2.187
+  c-1.542,1.448-2.361,3.369-2.361,5.756c0,2.384,0.841,4.305,2.473,5.75c1.609,1.469,4.33,2.189,8.1,2.189h29.292v182.284
+  L259.391,175.385h20.354c3.771,0,6.488-0.721,8.102-2.189c1.622-1.445,2.472-3.366,2.472-5.75c0-2.387-0.954-4.419-2.865-6.049
+  c-1.369-1.256-3.937-1.894-7.708-1.894h-29.718h-41.559H105v54.595c0,3.78,0.759,6.485,2.277,8.124
+  c1.491,1.641,3.399,2.446,5.651,2.446c2.399,0,4.356-0.806,5.859-2.446c1.506-1.639,2.265-4.344,2.265-8.124v-38.713h87.416h21.359
+  v83.191H182.78v-17.952c0-3.769-0.759-6.484-2.274-8.124c-1.518-1.64-3.469-2.446-5.849-2.446c-2.276,0-4.161,0.807-5.677,2.446
+  c-1.518,1.64-2.265,4.355-2.265,8.124v51.757c0,3.766,0.748,6.482,2.265,8.141c1.517,1.621,3.401,2.429,5.677,2.429
+  c2.38,0,4.332-0.808,5.849-2.429c1.516-1.658,2.274-4.375,2.274-8.141v-17.938h47.047v90.198h-13.236
+  c-3.888,0-6.675,0.749-8.294,2.19c-1.638,1.445-2.471,3.34-2.471,5.737c0,2.272,0.833,4.161,2.471,5.68
+  c1.62,1.518,4.407,2.248,8.294,2.248h58.39c3.87,0,6.655-0.73,8.305-2.248c1.627-1.519,2.436-3.407,2.436-5.68
+  c0-2.397-0.809-4.292-2.436-5.737c-1.649-1.441-4.435-2.19-8.305-2.19h-29.292V182.751l116.92,197.746h20.384V175.385h13.437
+  c3.769,0,6.484-0.721,8.097-2.189c1.66-1.445,2.474-3.366,2.474-5.75C407,165.059,406.187,163.138,404.526,161.689z"/>
+<g>
+  <path d="M256,456c-110.28,0-200-89.72-200-200S145.72,56,256,56s200,89.72,200,200S366.28,456,256,456z M256,72
+    C154.542,72,72,154.542,72,256s82.542,184,184,184s184-82.542,184-184S357.458,72,256,72z"/>
+</g>
+</svg>
+</a>
+    <div id="navigation-toggle" class="Navigation-toggle" role="button">
+      <div class="Navigation-bars">Menu</div>
+    </div>
+    <ul id="social-links" class="Social-links">
+      <li class="Social-item"><a class="Social-link" href="https://github.com/pepetd" title="GitHub"><i class="icon icon-github icon-24"></i></a></li>
+      <li class="Social-item"><a class="Social-link" href="https://vimeo.com/pepetd" title="Vimeo"><i class="icon icon-vimeo icon-24"></i></a></li>
+      <li class="Social-item"><a class="Social-link" href="https://www.youtube.com/user/TheDragoon" title="YouTube"><i class="icon icon-youtube-play icon-24"></i></a></li>
+      <li class="Social-item"><a class="Social-link" href="http://www.linkedin.com/in/pepetd" title="LinkedIn"><i class="icon icon-linkedin-square icon-24"></i></a></li>
+      <li class="Social-item"><a class="Social-link" href="mailto:felipe@felipenogueira3d.com" title="Email"><i class="icon icon-envelope icon-24"></i></a></li>
+    </ul>
+    <ul id="navigation-links" class="Navigation-links">
+      <li class="Navigation-item"><a class="Navigation-link" href="/posts">Posts</a></li>
+      <li class="Navigation-item"><a class="Navigation-link" href="/projects">Projects</a></li>
+      <li class="Navigation-item"><a class="Navigation-link" href="/demoreel">Demo Reel</a></li>
+      <li class="Navigation-item"><a class="Navigation-link" href="/about">About</a></li>
+    </ul>
+  </div>
+  
+  <div class="Masthead">
+    <div class="layout-widthDefault">
+      
+        <h1 class="Masthead-headline">Constraint Functions - 3DS Max</h1>
+      
+      
+      
+      <div class="Masthead-meta">
+        
+          <span class="Masthead-date">
+            <i class="icon icon-calendar-o"></i>
+            
+              <a class="Masthead-link" href="/archive#2015">March 22, 2015</a>
+            
+          </span>
+        
+        
+          <span class="Masthead-category">
+            <i class="icon icon-folder-o"></i>
+            <a class="Masthead-link" href="/posts/categories/development">Development</a>
+          </span>
+        
+        
+          <span class="Masthead-tags">
+            <i class="icon icon-tags"></i>
+            
+              <a class="Masthead-link" href="/posts/tagged/3dsmax">3dsmax</a>
+            
+              <a class="Masthead-link" href="/posts/tagged/development">development</a>
+            
+              <a class="Masthead-link" href="/posts/tagged/maxscript">maxscript</a>
+            
+              <a class="Masthead-link" href="/posts/tagged/snippets">snippets</a>
+            
+          </span>
+        
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+<div role="main">
+  <div class="layout-widthDefault">
+    <div class="Page">
+      <p>In the past years I started creating my own library of functions and scripts that would automate a lot of the processes that I often use when rigging characters to speed up the rigging process even more.</p>
+
+<p>I have so many rigging functions that one day I realized I could create an entire humanoid rig in a matter of minutes by using all these functions as long as I had a skeleton created.</p>
+
+<p>In time I will be releasing a function library for all of you to check it out, meanwhile, here is a little preview of some of the functions I use often, the Look-At constraint could use more work but the Position Constraint, Orientation Constraint and Path Constraint Functions are perfect for pretty much anything that I would use them for.</p>
+
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="lineno">  1</span> <span class="o">--</span> <span class="n">Position</span> <span class="n">Constraint</span>
+<span class="lineno">  2</span> <span class="o">--</span> <span class="n">PosConst</span> <span class="p">(</span><span class="n">Affected</span> <span class="n">Node</span><span class="p">)</span> <span class="p">(</span><span class="n">Target</span> <span class="n">Node</span><span class="p">)</span> <span class="p">(</span><span class="n">Target</span> <span class="n">Weight</span><span class="p">)</span>
+<span class="lineno">  3</span> <span class="o">--</span> <span class="p">(</span><span class="n">newCon</span><span class="p">:</span><span class="n">true</span> <span class="k">if</span> <span class="n">fresh</span> <span class="n">constrain</span><span class="p">,</span> <span class="n">false</span> <span class="k">if</span> <span class="n">adding</span> <span class="n">target</span> <span class="n">to</span> <span class="n">existing</span> <span class="n">constrain</span><span class="p">)</span>
+<span class="lineno">  4</span> <span class="n">fn</span> <span class="n">PosConst</span> <span class="n">obj</span> <span class="n">target</span> <span class="n">tarWeight</span> <span class="n">newCon</span><span class="p">:</span><span class="n">true</span> <span class="o">=</span>
+<span class="lineno">  5</span> <span class="p">(</span>
+<span class="lineno">  6</span>     <span class="k">if</span> <span class="n">newCon</span> <span class="o">==</span> <span class="n">true</span> <span class="n">then</span>
+<span class="lineno">  7</span>     <span class="p">(</span>
+<span class="lineno">  8</span>         <span class="n">Pc</span> <span class="o">=</span> <span class="n">Position_Constraint</span><span class="p">()</span>
+<span class="lineno">  9</span>         <span class="n">obj</span><span class="o">.</span><span class="n">pos</span><span class="o">.</span><span class="n">controller</span><span class="o">.</span><span class="n">available</span><span class="o">.</span><span class="n">controller</span> <span class="o">=</span> <span class="n">Pc</span>
+<span class="lineno"> 10</span>         <span class="n">posConstraint</span> <span class="o">=</span> <span class="n">Pc</span><span class="o">.</span><span class="n">constraints</span>
+<span class="lineno"> 11</span>         <span class="n">posConstraint</span><span class="o">.</span><span class="n">appendtarget</span> <span class="n">target</span> <span class="n">tarWeight</span>
+<span class="lineno"> 12</span>     <span class="p">)</span>
+<span class="lineno"> 13</span>     <span class="k">else</span>
+<span class="lineno"> 14</span>     <span class="p">(</span>
+<span class="lineno"> 15</span>         <span class="n">obj</span><span class="o">.</span><span class="n">position</span><span class="o">.</span><span class="n">controller</span><span class="o">.</span><span class="n">Position_Constraint</span><span class="o">.</span><span class="n">appendtarget</span> <span class="n">target</span> <span class="n">tarWeight</span>
+<span class="lineno"> 16</span>     <span class="p">)</span>
+<span class="lineno"> 17</span>     <span class="n">obj</span><span class="o">.</span><span class="n">pos</span><span class="o">.</span><span class="n">controller</span><span class="o">.</span><span class="n">setactive</span> <span class="mi">3</span>
+<span class="lineno"> 18</span> <span class="p">)</span>
+<span class="lineno"> 19</span> 
+<span class="lineno"> 20</span> <span class="o">--</span> <span class="n">Look</span><span class="o">-</span><span class="n">At</span> <span class="n">Constraint</span>
+<span class="lineno"> 21</span> <span class="o">--</span> <span class="n">LookConst</span> <span class="p">(</span><span class="n">Affected</span> <span class="n">Node</span><span class="p">)</span> <span class="p">(</span><span class="n">Target</span> <span class="n">Node</span><span class="p">)</span> <span class="p">(</span><span class="n">upNode</span><span class="p">:</span><span class="n">UpNode</span> <span class="n">Node</span><span class="p">)</span> <span class="p">(</span><span class="n">Target</span> <span class="n">Weight</span><span class="p">)</span>
+<span class="lineno"> 22</span> <span class="o">--</span> <span class="p">(</span><span class="n">newCon</span><span class="p">:</span><span class="n">true</span> <span class="k">if</span> <span class="n">fresh</span> <span class="n">constrain</span><span class="p">,</span> <span class="n">false</span> <span class="k">if</span> <span class="n">adding</span> <span class="n">target</span> <span class="n">to</span> <span class="n">existing</span> <span class="n">constrain</span><span class="p">)</span>
+<span class="lineno"> 23</span> <span class="n">fn</span> <span class="n">LookConst</span> <span class="n">obj</span> <span class="n">target</span> <span class="n">upNode</span> <span class="n">tarWeight</span> <span class="n">newCon</span><span class="p">:</span><span class="n">true</span> <span class="o">=</span>
+<span class="lineno"> 24</span> <span class="p">(</span>
+<span class="lineno"> 25</span>     <span class="k">if</span> <span class="n">newCon</span> <span class="o">==</span> <span class="n">true</span> <span class="n">then</span>
+<span class="lineno"> 26</span>     <span class="p">(</span>
+<span class="lineno"> 27</span>         <span class="n">Lc</span> <span class="o">=</span> <span class="n">LookAt_Constraint</span><span class="p">()</span>
+<span class="lineno"> 28</span>         <span class="n">obj</span><span class="o">.</span><span class="n">rotation</span><span class="o">.</span><span class="n">controller</span><span class="o">.</span><span class="n">available</span><span class="o">.</span><span class="n">controller</span> <span class="o">=</span> <span class="n">Lc</span>
+<span class="lineno"> 29</span>         <span class="n">locConstraint</span> <span class="o">=</span> <span class="n">Lc</span><span class="o">.</span><span class="n">constraints</span>
+<span class="lineno"> 30</span>         <span class="n">locConstraint</span><span class="o">.</span><span class="n">appendtarget</span> <span class="n">target</span> <span class="n">tarWeight</span>
+<span class="lineno"> 31</span>         <span class="n">Lc</span><span class="o">.</span><span class="n">upnode_world</span> <span class="o">=</span> <span class="n">false</span>
+<span class="lineno"> 32</span>         <span class="n">Lc</span><span class="o">.</span><span class="n">pickUpNode</span> <span class="o">=</span> <span class="n">upNode</span>
+<span class="lineno"> 33</span>         <span class="n">Lc</span><span class="o">.</span><span class="n">lookat_vector_length</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="lineno"> 34</span>     <span class="p">)</span>
+<span class="lineno"> 35</span>     <span class="k">else</span>
+<span class="lineno"> 36</span>     <span class="p">(</span>
+<span class="lineno"> 37</span>         <span class="n">obj</span><span class="o">.</span><span class="n">rotation</span><span class="o">.</span><span class="n">controller</span><span class="o">.</span><span class="n">LookAt_Constraint</span><span class="o">.</span><span class="n">appendtarget</span> <span class="n">target</span> <span class="n">tarWeight</span>
+<span class="lineno"> 38</span>     <span class="p">)</span>
+<span class="lineno"> 39</span>     <span class="n">obj</span><span class="o">.</span><span class="n">rotation</span><span class="o">.</span><span class="n">controller</span><span class="o">.</span><span class="n">setactive</span> <span class="mi">3</span>
+<span class="lineno"> 40</span> <span class="p">)</span>
+<span class="lineno"> 41</span> 
+<span class="lineno"> 42</span> <span class="o">--</span> <span class="n">Orientation</span> <span class="n">Constraint</span>
+<span class="lineno"> 43</span> <span class="o">--</span> <span class="n">OrientConst</span> <span class="p">(</span><span class="n">Affected</span> <span class="n">Node</span><span class="p">)</span> <span class="p">(</span><span class="n">Target</span> <span class="n">Node</span><span class="p">)</span> <span class="p">(</span><span class="n">Target</span> <span class="n">Weight</span><span class="p">)</span> <span class="p">(</span><span class="n">keepOff</span><span class="p">:</span> <span class="n">keep</span> <span class="n">off</span><span class="o">-</span><span class="nb">set</span> <span class="bp">True</span> <span class="ow">or</span> <span class="bp">False</span><span class="p">)</span>
+<span class="lineno"> 44</span> <span class="o">--</span> <span class="p">(</span><span class="n">newCon</span><span class="p">:</span><span class="n">true</span> <span class="k">if</span> <span class="n">fresh</span> <span class="n">constrain</span><span class="p">,</span> <span class="n">false</span> <span class="k">if</span> <span class="n">adding</span> <span class="n">target</span> <span class="n">to</span> <span class="n">existing</span> <span class="n">constrain</span><span class="p">)</span>
+<span class="lineno"> 45</span> <span class="n">fn</span> <span class="n">OrientConst</span> <span class="n">obj</span> <span class="n">target</span> <span class="n">tarWeight</span> <span class="n">keepOff</span><span class="p">:</span><span class="n">false</span> <span class="n">newCon</span><span class="p">:</span><span class="n">true</span> <span class="o">=</span>
+<span class="lineno"> 46</span> <span class="p">(</span>
+<span class="lineno"> 47</span>     <span class="k">if</span> <span class="n">newCon</span> <span class="o">==</span> <span class="n">true</span> <span class="n">then</span>
+<span class="lineno"> 48</span>     <span class="p">(</span>
+<span class="lineno"> 49</span>         <span class="n">Oc</span> <span class="o">=</span> <span class="n">Orientation_Constraint</span><span class="p">()</span>
+<span class="lineno"> 50</span>         <span class="n">obj</span><span class="o">.</span><span class="n">rotation</span><span class="o">.</span><span class="n">controller</span><span class="o">.</span><span class="n">available</span><span class="o">.</span><span class="n">controller</span> <span class="o">=</span> <span class="n">Oc</span>
+<span class="lineno"> 51</span>         <span class="n">orientConstraint</span> <span class="o">=</span> <span class="n">Oc</span><span class="o">.</span><span class="n">constraints</span>
+<span class="lineno"> 52</span>         <span class="n">orientConstraint</span><span class="o">.</span><span class="n">appendtarget</span> <span class="n">target</span> <span class="n">tarWeight</span>
+<span class="lineno"> 53</span>         <span class="n">Oc</span><span class="o">.</span><span class="n">relative</span> <span class="o">=</span> <span class="n">keepOff</span>
+<span class="lineno"> 54</span>     <span class="p">)</span>
+<span class="lineno"> 55</span>     <span class="k">else</span>
+<span class="lineno"> 56</span>     <span class="p">(</span>
+<span class="lineno"> 57</span>         <span class="n">obj</span><span class="o">.</span><span class="n">rotation</span><span class="o">.</span><span class="n">controller</span><span class="o">.</span><span class="n">Orientation_Constraint</span><span class="o">.</span><span class="n">appendtarget</span> <span class="n">target</span> <span class="n">tarWeight</span>
+<span class="lineno"> 58</span>     <span class="p">)</span>
+<span class="lineno"> 59</span>     <span class="n">obj</span><span class="o">.</span><span class="n">rotation</span><span class="o">.</span><span class="n">controller</span><span class="o">.</span><span class="n">setactive</span> <span class="mi">3</span>
+<span class="lineno"> 60</span> <span class="p">)</span>
+<span class="lineno"> 61</span> 
+<span class="lineno"> 62</span> <span class="o">--</span> <span class="n">Path</span> <span class="n">Constraint</span>
+<span class="lineno"> 63</span> <span class="o">--</span> <span class="n">PathConst</span> <span class="p">(</span><span class="n">Affected</span> <span class="n">Node</span><span class="p">)</span> <span class="p">(</span><span class="n">Target</span> <span class="n">Node</span><span class="p">)</span> <span class="p">(</span><span class="n">Target</span> <span class="n">weight</span><span class="p">)</span> <span class="p">(</span><span class="n">Percent</span> <span class="n">on</span> <span class="n">path</span><span class="p">)</span>
+<span class="lineno"> 64</span> <span class="n">fn</span> <span class="n">PathConst</span> <span class="n">obj</span> <span class="n">target</span> <span class="n">tarWeight</span> <span class="n">percent</span> <span class="o">=</span>
+<span class="lineno"> 65</span> <span class="p">(</span>
+<span class="lineno"> 66</span>     <span class="n">Pc</span> <span class="o">=</span> <span class="n">Path_Constraint</span><span class="p">()</span>
+<span class="lineno"> 67</span>     <span class="n">obj</span><span class="o">.</span><span class="n">pos</span><span class="o">.</span><span class="n">controller</span><span class="o">.</span><span class="n">available</span><span class="o">.</span><span class="n">controller</span> <span class="o">=</span> <span class="n">Pc</span>
+<span class="lineno"> 68</span>     <span class="n">Pc</span><span class="o">.</span><span class="n">path</span> <span class="o">=</span> <span class="n">target</span>
+<span class="lineno"> 69</span>     <span class="n">deletekeys</span> <span class="n">obj</span>
+<span class="lineno"> 70</span>     <span class="n">Pc</span><span class="o">.</span><span class="n">follow</span> <span class="o">=</span> <span class="n">true</span>
+<span class="lineno"> 71</span>     <span class="n">Pc</span><span class="o">.</span><span class="n">percent</span> <span class="o">=</span> <span class="n">percent</span>
+<span class="lineno"> 72</span>     <span class="n">obj</span><span class="o">.</span><span class="n">pos</span><span class="o">.</span><span class="n">controller</span><span class="o">.</span><span class="n">setactive</span> <span class="mi">3</span>
+<span class="lineno"> 73</span> <span class="p">)</span>
+<span class="lineno"> 74</span> 
+<span class="lineno"> 75</span> 
+<span class="lineno"> 76</span> <span class="o">--</span> <span class="n">Freeze</span> <span class="n">Transform</span> <span class="o">--</span> <span class="n">Function</span> <span class="n">created</span> <span class="n">by</span> <span class="n">Mathieson</span> <span class="n">Facer</span><span class="o">.</span>
+<span class="lineno"> 77</span> <span class="o">--</span> <span class="n">FreezeTransform</span> <span class="p">(</span><span class="n">Obj</span> <span class="n">to</span> <span class="n">Freeze</span><span class="p">)</span>
+<span class="lineno"> 78</span> <span class="n">fn</span> <span class="n">FreezeTransform</span> <span class="n">Obj</span> <span class="o">=</span>
+<span class="lineno"> 79</span> <span class="p">(</span>
+<span class="lineno"> 80</span>     <span class="n">local</span> <span class="n">curObj</span> <span class="o">=</span> <span class="n">Obj</span>
+<span class="lineno"> 81</span>     <span class="k">if</span> <span class="n">classof</span> <span class="n">CurObj</span><span class="o">.</span><span class="n">rotation</span><span class="o">.</span><span class="n">controller</span> <span class="o">!=</span> <span class="n">Rotation_Layer</span> <span class="n">do</span>
+<span class="lineno"> 82</span>     <span class="p">(</span>
+<span class="lineno"> 83</span>         <span class="o">--</span> <span class="n">freeze</span> <span class="n">rotation</span>
+<span class="lineno"> 84</span>         <span class="n">curObj</span><span class="o">.</span><span class="n">rotation</span><span class="o">.</span><span class="n">controller</span> <span class="o">=</span> <span class="n">Euler_Xyz</span><span class="p">()</span>
+<span class="lineno"> 85</span>         <span class="n">curObj</span><span class="o">.</span><span class="n">rotation</span><span class="o">.</span><span class="n">controller</span> <span class="o">=</span> <span class="n">Rotation_list</span><span class="p">()</span>
+<span class="lineno"> 86</span>         <span class="n">curObj</span><span class="o">.</span><span class="n">rotation</span><span class="o">.</span><span class="n">controller</span><span class="o">.</span><span class="n">available</span><span class="o">.</span><span class="n">controller</span> <span class="o">=</span> <span class="n">Euler_xyz</span><span class="p">()</span>
+<span class="lineno"> 87</span> 
+<span class="lineno"> 88</span>         <span class="o">/*</span> <span class="s">&quot;Localization on&quot;</span> <span class="o">*/</span>
+<span class="lineno"> 89</span>         <span class="n">CurObj</span><span class="o">.</span><span class="n">rotation</span><span class="o">.</span><span class="n">controller</span><span class="o">.</span><span class="n">setname</span> <span class="mi">1</span> <span class="s">&quot;Frozen Rotation&quot;</span>
+<span class="lineno"> 90</span>         <span class="n">CurObj</span><span class="o">.</span><span class="n">rotation</span><span class="o">.</span><span class="n">controller</span><span class="o">.</span><span class="n">setname</span> <span class="mi">2</span> <span class="s">&quot;Zero Euler XYZ&quot;</span>
+<span class="lineno"> 91</span> 
+<span class="lineno"> 92</span>         <span class="o">/*</span> <span class="s">&quot;Localization off&quot;</span> <span class="o">*/</span>
+<span class="lineno"> 93</span>         <span class="n">CurObj</span><span class="o">.</span><span class="n">rotation</span><span class="o">.</span><span class="n">controller</span><span class="o">.</span><span class="n">SetActive</span> <span class="mi">2</span>
+<span class="lineno"> 94</span>     <span class="p">)</span>
+<span class="lineno"> 95</span> 
+<span class="lineno"> 96</span>     <span class="k">if</span> <span class="n">classof</span> <span class="n">CurObj</span><span class="o">.</span><span class="n">position</span><span class="o">.</span><span class="n">controller</span> <span class="o">!=</span> <span class="n">Position_Layer</span> <span class="n">do</span>
+<span class="lineno"> 97</span>     <span class="p">(</span>
+<span class="lineno"> 98</span>         <span class="o">--</span> <span class="n">freeze</span> <span class="n">position</span>
+<span class="lineno"> 99</span>         <span class="n">CurObj</span><span class="o">.</span><span class="n">position</span><span class="o">.</span><span class="n">controller</span> <span class="o">=</span> <span class="n">Bezier_Position</span><span class="p">()</span>
+<span class="lineno">100</span>         <span class="n">CurObj</span><span class="o">.</span><span class="n">position</span><span class="o">.</span><span class="n">controller</span> <span class="o">=</span> <span class="n">position_list</span><span class="p">()</span>
+<span class="lineno">101</span>         <span class="n">CurObj</span><span class="o">.</span><span class="n">position</span><span class="o">.</span><span class="n">controller</span><span class="o">.</span><span class="n">available</span><span class="o">.</span><span class="n">controller</span> <span class="o">=</span> <span class="n">Position_XYZ</span><span class="p">()</span>
+<span class="lineno">102</span> 
+<span class="lineno">103</span>         <span class="o">/*</span> <span class="s">&quot;Localization on&quot;</span> <span class="o">*/</span>
+<span class="lineno">104</span>         <span class="n">CurObj</span><span class="o">.</span><span class="n">position</span><span class="o">.</span><span class="n">controller</span><span class="o">.</span><span class="n">setname</span> <span class="mi">1</span> <span class="s">&quot;Frozen Position&quot;</span>
+<span class="lineno">105</span>         <span class="n">CurObj</span><span class="o">.</span><span class="n">position</span><span class="o">.</span><span class="n">controller</span><span class="o">.</span><span class="n">setname</span> <span class="mi">2</span> <span class="s">&quot;Zero Pos XYZ&quot;</span>
+<span class="lineno">106</span> 
+<span class="lineno">107</span>         <span class="o">/*</span> <span class="s">&quot;Localization off&quot;</span> <span class="o">*/</span>
+<span class="lineno">108</span>         <span class="n">CurObj</span><span class="o">.</span><span class="n">position</span><span class="o">.</span><span class="n">controller</span><span class="o">.</span><span class="n">SetActive</span> <span class="mi">2</span>
+<span class="lineno">109</span> 
+<span class="lineno">110</span>         <span class="o">--</span> <span class="n">position</span> <span class="n">to</span> <span class="n">zero</span>
+<span class="lineno">111</span>         <span class="n">CurObj</span><span class="o">.</span><span class="n">Position</span><span class="o">.</span><span class="n">controller</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">x_Position</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="lineno">112</span>         <span class="n">CurObj</span><span class="o">.</span><span class="n">Position</span><span class="o">.</span><span class="n">controller</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">y_Position</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="lineno">113</span>         <span class="n">CurObj</span><span class="o">.</span><span class="n">Position</span><span class="o">.</span><span class="n">controller</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">z_Position</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="lineno">114</span>     <span class="p">)</span>
+<span class="lineno">115</span> <span class="p">)</span></code></pre></div>
+
+<div class="Disqus">
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    // Required: on line below, replace text in quotes with your forum shortname
+    var disqus_shortname = 'felipenogueirablog';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+</div>
+
+    </div>
+  </div>
+</div>
+<div class="Footer" role="contentinfo">
+  <div class="layout-widthDefault">
+    <div class="Footer-inner">
+      <div class="Footer-content">
+        Copyright &copy; 2008-2016 felipenogueira3d.com, All Rights Reserved.
+        <ul class="Footer-links">
+          <li class="Footer-item"><a class="Footer-link" href="/sitemap.xml">Site Map</a></li>
+          <li class="Footer-item"><a class="Footer-link" href="/feed.xml">Feed</a></li>
+          <li class="Footer-item"><a class="Footer-link" href="/archive">Archive</a></li>
+        </ul>
+      </div>
+      <div class="Footer-employers">
+        <h3>Places I Worked For:</h3>
+        <ul>
+          
+            <li><a href="http://bethsoft.com/">Bethesda Softworks</a></li>
+          
+            <li><a href="http://en.wikipedia.org/wiki/Big_Huge_Games">Big Huge Games</a></li>
+          
+            <li><a href="http://www.hatchstudios.net/">Hatch Studios</a></li>
+          
+            <li><a href="http://www.houseofcool.com/">House of Cool Studios</a></li>
+          
+            <li><a href="http://www.igloovfx.com/">Igloo VFX</a></li>
+          
+            <li><a href="http://studio.tendril.ca/">Tendril Studios</a></li>
+          
+            <li><a href="http://www.toonboxent.com/">Toonbox Entertainment</a></li>
+          
+            <li><a href="http://ubisoft.com/">Ubisoft Toronto</a></li>
+          
+        </ul>
+      </div>
+      <div class="Footer-friends">
+        <h3>Friends &amp; Inspiration:</h3>
+        <ul>
+          
+            <li><a href="http://www.scriptspot.com/bobo/">Borislav "BoBo" Petrov</a></li>
+          
+            <li><a href="http://www.chadvernon.com/blog/">Chad Vernon</a></li>
+          
+            <li><a href="http://www.ericdlegare.com/">Eric D. Lagare</a></li>
+          
+            <li><a href="http://joleanes.com/">Felix Joleanes</a></li>
+          
+            <li><a href="http://www.jasonlabbe3d.com/">Jason Labbe</a></li>
+          
+            <li><a href="http://www.swinkdesign.com/">Jason Stalker</a></li>
+          
+            <li><a href="http://www.divisionof8.com/">Joel Lelievre</a></li>
+          
+            <li><a href="http://www.mathiesonfacer.com/">Mathieson Facer</a></li>
+          
+            <li><a href="http://mattlewis3d.com/">Matt Lewis</a></li>
+          
+            <li><a href="http://www.michelleryan.ca/">Michelle Ryan</a></li>
+          
+            <li><a href="http://penproductions.ca/">Paul Neale</a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="/assets/main-12519777b4421387c7de628f6029d440.js"></script>
+
+</body>
+</html>
