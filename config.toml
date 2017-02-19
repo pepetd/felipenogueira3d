@@ -1,0 +1,72 @@
+# hostname (and path) to the root eg. http://spf13.com/
+baseurl = "https://kstdnr.github.io/"
+
+# Language
+languageCode = "en-us"
+
+# Site title
+title = "PEPETD"
+
+# Theme to use (located in /themes/THEMENAME/)
+theme = "nightwhisper"
+
+# Copyright
+copyright = "2017 by felipenogueira3d.com"
+
+# Pagination
+paginate = 5
+paginatePath = "/page"
+
+# Enable Disqus integration
+disqusShortname = "disqus_short_name" # felipenogueirablog
+
+# Default config format
+metaDataFormat = "yaml"
+
+# Code highlighting options
+PygmentsCodeFences = true
+
+[permalinks]
+  posts = "/posts/:title/"
+  projects = "/projects/:title/"
+  pages = "/:title/"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[params]
+  # description = "An example site using the nightwhisper theme"
+  # logo = ""
+  linkedin = "http://www.linkedin.com/in/pepetd"
+  github = "https://github.com/pepetd"
+  email = "felipe@felipenogueira3d.com"
+  twitter = "https://twitter.com/pepetd3d"
+  vimeo = "https://vimeo.com/pepetd"
+  youtube = "https://www.youtube.com/user/TheDragoon"
+
+# Site menu - internal links
+[[menu.site]]
+  name = "Blog"
+  url = "/"
+  weight = 1
+[[menu.site]]
+  name = "Projects"
+  url = "/projects"
+  weight = 2
+[[menu.site]]
+  name = "Development"
+  url = "/categories/development"
+  weight = 3
+[[menu.site]]
+  name = "Tutorials"
+  url = "/categories/tutorials"
+  weight = 4
+[[menu.site]]
+  name = "Demo Reel"
+  url = "/demo-reel"
+  weight = 5
+[[menu.site]]
+  name = "About"
+  url = "/about"
+  weight = 6
