@@ -1,9 +1,0 @@
-@mixin vertCenter($position: relative) {
-  position: $position;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-%vertCenter {
-  @include vertCenter;
-}

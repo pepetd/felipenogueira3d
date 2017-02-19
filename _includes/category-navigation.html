@@ -1,7 +1,0 @@
-{% if site.categories %}
-  <div class="CategoryNavigation">
-  {% for category in site.categories %}
-    <a class="CategoryNavigation-link" href="/posts/categories/{{ category | first | slugify }}">{{ category | first }}</a>
-  {% endfor %}
-  </div>
-{% endif %}
