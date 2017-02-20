@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on PEPETD</title>
-    <link>https://kstdnr.github.io/pages/index.xml</link>
+    <link>https://felipenogueira3d.com/pages/index.xml</link>
     <description>Recent content in Pages on PEPETD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>2017 by felipenogueira3d.com</copyright>
     <lastBuildDate>Sun, 19 Feb 2017 12:37:37 -0700</lastBuildDate>
-    <atom:link href="https://kstdnr.github.io/pages/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://felipenogueira3d.com/pages/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>About</title>
-      <link>https://kstdnr.github.io/about/</link>
+      <link>https://felipenogueira3d.com/about/</link>
       <pubDate>Sun, 19 Feb 2017 12:37:37 -0700</pubDate>
       
-      <guid>https://kstdnr.github.io/about/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://kstdnr.github.io/uploads/2017/02/20/aboutme.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+      <guid>https://felipenogueira3d.com/about/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://felipenogueira3d.com/uploads/2017/02/20/aboutme.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;My name is Felipe Nogueira. I am a Character TD/Pipeline TD/Technical Artist in the computer graphics industry. I am a graduate of the Multimedia 3D Computer Animation, diploma program, and 3D for Production: gaming and entertainment , post-graduate program, from Humber College in Toronto, Ontario.&lt;/p&gt;
 
@@ -82,10 +82,10 @@
     
     <item>
       <title>Demo Reel</title>
-      <link>https://kstdnr.github.io/demo-reel/</link>
+      <link>https://felipenogueira3d.com/demo-reel/</link>
       <pubDate>Sun, 19 Feb 2017 12:37:37 -0700</pubDate>
       
-      <guid>https://kstdnr.github.io/demo-reel/</guid>
+      <guid>https://felipenogueira3d.com/demo-reel/</guid>
       <description>&lt;iframe src=&#34;https://player.vimeo.com/video/43263680&#34; width=&#34;640&#34; height=&#34;360&#34; frameborder=&#34;0&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 </description>
     </item>
