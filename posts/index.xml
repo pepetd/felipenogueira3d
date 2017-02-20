@@ -27,21 +27,6 @@ for node in nodes:
     </item>
     
     <item>
-      <title>Group Nodes - Maya Python</title>
-      <link>http://felipenogueira3d.com/posts/group-nodes---maya-python/</link>
-      <pubDate>Mon, 23 Mar 2015 12:32:57 -0700</pubDate>
-      
-      <guid>http://felipenogueira3d.com/posts/group-nodes---maya-python/</guid>
-      <description>&lt;p&gt;Hey guys!&lt;/p&gt;
-
-&lt;p&gt;Here is a quick snippet to just group nodes under their own little group hierarchie, which will provide us with a driver group and a x_form group. The x_form group is the one that contains the offset values from the parent node while the driver is the group we will use for all connections needed (sometime I even have two driver groups).&lt;/p&gt;
-
-&lt;p&gt;..
-&lt;script src=&#34;https://gist.github.com/pepetd/933ba1cf6775dfac369bde311cb0b370.js&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Find Verts Weighted to Bone Function</title>
       <link>http://felipenogueira3d.com/posts/find-verts-weighted-to-bone-function/</link>
       <pubDate>Mon, 23 Mar 2015 12:31:28 -0700</pubDate>
