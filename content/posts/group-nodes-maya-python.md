@@ -14,7 +14,6 @@ tags:
 - snippets
 title: Group Nodes - Maya Python
 type: post
-draft: true
 
 ---
 Hey guys!
