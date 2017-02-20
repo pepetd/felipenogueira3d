@@ -12,6 +12,7 @@ tags:
 - scripts
 title: Find Verts Weighted to Bone Function
 type: post
+draft: true
 
 ---
 Here is a little function I wrote that will go through all selected meshes and find all the vertices weighted to a given bone. I had to write this to find all the meshes that had a specific bone in their skin mod, but not just that! I needed to know which of those meshes had verts weighted to this specific bone.
@@ -23,4 +24,4 @@ There are also ways to get the influenced verts of selected bone by hand, but I 
 <iframe src="https://player.vimeo.com/video/60972226" width="640" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ..
-<script src="https://gist.github.com/anonymous/132b9a406d555f8ace4b3f361d17ca08.js"></script>
+<script <script src="https://gist.github.com/pepetd/7c05ca8f442869a188a342a94b38f837.js"></script>
