@@ -1,9 +1,13 @@
 ---
-date: 2017-02-19T12:37:37-07:00
-description: "My name is Felipe Nogueira. I am a Character TD/Pipeline TD/Technical Artist in the computer graphics industry."
-title: "About"
+date: '2017-02-19T12:37:37-07:00'
+description: My name is Felipe Nogueira. I am a Character TD/Pipeline TD/Technical
+  Artist in the computer graphics industry.
+title: About
 type: page
+draft: true
+
 ---
+![](/uploads/2017/02/20/aboutme.jpg)
 
 My name is Felipe Nogueira. I am a Character TD/Pipeline TD/Technical Artist in the computer graphics industry. I am a graduate of the Multimedia 3D Computer Animation, diploma program, and 3D for Production: gaming and entertainment , post-graduate program, from Humber College in Toronto, Ontario.
 
@@ -13,46 +17,42 @@ I have now worked with companies all across the world on Tv series, commercials,
 
 **Published Titles:**
 
-- Tom Clancy's Splinter Cell: Blacklist (PC, Xbox 360, PS3)
-*Ubisoft Toronto, August 2013*
-- Kingdoms of Amalur: Reckoning (PC, Xbox 360, PS3)
-*Big Huge Games/38 Studios, February 2012*
-- Kingdoms of Amalur: The Legend of Dead Kel (PC, Xbox 360, PS3)
-*Big Huge Games/38 Studios, February 2012 - Day 1 DLC*
-- Kingdoms of Amalur: Teeth of Naros (PC, Xbox 360, PS3)
-*Big Huge Games/38 Studios, April 2012 - DLC*
+*   Tom Clancy's Splinter Cell: Blacklist (PC, Xbox 360, PS3) _Ubisoft Toronto, August 2013_
+*   Kingdoms of Amalur: Reckoning (PC, Xbox 360, PS3) _Big Huge Games/38 Studios, February 2012_
+*   Kingdoms of Amalur: The Legend of Dead Kel (PC, Xbox 360, PS3) _Big Huge Games/38 Studios, February 2012 - Day 1 DLC_
+*   Kingdoms of Amalur: Teeth of Naros (PC, Xbox 360, PS3) _Big Huge Games/38 Studios, April 2012 - DLC_
 
 **Awards:**
 
-- 2010 - Award of Excellence - Creative Communications: Sasktel "Once Upon a Dream"
-- 2010 - Award of Merit - Creative Communications: Sasktel "The Ride"
-- 2008 - Broadcast advertising award - Sasktel "Raving Red"
+*   2010 - Award of Excellence - Creative Communications: Sasktel "Once Upon a Dream"
+*   2010 - Award of Merit - Creative Communications: Sasktel "The Ride"
+*   2008 - Broadcast advertising award - Sasktel "Raving Red"
 
 **General Skills:**
 
-- Self motivated Technical Artist/Character TD
-- Extensive knowledge and understanding of Game and CG production pipelines
-- Excellent problem solving and communication skills
+*   Self motivated Technical Artist/Character TD
+*   Extensive knowledge and understanding of Game and CG production pipelines
+*   Excellent problem solving and communication skills
 
 **Specialties:**
 
-- Character/Creature Rigging
-- Mechanical/Prop/Set Rigging
-- Tool Development with 3DSMax, Maya
-- Character Studio/Biped
-- PFlow, RayFire, Havok, FaceFx, Shroud, Apex Cloth
-- Cloth Simulation
+*   Character/Creature Rigging
+*   Mechanical/Prop/Set Rigging
+*   Tool Development with 3DSMax, Maya
+*   Character Studio/Biped
+*   PFlow, RayFire, Havok, FaceFx, Shroud, Apex Cloth
+*   Cloth Simulation
 
 **Software:**
 
-- 3DSMax
-- Maya
-- Havok
-- FaceFX
+*   3DSMax
+*   Maya
+*   Havok
+*   FaceFX
 
 **Scripting/Programming Languages:**
 
-- MaxScript
-- Python
-- .NET
-- Mel
+*   MaxScript
+*   Python
+*   .NET
+*   Mel
