@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorials on PEPETD</title>
+    <link>http://felipenogueira3d.com/categories/tutorials/index.xml</link>
+    <description>Recent content in Tutorials on PEPETD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>2017 by felipenogueira3d.com</copyright>
+    <atom:link href="http://felipenogueira3d.com/categories/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Find Verts Weighted to Bone Function</title>
+      <link>http://felipenogueira3d.com/posts/find-verts-weighted-to-bone-function/</link>
+      <pubDate>Mon, 23 Mar 2015 12:31:28 -0700</pubDate>
+      
+      <guid>http://felipenogueira3d.com/posts/find-verts-weighted-to-bone-function/</guid>
+      <description>&lt;script src=&#34;https://gist.github.com/anonymous/54180b4f4d1ed854e05fada9c4451862.js&#34;&gt;&lt;/script&gt;Here is a little function I wrote that will go through all selected meshes and find all the vertices weighted to a given bone. I had to write this to find all the meshes that had a specific bone in their skin mod, but not just that! I needed to know which of those meshes had verts weighted to this specific bone.
+
+The main task was to remove the influence of that bone from all meshes not necessarily remove the bone as the engine export strips out any bone that has no vertices weighted to it.
+
+There are also ways to get the influenced verts of selected bone by hand, but I needed a way to go through hundreds to thousands of meshes in a timely manner.
+
+&lt;iframe src=&#34;https://player.vimeo.com/video/60972226&#34; width=&#34;640&#34; height=&#34;400&#34; frameborder=&#34;0&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;script src=&#34;https://gist.github.com/anonymous/54180b4f4d1ed854e05fada9c4451862.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
