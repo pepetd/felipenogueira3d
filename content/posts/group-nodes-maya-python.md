@@ -14,6 +14,7 @@ tags:
 - snippets
 title: Group Nodes - Maya Python
 type: post
+draft: true
 
 ---
 Hey guys!
@@ -22,3 +23,6 @@ Here is a quick snippet to just group nodes under their own little group hierarc
 
 ..
 <script src="https://gist.github.com/pepetd/933ba1cf6775dfac369bde311cb0b370.js"></script>
+
+..
+{{< gist pepetd 933ba1cf6775dfac369bde311cb0b370 >}}
