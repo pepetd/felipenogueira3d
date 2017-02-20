@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Autodesk on PEPETD</title>
-    <link>https://felipenogueira3d.com/tags/autodesk/index.xml</link>
+    <link>http://felipenogueira3d.com/tags/autodesk/index.xml</link>
     <description>Recent content in Autodesk on PEPETD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>2017 by felipenogueira3d.com</copyright>
-    <atom:link href="https://felipenogueira3d.com/tags/autodesk/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://felipenogueira3d.com/tags/autodesk/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>The Future of 3DS Max</title>
-      <link>https://felipenogueira3d.com/posts/the-future-of-3ds-max/</link>
+      <link>http://felipenogueira3d.com/posts/the-future-of-3ds-max/</link>
       <pubDate>Mon, 09 Sep 2013 12:26:26 -0700</pubDate>
       
-      <guid>https://felipenogueira3d.com/posts/the-future-of-3ds-max/</guid>
+      <guid>http://felipenogueira3d.com/posts/the-future-of-3ds-max/</guid>
       <description>&lt;p&gt;Read the &lt;a href=&#34;http://www.maxunderground.com/archives/19385_autodesk_siggraph_event_news___including_future_of_naiad.html&#34;&gt;comments section&lt;/a&gt; of this post on Max Underground.&lt;/p&gt;
 </description>
     </item>

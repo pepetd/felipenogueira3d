@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Scripts on PEPETD</title>
-    <link>https://felipenogueira3d.com/tags/scripts/index.xml</link>
+    <link>http://felipenogueira3d.com/tags/scripts/index.xml</link>
     <description>Recent content in Scripts on PEPETD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>2017 by felipenogueira3d.com</copyright>
-    <atom:link href="https://felipenogueira3d.com/tags/scripts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://felipenogueira3d.com/tags/scripts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Find Verts Weighted to Bone Function</title>
-      <link>https://felipenogueira3d.com/posts/find-verts-weighted-to-bone-function/</link>
+      <link>http://felipenogueira3d.com/posts/find-verts-weighted-to-bone-function/</link>
       <pubDate>Mon, 23 Mar 2015 12:31:28 -0700</pubDate>
       
-      <guid>https://felipenogueira3d.com/posts/find-verts-weighted-to-bone-function/</guid>
+      <guid>http://felipenogueira3d.com/posts/find-verts-weighted-to-bone-function/</guid>
       <description>&lt;p&gt;Here is a little function I wrote that will go through all selected meshes and find all the vertices weighted to a given bone. I had to write this to find all the meshes that had a specific bone in their skin mod, but not just that! I needed to know which of those meshes had verts weighted to this specific bone.&lt;/p&gt;
 
 &lt;p&gt;The main task was to remove the influence of that bone from all meshes not necessarily remove the bone as the engine export strips out any bone that has no vertices weighted to it.&lt;/p&gt;

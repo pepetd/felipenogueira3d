@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on PEPETD</title>
-    <link>https://felipenogueira3d.com/tags/python/index.xml</link>
+    <link>http://felipenogueira3d.com/tags/python/index.xml</link>
     <description>Recent content in Python on PEPETD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>2017 by felipenogueira3d.com</copyright>
-    <atom:link href="https://felipenogueira3d.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://felipenogueira3d.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Parent Constraint to Last - Maya Python</title>
-      <link>https://felipenogueira3d.com/posts/parent-constraint-to-last---maya-python/</link>
+      <link>http://felipenogueira3d.com/posts/parent-constraint-to-last---maya-python/</link>
       <pubDate>Mon, 23 Mar 2015 12:34:20 -0700</pubDate>
       
-      <guid>https://felipenogueira3d.com/posts/parent-constraint-to-last---maya-python/</guid>
+      <guid>http://felipenogueira3d.com/posts/parent-constraint-to-last---maya-python/</guid>
       <description>&lt;p&gt;Snippet to constraint all selected nodes to the last selected.&lt;/p&gt;
 import maya.cmds as cmds
 nodes = cmds.ls(sl=True)
@@ -27,10 +27,10 @@ for node in nodes:
     
     <item>
       <title>Group Nodes - Maya Python</title>
-      <link>https://felipenogueira3d.com/posts/group-nodes---maya-python/</link>
+      <link>http://felipenogueira3d.com/posts/group-nodes---maya-python/</link>
       <pubDate>Mon, 23 Mar 2015 12:32:57 -0700</pubDate>
       
-      <guid>https://felipenogueira3d.com/posts/group-nodes---maya-python/</guid>
+      <guid>http://felipenogueira3d.com/posts/group-nodes---maya-python/</guid>
       <description>&lt;p&gt;Hey guys!&lt;/p&gt;
 
 &lt;p&gt;Here is a quick snippet to just group nodes under their own little group hierarchie, which will provide us with a driver group and a x_form group. The x_form group is the one that contains the offset values from the parent node while the driver is the group we will use for all connections needed (sometime I even have two driver groups).&lt;/p&gt;
@@ -61,10 +61,10 @@ for obj in objs:
     
     <item>
       <title>Create FK Chain - Maya Python</title>
-      <link>https://felipenogueira3d.com/posts/create-fk-chain---maya-python/</link>
+      <link>http://felipenogueira3d.com/posts/create-fk-chain---maya-python/</link>
       <pubDate>Mon, 23 Mar 2015 12:29:30 -0700</pubDate>
       
-      <guid>https://felipenogueira3d.com/posts/create-fk-chain---maya-python/</guid>
+      <guid>http://felipenogueira3d.com/posts/create-fk-chain---maya-python/</guid>
       <description>&lt;p&gt;Hey guys! first rigging script for python in maya! pretty simple, it creates a FK chain from selected joints with flags to align the controllers to world or to the Joint. Wrote this script to do Gainer&amp;rsquo;s(Sasktel) spine rig in Maya ( I am re-rigging him in Maya.)&lt;/p&gt;
 # ------------------------------------------------------------------------------------------------------
 # Rigging Modules
