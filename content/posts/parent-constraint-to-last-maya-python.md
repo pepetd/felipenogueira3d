@@ -10,7 +10,6 @@ tags:
 - snippets
 title: Parent Constraint to Last - Maya Python
 type: post
-draft: true
 
 ---
 Snippet to constraint all selected nodes to the last selected.
