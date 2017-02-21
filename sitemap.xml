@@ -132,6 +132,11 @@
   </url>
   
   <url>
+    <loc>http://felipenogueira3d.com/posts/parent-constraint-to-last---maya-python/</loc>
+    <lastmod>2015-03-23T12:34:20-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://felipenogueira3d.com/posts/find-verts-weighted-to-bone-function/</loc>
     <lastmod>2015-03-23T12:31:28-07:00</lastmod>
   </url>
@@ -169,14 +174,14 @@
   </url>
   
   <url>
-    <loc>http://felipenogueira3d.com/categories/development/</loc>
-    <lastmod>2015-03-23T12:29:30-07:00</lastmod>
+    <loc>http://felipenogueira3d.com/tags/development/</loc>
+    <lastmod>2015-03-23T12:34:20-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://felipenogueira3d.com/tags/development/</loc>
-    <lastmod>2015-03-23T12:29:30-07:00</lastmod>
+    <loc>http://felipenogueira3d.com/categories/development/</loc>
+    <lastmod>2015-03-23T12:34:20-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -200,7 +205,7 @@
   
   <url>
     <loc>http://felipenogueira3d.com/tags/maya/</loc>
-    <lastmod>2015-03-23T12:29:30-07:00</lastmod>
+    <lastmod>2015-03-23T12:34:20-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -218,7 +223,7 @@
   
   <url>
     <loc>http://felipenogueira3d.com/posts/</loc>
-    <lastmod>2015-03-23T12:31:28-07:00</lastmod>
+    <lastmod>2015-03-23T12:34:20-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -230,7 +235,7 @@
   
   <url>
     <loc>http://felipenogueira3d.com/tags/python/</loc>
-    <lastmod>2015-03-23T12:29:30-07:00</lastmod>
+    <lastmod>2015-03-23T12:34:20-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -242,7 +247,7 @@
   
   <url>
     <loc>http://felipenogueira3d.com/tags/snippets/</loc>
-    <lastmod>2015-03-23T12:29:30-07:00</lastmod>
+    <lastmod>2015-03-23T12:34:20-07:00</lastmod>
     <priority>0</priority>
   </url>
   
