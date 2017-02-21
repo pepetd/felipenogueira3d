@@ -18,7 +18,7 @@ paginate = 5
 paginatePath = "/page"
 
 # Enable Disqus integration
-disqusShortname = "disqus_short_name" # felipenogueirablog
+disqusShortname = "felipenogueirablog" # felipenogueirablog
 
 # Default config format
 metaDataFormat = "yaml"
@@ -36,8 +36,8 @@ PygmentsCodeFences = true
   category = "categories"
 
 [params]
-  # description = "An example site using the nightwhisper theme"
-  # logo = ""
+  # description = "An site using the nightwhisper theme"
+  logo = "logo.svg"
   linkedin = "http://www.linkedin.com/in/pepetd"
   github = "https://github.com/pepetd"
   email = "felipe@felipenogueira3d.com"
