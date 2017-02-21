@@ -1,0 +1,3 @@
+[submodule "themes/nightwhisper"]
+	path = themes/nightwhisper
+	url = https://github.com/kstdnr/nightwhisper.git
