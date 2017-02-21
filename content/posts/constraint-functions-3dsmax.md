@@ -12,7 +12,6 @@ tags:
 - snippets
 title: Constraint Functions - 3DS Max
 type: post
-draft: true
 
 ---
 In the past years I started creating my own library of functions and scripts that would automate a lot of the processes that I often use when rigging characters to speed up the rigging process even more.
