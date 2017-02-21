@@ -29,6 +29,23 @@
     </item>
     
     <item>
+      <title>Constraint Functions - 3DS Max</title>
+      <link>http://felipenogueira3d.com/posts/constraint-functions---3ds-max/</link>
+      <pubDate>Sun, 22 Mar 2015 12:28:09 -0700</pubDate>
+      
+      <guid>http://felipenogueira3d.com/posts/constraint-functions---3ds-max/</guid>
+      <description>&lt;p&gt;In the past years I started creating my own library of functions and scripts that would automate a lot of the processes that I often use when rigging characters to speed up the rigging process even more.&lt;/p&gt;
+
+&lt;p&gt;I have so many rigging functions that one day I realized I could create an entire humanoid rig in a matter of minutes by using all these functions as long as I had a skeleton created.&lt;/p&gt;
+
+&lt;p&gt;In time I will be releasing a function library for all of you to check it out, meanwhile, here is a little preview of some of the functions I use often, the Look-At constraint could use more work but the Position Constraint, Orientation Constraint and Path Constraint Functions are perfect for pretty much anything that I would use them for.&lt;/p&gt;
+
+&lt;p&gt;..
+&lt;script src=&#34;https://gist.github.com/pepetd/5a711703608c93e4f25e4bb102e59b71.js&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>The Future of 3DS Max</title>
       <link>http://felipenogueira3d.com/posts/the-future-of-3ds-max/</link>
       <pubDate>Mon, 09 Sep 2013 12:26:26 -0700</pubDate>
