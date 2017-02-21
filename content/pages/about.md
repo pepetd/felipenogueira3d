@@ -6,7 +6,7 @@ title: About
 type: page
 
 ---
-![](/uploads/2017/02/20/aboutme.jpg)
+![](/uploads/2017/02/21/aboutmeop.jpg)
 
 My name is Felipe Nogueira. I am a Character TD/Pipeline TD/Technical Artist in the computer graphics industry. I am a graduate of the Multimedia 3D Computer Animation, diploma program, and 3D for Production: gaming and entertainment , post-graduate program, from Humber College in Toronto, Ontario.
 
