@@ -43,7 +43,6 @@ I have now worked with companies all across the world on Tv series, commercials,
 **Specialties:**
 
 *   Tool Development with 3D Studio Max, Maya  
-
 *   Character/Creature Rigging
 *   Mechanical/Prop/Set Rigging
 *   Character Studio/Biped
