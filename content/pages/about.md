@@ -4,6 +4,7 @@ description: My name is Felipe Nogueira. I am a Character TD/Pipeline TD/Technic
   Artist in the computer graphics industry.
 title: About
 type: page
+draft: true
 
 ---
 ![](/uploads/2017/02/21/aboutmeop.jpg)
