@@ -4,6 +4,7 @@ description: My name is Felipe Nogueira. I am a Character TD/Pipeline TD/Technic
   Artist in the computer graphics industry.
 title: About
 type: page
+draft: true
 
 ---
 ![](/uploads/2017/02/21/aboutmeop.jpg)
@@ -16,13 +17,20 @@ I have now worked with companies all across the world on Tv series, commercials,
 
 **Published Titles:**
 
-*   Tom Clancy's Splinter Cell: Blacklist (PC, Xbox 360, PS3) _Ubisoft Toronto, August 2013_
-*   Kingdoms of Amalur: Reckoning (PC, Xbox 360, PS3) _Big Huge Games/38 Studios, February 2012_
-*   Kingdoms of Amalur: The Legend of Dead Kel (PC, Xbox 360, PS3) _Big Huge Games/38 Studios, February 2012 - Day 1 DLC_
-*   Kingdoms of Amalur: Teeth of Naros (PC, Xbox 360, PS3) _Big Huge Games/38 Studios, April 2012 - DLC_
+*   Fallout 4 (PC,Xobx One, PS4) Bethesda Game Studios
+*   Fallout 4: Automatron (PC,Xobx One, PS4) Bethesda Game Studios
+*   Fallout 4: Far Harbor (PC,Xobx One, PS4) Bethesda Game Studios
+*   Tom Clancy's Splinter Cell: Blacklist (PC, Xbox 360, PS3) _Ubisoft Toronto_
+*   Kingdoms of Amalur: Reckoning (PC, Xbox 360, PS3) _Big Huge Games/38 Studios_
+*   Kingdoms of Amalur: The Legend of Dead Kel (PC, Xbox 360, PS3) _Big Huge Games - DLC_
+*   Kingdoms of Amalur: Teeth of Naros (PC, Xbox 360, PS3) _Big Huge Games - DLC_
 
-**Awards:**
+**Projects Awards:**
 
+*   2016 - BAFTA Games Award for Best Game: Fallout 4
+*   2016 - D.I.C.E. Awards - Game of the year: Fallout 4
+*   2016 - D.I.C.E Awards Role-Playing Game of the year: Fallout 4
+*   2016 - D.I.C.E Outstanding Achievement In Game Direction: Fallout 4
 *   2010 - Award of Excellence - Creative Communications: Sasktel "Once Upon a Dream"
 *   2010 - Award of Merit - Creative Communications: Sasktel "The Ride"
 *   2008 - Broadcast advertising award - Sasktel "Raving Red"
@@ -35,9 +43,10 @@ I have now worked with companies all across the world on Tv series, commercials,
 
 **Specialties:**
 
+*   Tool Development with 3D Studio Max, Maya  
+
 *   Character/Creature Rigging
 *   Mechanical/Prop/Set Rigging
-*   Tool Development with 3DSMax, Maya
 *   Character Studio/Biped
 *   PFlow, RayFire, Havok, FaceFx, Shroud, Apex Cloth
 *   Cloth Simulation
