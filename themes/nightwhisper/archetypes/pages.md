@@ -1,5 +1,6 @@
 ---
 description: ""
-title: ""
+date: {{ .Date }}
+title: "{{ replace .TranslationBaseName "-" " " | title }}"
 type: "page"
 ---
