@@ -1,0 +1,27 @@
+.MetaData {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+  &-item {
+    color: $cBlack054;
+    display: inline-block;
+    list-style: none;
+    margin-right: 16px;
+    text-transform: capitalize;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+
+    a {
+      color: $cBlack054;
+      text-decoration: none;
+      transition: color 250ms ease-in-out;
+
+      @include fs-attention {
+        color: $cRed;
+      }
+    }
+  }
+}

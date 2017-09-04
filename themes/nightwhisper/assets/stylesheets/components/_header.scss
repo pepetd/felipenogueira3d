@@ -1,0 +1,54 @@
+.Header {
+  background-color: $cTeal;
+  padding: 0 16px;
+  position: relative;
+  transition: max-height 1000ms ease-in-out;
+
+  &-branding {
+    display: inline-block;
+  }
+
+  &-brandingLink {
+    color: $cWhite100;
+    display: inline-block;
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color 250ms ease-in-out;
+
+    @include fs-attention {
+      color: $cRed;
+    }
+  }
+
+  &-brandingImage {
+    vertical-align: middle;
+  }
+
+  &-toggle {
+    appearance: none;
+    background-color: transparent;
+    background-image: url('../images/icon_menu.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: 0;
+    cursor: pointer;
+    display: block;
+    height: 64px;
+    outline: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    right: 16px;
+    top: 0;
+    width: 64px;
+
+    &.js-active {
+      background-image: url('../images/icon_close.png');
+    }
+
+    @include fs-min-width($bpMid) {
+      display: none;
+    }
+  }
+}

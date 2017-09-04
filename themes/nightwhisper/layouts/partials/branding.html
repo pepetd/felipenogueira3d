@@ -1,0 +1,9 @@
+<div class="Header-branding">
+  {{ with .Site.Params.logo }}
+    <a class="Header-brandingLink" href="{{ $.Site.BaseURL }}" title="{{ $.Site.Title }}">
+      <img class="Header-brandingImage" src="{{ $.Site.BaseURL }}{{ . }}" alt="{{ $.Site.Title }}" width="64" height="64" />
+    </a>
+  {{ else }}
+    <a class="Header-brandingLink" href="{{ $.Site.BaseURL }}" title="{{ $.Site.Title }}">{{ $.Site.Title }}</a> 
+  {{ end }}
+</div>

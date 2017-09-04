@@ -1,0 +1,13 @@
+{{ partial "header.html" . }}
+
+<div role="main">
+  <div class="layout-widthDefault">
+    {{ $paginator := .Paginate (where .Data.Pages "Type" "project") }}
+    {{ range $paginator.Pages }}
+      {{ .Render "project" }}
+    {{ end }}
+    {{ partial "pagination.html" $paginator }}
+  </div>
+</div>
+
+{{ partial "footer.html" . }}

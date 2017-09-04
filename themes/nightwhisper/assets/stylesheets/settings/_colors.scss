@@ -1,0 +1,29 @@
+$cDarkTeal: #00796b;
+$cTeal: #009688;
+$cLightTeal: #b2dfdb;
+$cRed: #EF8354;
+
+$cSeaBlue: #05668D;
+$cMetallicSeaweed: #028090;
+$cPersianGreen: #00A896;
+$cCaribbeanGreen: #02C39A;
+$cPaleSpringBug: #F0F3BD;
+
+// base light theme colors
+$cGray500: #9E9E9E;
+$cGray300: #E0E0E0;
+$cGray100: #F5F5F5;
+$cGray050: #FAFAFA;
+
+// dark text on light backgrounds
+$cBlack100: transparentize(#000000, 0); // base
+$cBlack087: transparentize(#000000, 0.13); // primary text
+$cBlack054: transparentize(#000000, 0.46); // secondary text; active icon
+$cBlack038: transparentize(#000000, 0.62); // disabled, hint, icons text; inactive icon
+$cBlack012: transparentize(#000000, 0.88); // dividers
+
+// light text on dark backgrounds
+$cWhite100: transparentize(#FFFFFF, 0); // base, primary text; active icon
+$cWhite070: transparentize(#FFFFFF, 0.30); // secondary text
+$cWhite050: transparentize(#FFFFFF, 0.50); // disabled, hint, icons text; inactive icon
+$cWhite012: transparentize(#FFFFFF, 0.88); // dividers

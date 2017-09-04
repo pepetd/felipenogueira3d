@@ -1,0 +1,28 @@
+{{ partial "header.html" . }}
+
+<div role="main">
+  <div class="layout-widthDefault">
+    {{ partial "title.html" . }}
+    {{ range .Data.Pages }}
+      <div class="Post u-mt16">
+        <ul class="Post-meta">
+          <li class="Post-metaItem">
+            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+            <span>{{ .Date.Format "January 2, 2006" }}</span>
+          </li>
+          <li class="Post-metaItem">
+            <i class="fa fa-tags" aria-hidden="true"></i>
+            <span>{{ partial "post/tag/list.html" . }}</span>
+          </li>
+        </ul>
+        <h2 class="Post-title">
+          <a class="Post-link" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+        </h2>
+        <p class="u-mt0 u-mb0">{{ .Description }}</p>
+        <a class="Post-more" href="{{ .Permalink }}" title="Read More">Read More »</a>
+      </div>
+    {{ end }}
+  </div>
+</div>
+
+{{ partial "footer.html" . }}

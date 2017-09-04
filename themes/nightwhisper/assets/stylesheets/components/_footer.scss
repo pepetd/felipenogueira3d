@@ -1,0 +1,63 @@
+.Footer {
+
+  &-inner {
+    border-top: 1px solid $cBlack012;
+  }
+
+  &-links { 
+    margin: 0;
+    padding: 0;
+    text-align: right;
+  }
+
+  &-item {
+    display: inline-block;
+    list-style: none;
+
+    &:before {
+      color: $cBlack012;
+      content: "•";
+      margin: 0 8px;
+    }
+
+    &:first-of-type {
+      &:before {
+        display: none;
+      }
+    }
+  }
+
+  &-link {
+    color: $cBlack054;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 250ms ease-in-out;
+
+    @include fs-attention {
+      color: $cRed;
+    }
+  }
+
+  &-employers,
+  &-friends {
+    color: $cBlack054;
+  }
+
+  &-employersList,
+  &-friendsList {
+    column-count: 3;
+    margin: 0;
+    padding: 0;
+  }
+
+  &-employersItem,
+  &-friendsItem {
+    list-style: none;
+  }
+
+  &-copy {
+    color: $cBlack054;
+    display: block;
+    font-size: 14px;
+  }
+}

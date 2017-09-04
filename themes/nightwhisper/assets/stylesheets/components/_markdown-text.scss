@@ -1,0 +1,25 @@
+.markdown-text {
+  font-size: 14px;
+  font-weight: 400;
+
+  @include fs-min-width($bpMid) {
+    font-size: 16px;
+  }
+
+  >:first-child {
+    margin-top: 0;
+  }
+
+  >:last-child {
+    margin-bottom: 0;
+  }
+
+  a {
+    color: $cTeal;
+    transition: color 250ms ease-in-out;
+
+    @include fs-attention {
+      color: $cRed;
+    }
+  }
+}

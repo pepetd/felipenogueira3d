@@ -1,0 +1,51 @@
+%visuallyhidden {
+  @include fs-visually-hidden;
+}
+
+%undovisuallyhidden {
+  @include fs-undo-visually-hidden;
+}
+
+%clearfix {
+  @include fs-clearfix;
+}
+
+%vertcenter {
+  @include fs-vert-center($position: absolute);
+}
+
+.u {
+  // Utility
+  &-center { text-align: center; }
+  &-right { text-align: right; }
+  &-show { display: block; }
+  &-hide { display: none; }
+  &-HIDE { display: none !important; }
+  &-vh { @extend %visuallyhidden; }
+  &-relative { position: relative; }
+  &-fullWidth { display: block; width: 100%; }
+  &-section { @extend %clearfix; }
+
+  // Margin
+  &-mt0 { margin-top: 0 !important; }
+  &-mb0 { margin-bottom: 0 !important; }
+  $marginSteps: 16;
+  @for $i from 1 through $marginSteps {
+    // Multiples of modular scale unit
+    $val: modValue($i);
+    &-mb#{$i} {
+      margin-bottom: $val/2;
+
+      @include fs-min-width($bpMid) {
+        margin-bottom: $val;
+      }
+    }
+    &-mt#{$i} {
+      margin-top: $val/2;
+
+      @include fs-min-width($bpMid) {
+        margin-top: $val;
+      }
+    }
+  }
+}

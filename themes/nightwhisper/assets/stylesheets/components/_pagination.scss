@@ -1,0 +1,39 @@
+.Pagination {
+  position: relative;
+  text-align: center;
+
+  &-newer,
+  &-older {
+    display: inline-block;
+    position: static;
+
+    @include fs-min-width($bpMid) {
+      position: absolute;
+    }
+  }
+
+  &-newer,
+  &-older {
+    color: $cBlack054;
+    text-decoration: none;
+    transition: color 250ms ease-in-out;
+
+    @include fs-attention {
+      color: $cRed;
+    }
+  }
+
+  &-newer {
+    left: 0;
+  }
+
+  &-number {
+    color: $cBlack054;
+    display: inline-block;
+    min-width: 100px;
+  }
+
+  &-older {
+    right: 0;
+  }
+}

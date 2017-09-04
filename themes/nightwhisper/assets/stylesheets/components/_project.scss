@@ -1,0 +1,54 @@
+@for $i from 1 to 6 {
+  .Project:nth-child(#{$i}) {
+    animation-delay: $i*100ms;
+  }
+}
+
+.Project {
+  animation-name: fadeInTop;
+  animation-duration: 250ms;
+  animation-fill-mode: both;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &-info {
+    opacity: 0;
+    padding: 32px 0;
+    position: relative;
+    transition: opacity 250ms ease-in-out;
+
+    &:after {
+      background-color: $cBlack054;
+      content: '';
+      height: 100%;
+      left: 0;
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      transition: opacity 250ms ease-in-out;
+    }
+
+    @include fs-attention {
+      opacity: 1;
+
+      &:after {
+        opacity: 1;
+      }
+    }
+  }
+
+  &-title {
+    position: relative;
+    text-align: center;
+    text-transform: capitalize;
+    z-index: 10;
+  }
+
+  &-link {
+    color: $cWhite100;
+    display: block;
+    text-decoration: none;
+  }
+}

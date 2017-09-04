@@ -1,0 +1,24 @@
+@mixin defaultPadding {
+  padding: 0 16px;
+  box-sizing: content-box;
+
+  @include fs-min-width(700px) {
+    padding: 0 24px;
+  }
+
+  &.-no-padding {
+    box-sizing: border-box;
+    padding: 0;
+  }
+}
+
+.layout {
+
+  &-widthDefault {
+    @include defaultPadding;
+
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

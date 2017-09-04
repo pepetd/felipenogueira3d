@@ -1,0 +1,18 @@
+<ul class="MetaData">
+  <li class="MetaData-item">
+    <i class="fa fa-calendar-o" aria-hidden="true"></i>
+    <span>{{ .Date.Format "January 2, 2006" }}</span>
+  </li>
+  <li class="MetaData-item">
+    <i class="fa fa-folder-open-o" aria-hidden="true"></i>
+    <span>{{ partial "post/category/list.html" . }}</span>
+  </li>
+  <li class="MetaData-item">
+    <i class="fa fa-tags" aria-hidden="true"></i>
+    <span>{{ partial "post/tag/list.html" . }}</span>
+  </li>
+  <li class="MetaData-item">
+    <i class="fa fa-clock-o" aria-hidden="true"></i>
+    <span>{{ .ReadingTime }} min read</span>
+  </li>
+</ul>

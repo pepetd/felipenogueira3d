@@ -1,0 +1,30 @@
+.Posts {
+
+  &-links {
+    margin: 0;
+    padding: 0;
+  }
+
+  &-item {
+    color: $cBlack054;
+    list-style: none;
+  }
+
+  &-link {
+    color: $cTeal;
+    text-decoration: none;
+    transition: color 250ms ease-in-out;
+
+    @include fs-attention {
+      color: $cRed;
+    }
+  }
+
+  &-date {
+    &:after {
+      color: $cBlack012;
+      content: "•";
+      margin: 0 4px;
+    }
+  }
+}
