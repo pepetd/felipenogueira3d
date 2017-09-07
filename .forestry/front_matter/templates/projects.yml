@@ -1,0 +1,47 @@
+---
+hide_body: false
+fields:
+- name: date
+  default: 2017-02-19 12:48:33 -0700
+  label: Date
+  type: datetime
+  hidden: true
+- name: description
+  default: ''
+  label: Description
+  type: textarea
+  hidden: false
+  description: The description will appear on the projects listing page, make this
+    a short summary of the project.
+- name: project_date
+  default: 2008-10-14 00:00:00 +0000
+  label: Project date
+  type: datetime
+  hidden: false
+  description: The date when this project was completed.
+- name: project_image
+  default: ''
+  label: Project image
+  type: file
+  hidden: false
+  description: The image will appear on the projects summary page (400x400).
+- name: project_name
+  default: Brawny Lean on Me
+  label: Project name
+  type: text
+  hidden: false
+- name: project_url
+  default: https://vimeo.com/31982134
+  label: Project url
+  type: text
+  hidden: false
+- name: title
+  default: Brawny Lean on Me
+  label: Title
+  type: text
+  hidden: false
+- name: type
+  default: project
+  label: Type
+  type: text
+  hidden: true
