@@ -7,18 +7,8 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>2017 by felipenogueira3d.com</copyright>
-    <lastBuildDate>Sat, 12 Aug 2017 20:55:36 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2015 12:34:20 -0700</lastBuildDate>
     <atom:link href="http://felipenogueira3d.com/posts/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Testing New Post</title>
-      <link>http://felipenogueira3d.com/posts/testing-new-post/</link>
-      <pubDate>Sat, 12 Aug 2017 20:55:36 +0000</pubDate>
-      
-      <guid>http://felipenogueira3d.com/posts/testing-new-post/</guid>
-      <description>&lt;p&gt;Sample Text here! :) hope you are all doing ok!&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>Parent Constraint to Last - Maya Python</title>
