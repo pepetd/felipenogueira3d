@@ -1,0 +1,40 @@
+---
+hide_body: false
+fields:
+- name: categories
+  default:
+  - development
+  label: Categories
+  type: list
+  hidden: false
+- name: date
+  default: 2015-03-22 12:28:09 -0700
+  label: Date
+  type: datetime
+  hidden: false
+- name: description
+  default: In the past years I started creating my own library of functions and scripts
+    that would automate a lot of the processes that I often use when rigging characters
+    to speed up the rigging process even more.
+  label: Description
+  type: textarea
+  hidden: false
+- name: tags
+  default:
+  - 3dsmax
+  - development
+  - maxscript
+  - snippets
+  label: Tags
+  type: list
+  hidden: false
+- name: title
+  default: Constraint Functions - 3DS Max
+  label: Title
+  type: text
+  hidden: false
+- name: type
+  default: post
+  label: Type
+  type: text
+  hidden: true
