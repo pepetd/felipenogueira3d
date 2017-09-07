@@ -1,5 +1,5 @@
 {{ partial "header.html" . }}
-
+{{ partial "search.html" . }}
 <div role="main">
   <div class="layout-widthDefault">
     {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
@@ -9,5 +9,4 @@
     {{ partial "pagination.html" $paginator }}
   </div>
 </div>
-
 {{ partial "footer.html" . }}

@@ -3,6 +3,8 @@ const path = require('path');
 
 module.exports = {
   entry: [
+    'whatwg-fetch',
+    'promise-polyfill',
     './assets/javascripts/main.js',
     './assets/stylesheets/main.scss',
   ],

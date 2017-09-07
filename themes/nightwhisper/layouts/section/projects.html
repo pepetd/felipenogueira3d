@@ -1,5 +1,5 @@
 {{ partial "header.html" . }}
-
+{{ partial "search.html" . }}
 <div role="main">
   <div class="layout-widthDefault">
     {{ $paginator := .Paginate (where .Data.Pages "Type" "project") }}

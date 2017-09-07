@@ -3,6 +3,7 @@
   padding: 0 16px;
   position: relative;
   transition: max-height 1000ms ease-in-out;
+  z-index: 100;
 
   &-branding {
     display: inline-block;
