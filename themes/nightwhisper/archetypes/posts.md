@@ -7,6 +7,6 @@ tags:
 - one
 - two
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
-date: {{ .Date }}
+date: "{{ .Date }}"
 type: "post"
 ---
