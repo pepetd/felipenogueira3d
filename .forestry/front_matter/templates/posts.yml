@@ -8,7 +8,7 @@ fields:
   type: list
   hidden: false
 - name: date
-  default: 2015-03-22 12:28:09 -0700
+  default: 2015-03-22 19:28:09 +0000
   label: Date
   type: datetime
   hidden: false
