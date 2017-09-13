@@ -9,7 +9,7 @@ tags:
 - snippets
 type: post
 title: Test
-date: 2017-09-13 19:23:17 +0000
+date: 2017-09-13 19:23:17 -0400
 draft: true
 
 ---
