@@ -10,16 +10,6 @@
     <atom:link href="http://felipenogueira3d.com/tags/development/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Test</title>
-      <link>http://felipenogueira3d.com/posts/test/</link>
-      <pubDate>Wed, 13 Sep 2017 19:23:17 -0400</pubDate>
-      
-      <guid>http://felipenogueira3d.com/posts/test/</guid>
-      <description>&lt;p&gt;Hellllo testing here&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Parent Constraint to Last - Maya Python</title>
       <link>http://felipenogueira3d.com/posts/parent-constraint-to-last---maya-python/</link>
       <pubDate>Mon, 23 Mar 2015 12:34:20 -0700</pubDate>
