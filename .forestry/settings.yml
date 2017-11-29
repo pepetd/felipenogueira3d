@@ -7,10 +7,10 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-  projects:
-    default_front_matter_template: projects
-  pages:
-    default_front_matter_template: pages
   posts:
     default_front_matter_template: posts
+  pages:
+    default_front_matter_template: pages
+  projects:
+    default_front_matter_template: projects
 version: 0.18.1
