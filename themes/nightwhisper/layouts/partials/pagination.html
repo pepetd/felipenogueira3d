@@ -1,9 +1,9 @@
 <div class="Pagination u-mt16" role="navigation" aria-label="pagination navigation">
   {{ if .HasPrev }}
-    <a class="Pagination-newer" href="{{ .Prev.URL }}" title="Previous Page">« Newer Posts</a>
+  <a class="Pagination-newer" href="{{ .Prev.URL }}" title="Previous Page">« Newer Posts</a>
   {{ end }}
   <span class="Pagination-number">Page {{ .PageNumber }} of {{ .TotalPages }}</span>
   {{ if .HasNext }}
-    <a class="Pagination-older" href="{{ .Next.URL }}" title="Next Page">Older Posts »</a>
+  <a class="Pagination-older" href="{{ .Next.URL }}" title="Next Page">Older Posts »</a>
   {{ end }}
 </div>

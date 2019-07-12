@@ -1,42 +1,44 @@
-  <div class="Footer" role="contentinfo">
-    <div class="layout-widthDefault">
-      <div class="Footer-inner u-mt16 u-mb16">
-        <ul class="Footer-links" role="navigation" aria-label="footer navigation">
-          <li class="Footer-item">
-            <a class="Footer-link" href="{{ .Site.RSSLink }}" title="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+<div class="Footer" role="contentinfo">
+  <div class="layout-widthDefault">
+    <div class="Footer-inner u-mt16 u-mb16">
+      <ul class="Footer-links" role="navigation" aria-label="footer navigation">
+        <li class="Footer-item">
+          <a class="Footer-link" href="{{ .Site.RSSLink }}" title="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+        </li>
+        <li class="Footer-item">
+          <a class="Footer-link" href="/posts" title="Posts"><i class="fa fa-archive" aria-hidden="true"></i></a>
+        </li>
+      </ul>
+      {{ with .Site.Data.employers }}
+      <div class="Footer-employers">
+        <p><strong>Places I've Worked...</strong></p>
+        <ul class="Footer-employersList">
+          {{ range .employers }}
+          <li class="Footer-employersItem">
+            <a class="Footer-link" href="{{ .website }}" title="{{ .company }}">{{ .company }}</a>
           </li>
-          <li class="Footer-item">
-            <a class="Footer-link" href="/posts" title="Posts"><i class="fa fa-archive" aria-hidden="true"></i></a>
-          </li>
+          {{ end }}
         </ul>
-        {{ with .Site.Data.employers }}
-        <div class="Footer-employers">
-          <p><strong>Places I've Worked...</strong></p>
-          <ul class="Footer-employersList">
-            {{ range .employers }}
-              <li class="Footer-employersItem">
-                <a class="Footer-link" href="{{ .website }}" title="{{ .company }}">{{ .company }}</a>
-              </li>
-            {{ end }}
-          </ul>
-        </div>
-        {{ end }}
-        {{ with .Site.Data.friends }}
-        <div class="Footer-friends">
-          <p><strong>People I Know...</strong></p>
-          <ul class="Footer-friendsList">
-            {{ range .friends }}
-              <li class="Footer-friendsItem">
-                <a class="Footer-link" href="{{ .website }}" title="{{ .friend }}">{{ .friend }}</a>
-              </li>
-            {{ end }}
-          </ul>
-        </div>
-        {{ end }}
-        <span class="Footer-copy u-mt8">Copyright &copy; {{ .Site.Copyright }}, All Rights Reserved.</span>
       </div>
+      {{ end }}
+      {{ with .Site.Data.friends }}
+      <div class="Footer-friends">
+        <p><strong>People I Know...</strong></p>
+        <ul class="Footer-friendsList">
+          {{ range .friends }}
+          <li class="Footer-friendsItem">
+            <a class="Footer-link" href="{{ .website }}" title="{{ .friend }}">{{ .friend }}</a>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+      <span class="Footer-copy u-mt8">Copyright &copy; {{ .Site.Copyright }}, All Rights Reserved.</span>
     </div>
   </div>
-  <script src="{{ .Site.BaseURL }}assets/main.js"></script>
+</div>
+<script src="{{ .Site.BaseURL }}assets/vendors~main.js"></script>
+<script src="{{ .Site.BaseURL }}assets/main.js"></script>
 </body>
+
 </html>

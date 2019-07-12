@@ -1,17 +1,3 @@
-# Nightwhisper Hugo Theme
-
-This theme will be updated every so often to fix issues, update styles, or change layout.
-
-## Installation
-
-```
-cd your_site/
-mkdir themes
-cd themes
-git clone https://github.com/kstdnr/nightwhisper
-```
-See the [official Hugo themes documentation](http://gohugo.io/themes/installing) for more info.
-
 ## Usage
 
 This theme expects the following site layout.
@@ -104,7 +90,3 @@ PygmentsCodeFences = true
   url = "/about"
   weight = 5
 ```
-
-## License
-
-Open sourced under the [MIT license](https://github.com/kstdnr/nightwhisper/blob/source/LICENSE.md).

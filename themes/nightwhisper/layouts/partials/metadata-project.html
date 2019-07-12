@@ -6,9 +6,9 @@
   <li class="MetaData-item">
     <i class="fa fa-external-link" aria-hidden="true"></i>
     {{ with .Params.project_name }}
-      <a href="{{ $.Params.project_url }}">{{ $.Params.project_name }}</a>
+    <a href="{{ $.Params.project_url }}">{{ $.Params.project_name }}</a>
     {{ else }}
-      <a href="{{ $.Params.project_url }}">{{ $.Params.project_url }}</a>
+    <a href="{{ $.Params.project_url }}">{{ $.Params.project_url }}</a>
     {{ end }}
   </li>
 </ul>

@@ -4,7 +4,7 @@
   <div class="layout-widthDefault">
     {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
     {{ range $paginator.Pages }}
-      {{ .Render "post" }}
+    {{ .Render "post" }}
     {{ end }}
     {{ partial "pagination.html" $paginator }}
   </div>
