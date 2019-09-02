@@ -1,0 +1,17 @@
+<!-- {{ partial "header.html" . }}
+{{ partial "search.html" . }}
+<div role="main">
+  <div class="layout-widthDefault">
+    {{ partial "title.html" . }}
+    <ul class="Terms u-mt16 u-mb0">
+      {{ range $key, $value := .Data.Terms.ByCount }}
+      <li>
+        <a class="Terms-link" href="{{ $value.Name | urlize }}">{{ $value.Name }}</a>
+        <sup>{{ $value.Count }}</sup>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</div>
+
+{{ partial "footer.html" . }} -->

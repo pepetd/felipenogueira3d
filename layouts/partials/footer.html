@@ -1,0 +1,41 @@
+<footer class="footer" role="contentinfo">
+  <section class="container">
+    <ul class="footer__nav">
+      <li class="footer__nav-item">
+        <a class="footer__nav-link" href="#!" title="RSS">
+          <i class="fas fa-rss fa-fw"></i>
+          <span class="u-vh">RSS</span>
+        </a>
+      </li>
+      <li class="footer__nav-item">
+        <a class="footer__nav-link" href="#!" title="Archive">
+          <i class="fas fa-archive fa-fw"></i>
+          <span class="u-vh">Archive</span>
+        </a>
+      </li>
+    </ul>
+    <div class="footer__employers">
+      <h3 class="footer__heading">Places I've worked...</h3>
+      <ul class="footer__list">
+        {{- range $index, $employer := sort (where .Site.RegularPages "Section" "employers") "Params.weight" -}}
+        <li class="footer__item">
+          <a class="footer__link" href="{{- $employer.Params.website -}}" rel="nofollow noreferrer noopener"
+            target="_blank">{{- $employer.Params.name -}}</a>
+        </li>
+        {{- end -}}
+      </ul>
+    </div>
+    <div class="footer__friends">
+      <h3 class="footer__heading">People I know...</h3>
+      <ul class="footer__list">
+        {{- range $index, $friend := sort (where .Site.RegularPages "Section" "friends") "Params.weight" -}}
+        <li class="footer__item">
+          <a class="footer__link" href="{{- $friend.Params.website -}}" rel="nofollow noreferrer noopener"
+            target="_blank">{{- $friend.Params.name -}}</a>
+        </li>
+        {{- end -}}
+      </ul>
+    </div>
+    <p class="footer__copyright">{{ .Site.Params.Copyright | markdownify }}</p>
+  </section>
+</footer>

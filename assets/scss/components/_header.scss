@@ -1,0 +1,24 @@
+.header {
+  align-items: center;
+  background-color: $color-teal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1.2rem;
+
+  @media #{$bp-desktop} {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__branding {
+    display: inline-block;
+  }
+
+  &__logo {
+    height: 6.4rem;
+    margin: 0.8rem 0;
+    max-width: unset;
+    width: 6.4rem;
+  }
+}

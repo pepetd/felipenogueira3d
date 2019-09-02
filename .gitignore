@@ -1,2 +1,11 @@
-node_modules
+node_modules/
+data/manifest.json
+public/
+resources/
+dist/
+.cache/
+static/css
+static/js
+static/images
+static/uploads
 *.log

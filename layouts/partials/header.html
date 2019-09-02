@@ -1,0 +1,75 @@
+<header class="header" role="banner">
+  <a class="header__branding" href="/" title="Felipe Nogueira 3D">
+    <h1 class="u-vh">Felipe Nogueira 3D</h1>
+    <img alt="logo" class="header__logo" height="64"
+      src='{{- (index .Site.Data.manifest "images/logo.svg") | relURL -}}' width="64">
+  </a>
+  <ul class="site" role="navigation">
+    {{- range .Site.Menus.site -}}
+    <li class="site__item">
+      <a class="site__link" href="{{- .URL -}}" title="{{- .Name -}}">{{- .Name -}}</a>
+    </li>
+    {{- end -}}
+    <li class="site__item">
+      <a class="site__link" href="#!" title="Search">
+        <i class="fas fa-search fa-fw"></i>
+        <span class="u-vh">Search</span>
+      </a>
+    </li>
+  </ul>
+  <ul class="social">
+    {{- with .Site.Params.Social.Twitter -}}
+    <li class="social__item">
+      <a class="social__link" href="https://twitter.com/{{- . -}}" rel="nofollow noreferrer noopener" target="_blank"
+        title="Twitter">
+        <i class="fab fa-twitter fa-fw"></i>
+        <span class="u-vh">Twitter</span>
+      </a>
+    </li>
+    {{- end -}}
+    {{- with .Site.Params.Social.Github -}}
+    <li class="social__item">
+      <a class="social__link" href="https://github.com/{{- . -}}" rel="nofollow noreferrer noopener" target="_blank"
+        title="GitHub">
+        <i class="fab fa-github-alt fa-fw"></i>
+        <span class="u-vh">Github</span>
+      </a>
+    </li>
+    {{- end -}}
+    {{- with .Site.Params.Social.Youtube -}}
+    <li class="social__item">
+      <a class="social__link" href="https://www.youtube.com/channel/{{- . -}}" rel="nofollow noreferrer noopener"
+        target="_blank" title="YouTube">
+        <i class="fab fa-youtube fa-fw"></i>
+        <span class="u-vh">YouTube</span>
+      </a>
+    </li>
+    {{- end -}}
+    {{- with .Site.Params.Social.Vimeo -}}
+    <li class="social__item">
+      <a class="social__link" href="https://vimeo.com/{{- . -}}" rel="nofollow noreferrer noopener" target="_blank"
+        title="Vimeo">
+        <i class="fab fa-vimeo-v fa-fw"></i>
+        <span class="u-vh">Vimeo</span>
+      </a>
+    </li>
+    {{- end -}}
+    {{- with .Site.Params.Social.Linkedin -}}
+    <li class="social__item">
+      <a class="social__link" href="http://www.linkedin.com/in/{{- . -}}" rel="nofollow noreferrer noopener"
+        target="_blank" title="LinkedIn">
+        <i class="fab fa-linkedin-in fa-fw"></i>
+        <span class="u-vh">Linkedin</span>
+      </a>
+    </li>
+    {{- end -}}
+    {{- with .Site.Params.Social.Email -}}
+    <li class="social__item">
+      <a class="social__link" href="mailto:{{- . -}}" rel="nofollow noreferrer noopener" target="_blank" title="Email">
+        <i class="fas fa-envelope fa-fw"></i>
+        <span class="u-vh">Email</span>
+      </a>
+    </li>
+    {{- end -}}
+  </ul>
+</header>

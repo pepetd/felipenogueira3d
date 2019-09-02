@@ -1,0 +1,33 @@
+.site {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  margin-bottom: 0.8rem;
+  padding: 0;
+
+  @media #{$bp-desktop} {
+    margin-bottom: 0;
+  }
+
+  &__item {
+    display: inline-block;
+    list-style: none;
+
+    &:before {
+      color: $color-white-012;
+      content: '';
+      margin: 0 0.8rem;
+    }
+  }
+
+  &__link {
+    color: $color-white-070;
+    display: inline-block;
+
+    &:hover,
+    &:active {
+      color: $color-white-100;
+    }
+  }
+}

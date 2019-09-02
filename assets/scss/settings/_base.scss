@@ -1,0 +1,31 @@
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  background-color: $color-gray-100;
+  color: $color-black-087;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6rem;
+  height: 100%;
+  line-height: 1.75;
+  overflow-y: scroll;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+p {
+  margin: 1.6rem 0;
+}
+
+ul,
+ol {
+  margin: 1.6rem 0;
+  padding-left: 3.2rem;
+}

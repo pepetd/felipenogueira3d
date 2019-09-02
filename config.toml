@@ -1,72 +1,86 @@
 # hostname (and path) to the root eg. http://spf13.com/
-baseurl = "https://felipenogueira3d.com/"
+baseurl = "/"
 
 # Language
-languageCode = "en-us"
+languageCode = "en_US"
+
+# disable things from being generated
+disableKinds= ["RSS", "sitemap"]
 
 # Site title
 title = "PEPETD"
-
-# Theme to use (located in /themes/THEMENAME/)
-theme = "nightwhisper"
-
-# Copyright
-copyright = "2019 by felipenogueira3d.com"
 
 # Pagination
 paginate = 5
 paginatePath = "/page"
 
 # Enable Disqus integration
-disqusShortname = "felipenogueirablog" # felipenogueirablog
-
-# Default config format
-metaDataFormat = "yaml"
+# disqusShortname = "felipenogueirablog" # felipenogueirablog
 
 # Code highlighting options
 PygmentsCodeFences = true
-
-[permalinks]
-  posts = "/posts/:title/"
-  projects = "/projects/:title/"
-  pages = "/:title/"
 
 [taxonomies]
   tag = "tags"
   category = "categories"
 
+[permalinks]
+  tags = "/posts/tags/:title/"
+  categories = "/posts/categories/:title/"
+  posts = "/posts/:title/"
+#  projects = "/projects/:title/"
+#  pages = "/:title/"
+
 [params]
-  # description = "An site using the nightwhisper theme"
-  logo = "logo.svg"
-  linkedin = "http://www.linkedin.com/in/pepetd"
-  github = "https://github.com/pepetd"
-  email = "felipe@felipenogueira3d.com"
-  twitter = "https://twitter.com/pepetd3d"
-  vimeo = "https://vimeo.com/pepetd"
-  youtube = "https://www.youtube.com/user/TheDragoon"
+  domain = "https://felipenogueira3d.com"
+  title = "Felipe Nogueira 3D"
+  description = "Personal blog and project site of Felipe Nogueira."
+  keywords = ["3d", "technical", "artist", "game", "development"]
+  copyright = "&copy; 2019 Felipe Nogueira 3D"
+  cloudinary_url = ""
+
+  [params.social]
+    twitter = "pepetd3d"
+    github = "pepetd"
+    youtube = "TheDragoon"
+    vimeo = "pepetd"
+    linkedin = "pepetd"
+    email = "felipe@felipenogueira3d.com"
 
 # Site menu - internal links
-[[menu.site]]
-  name = "Blog"
-  url = "/"
-  weight = 1
-[[menu.site]]
-  name = "Projects"
-  url = "/projects"
-  weight = 2
-[[menu.site]]
-  name = "Development"
-  url = "/categories/development"
-  weight = 3
-[[menu.site]]
-  name = "Tutorials"
-  url = "/categories/tutorials"
-  weight = 4
-[[menu.site]]
-  name = "Demo Reel"
-  url = "/demo-reel"
-  weight = 5
-[[menu.site]]
-  name = "About"
-  url = "/about"
-  weight = 6
+[menu]
+  [[menu.site]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/posts"
+    weight = 1
+
+  [[menu.site]]
+    identifier = "development"
+    name = "Development"
+    url = "/posts/categories/development"
+    weight = 2
+
+  [[menu.site]]
+    identifier = "tutorials"
+    name = "Tutorials"
+    url = "/posts/categories/tutorials"
+    weight = 3
+
+  [[menu.site]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects"
+    weight = 4
+
+  [[menu.site]]
+    identifier = "demo-reel"
+    name = "Demo Reel"
+    url = "/demo-reel"
+    weight = 5
+
+  [[menu.site]]
+    identifier = "about"
+    name = "About"
+    url = "/about"
+    weight = 6

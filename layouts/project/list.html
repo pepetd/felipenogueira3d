@@ -1,0 +1,11 @@
+{{- define "main" -}}
+<section class="container">
+  {{- range (where .Site.RegularPages "Type" "project") -}}
+  <article class="article">
+    <h2 class="article__title"><a href="{{- .Permalink -}}">{{- .Title -}}</a></h2>
+    <p class="article__date">{{- .Date.Format "Monday, January 2 2006" -}}</p>
+    <a class="article__more" href="{{- .Permalink -}}">Read More</a>
+  </article>
+  {{- end -}}
+</section>
+{{- end -}}
