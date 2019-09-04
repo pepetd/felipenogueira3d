@@ -2,5 +2,5 @@
 {{ $sort := sort . }}
 {{ $links := apply $sort "partial" "post/category/link" "." }}
 {{ $clean := apply $links "chomp" "." }}
-{{ delimit $clean ", " }}
+<span>{{ delimit $clean ", " }}</span>
 {{ end }}

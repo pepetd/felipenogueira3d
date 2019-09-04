@@ -2,7 +2,7 @@
 title: The Future of 3DS Max
 date: 2013-09-09T12:26:26-07:00
 author: Anonymous
-description: Read the comments section of this post on Max Underground.
+summary: Read the comments section of this post on Max Underground.
 categories:
   - General
 tags:

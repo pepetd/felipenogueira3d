@@ -1,4 +1,5 @@
-.site {
+.site,
+.social {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -8,17 +9,14 @@
 
   @media #{$bp-desktop} {
     margin-bottom: 0;
+    .social {
+      margin-left: auto;
+    }
   }
 
   &__item {
-    display: inline-block;
     list-style: none;
-
-    &:before {
-      color: $color-white-012;
-      content: '';
-      margin: 0 0.8rem;
-    }
+    margin: 0 1.2rem;
   }
 
   &__link {
@@ -29,5 +27,11 @@
     &:active {
       color: $color-white-100;
     }
+  }
+}
+
+@media #{$bp-desktop} {
+  .social {
+    margin-left: auto;
   }
 }

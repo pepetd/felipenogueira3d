@@ -5,10 +5,7 @@ baseurl = "/"
 languageCode = "en_US"
 
 # disable things from being generated
-disableKinds= ["RSS", "sitemap"]
-
-# Site title
-title = "PEPETD"
+disableKinds= ["sitemap"]
 
 # Pagination
 paginate = 5
@@ -27,9 +24,9 @@ PygmentsCodeFences = true
 [permalinks]
   tags = "/posts/tags/:title/"
   categories = "/posts/categories/:title/"
-  posts = "/posts/:title/"
-#  projects = "/projects/:title/"
-#  pages = "/:title/"
+# posts = "/posts/:title/"
+# projects = "/projects/:title/"
+# pages = "/:title/"
 
 [params]
   domain = "https://felipenogueira3d.com"
@@ -84,3 +81,9 @@ PygmentsCodeFences = true
     name = "About"
     url = "/about"
     weight = 6
+
+  [[menu.footer]]
+    identifier = "archive"
+    name = "Archive"
+    url = "/archive"
+    weight = 1

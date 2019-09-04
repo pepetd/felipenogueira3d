@@ -1,0 +1,8 @@
+<img class='{{- or (.Get "align") (.Get 2) }} lazy' src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+  data-src='{{- $.Site.Params.cloudinary_url -}}/w_300,h_300,c_thumb,f_auto/{{- or (.Get "src") (.Get 0) -}}'
+  alt='{{- or (.Get "alt") (.Get 1) -}}'>
+<noscript>
+  <img class='{{- or (.Get "align") (.Get 2) -}}'
+    src='{{- $.Site.Params.cloudinary_url -}}/w_300,h_300,c_thumb,f_auto/{{- or (.Get "src") (.Get 0) -}}'
+    alt='{{- or (.Get "alt") (.Get 1) -}}'>
+</noscript>

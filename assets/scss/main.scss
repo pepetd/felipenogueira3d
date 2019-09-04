@@ -6,13 +6,14 @@
 @import './settings/helpers';
 
 /* Everything Else */
+@import './components/embed-container';
 @import './components/container';
 @import './components/header';
 @import './components/site';
-@import './components/social';
 @import './components/article';
+@import './components/heading';
 @import './components/markdown-text';
 @import './components/pagination';
-@import './components/demo-reel';
-@import './components/about';
 @import './components/footer';
+@import './components/details';
+@import './components/archive';

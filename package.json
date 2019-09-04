@@ -13,6 +13,10 @@
     "build:webpack": "webpack --mode production --display-entrypoints false --hide-modules true",
     "clean": "rm -rf public resources static/css static/js static/images data/manifest.json"
   },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "lunr": "^2.3.6"
+  },
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",

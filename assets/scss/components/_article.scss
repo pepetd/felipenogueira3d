@@ -1,40 +1,8 @@
 .article {
-  margin-top: 4.8rem;
+  margin-top: 6.4rem;
 
   &__title {
     font-weight: 400;
-
-    &--fancy {
-      position: relative;
-      text-align: center;
-      text-transform: capitalize;
-
-      &:before,
-      &:after {
-        background-color: $color-black-012;
-        content: '';
-        height: 0.1rem;
-        position: absolute;
-        top: 50%;
-        width: 50%;
-      }
-
-      &:before {
-        left: 0;
-      }
-
-      &:after {
-        right: 0;
-      }
-
-      &-text {
-        background-color: $color-gray-100;
-        display: inline-block;
-        padding: 0 0.8rem;
-        position: relative;
-        z-index: 1;
-      }
-    }
   }
 
   &__link {
@@ -44,41 +12,6 @@
     &:hover,
     &:active {
       color: $color-red;
-    }
-  }
-
-  &__info {
-    color: $color-black-054;
-    margin: 0;
-    padding: 0;
-
-    &--fancy {
-      text-align: center;
-
-      &-item {
-        display: block;
-      }
-    }
-
-    &-item {
-      display: inline;
-      list-style: none;
-      margin-left: 0.8rem;
-
-      &:first-of-type {
-        margin-left: 0;
-      }
-
-      svg {
-        margin-right: 0.8rem;
-      }
-    }
-
-    &-link {
-      &:hover,
-      &:active {
-        color: $color-red;
-      }
     }
   }
 }

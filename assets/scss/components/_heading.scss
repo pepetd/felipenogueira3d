@@ -1,0 +1,33 @@
+.heading {
+  font-weight: 400;
+  margin-top: 6.4rem;
+  position: relative;
+  text-align: center;
+  text-transform: capitalize;
+
+  &:before,
+  &:after {
+    background-color: $color-black-012;
+    content: '';
+    height: 0.1rem;
+    position: absolute;
+    top: 50%;
+    width: 50%;
+  }
+
+  &:before {
+    left: 0;
+  }
+
+  &:after {
+    right: 0;
+  }
+
+  &__text {
+    background-color: $color-gray-100;
+    display: inline-block;
+    padding: 0 0.8rem;
+    position: relative;
+    z-index: 1;
+  }
+}

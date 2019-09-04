@@ -11,7 +11,7 @@
     </li>
     {{- end -}}
     <li class="site__item">
-      <a class="site__link" href="#!" title="Search">
+      <a class="site__link" href="#!" id="search-icon" title="Search">
         <i class="fas fa-search fa-fw"></i>
         <span class="u-vh">Search</span>
       </a>
@@ -72,4 +72,8 @@
     </li>
     {{- end -}}
   </ul>
+  <div class="Search">
+    <input id="search-input" class="Search-input" type="text" placeholder="Search" />
+    <div id="search-results" class="Search-results"></div>
+  </div>
 </header>
