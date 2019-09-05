@@ -2,6 +2,7 @@
 title: Yahoo Using Your Yahoo
 author: Anonymous
 date: 2017-02-19T12:48:33-07:00
+image: https://placehold.it/1280x720
 categories:
   - Uncategorized
 tags:

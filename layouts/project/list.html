@@ -1,11 +1,15 @@
 {{- define "main" -}}
 <section class="container">
+  <h2 class="heading">
+    <span class="heading__text">{{ .Title }}</span>
+  </h2>
+</section>
+<section class="projects">
   {{- range (where .Site.RegularPages "Type" "project") -}}
-  <article class="article">
-    <h2 class="article__title"><a href="{{- .Permalink -}}">{{- .Title -}}</a></h2>
-    <p class="article__date">{{- .Date.Format "Monday, January 2 2006" -}}</p>
-    <a class="article__more" href="{{- .Permalink -}}">Read More</a>
-  </article>
+  <a class="projects__link" href="{{- .Permalink -}}" title="{{- .Title -}}">
+    <span class="projects__title">{{- .Title -}}</span>
+    <img class="projects__image" src="{{- .Params.image -}}" alt="{{- .Title -}}">
+  </a>
   {{- end -}}
 </section>
 {{- end -}}

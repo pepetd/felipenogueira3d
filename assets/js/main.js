@@ -94,9 +94,10 @@ dom.watch();
 // Lunr search
 (() => {
   const searchIcon = document.getElementById('search-icon');
-  const searchInput = document.getElementById('search-input');
-  const searchResults = document.getElementById('search-results');
-
+  const search = document.querySelector('.search');
+  const searchInput = search.querySelector('.search__input');
+  const searchClose = search.querySelector('.search__close');
+  const searchResults = search.querySelector('.search__results');
   let lunrIndex, documents;
 
   axios
@@ -106,10 +107,10 @@ dom.watch();
       documents = json;
       return (lunrIndex = lunr(function() {
         this.field('title', { boost: 10 });
-        this.field('contents', { boost: 5 });
+        this.field('content', { boost: 5 });
         this.field('tags', { boost: 5 });
         this.field('categories', { boost: 5 });
-        this.ref('permalink');
+        this.ref('uri');
         for (let i = 0; i < documents.length; i++) {
           this.add(documents[i]);
         }
@@ -121,8 +122,8 @@ dom.watch();
       );
     });
 
-  const search = (query) => {
-    return lunrIndex.search(query).map((result) => {
+  const executeQuery = (query) => {
+    return lunrIndex.search(`${query}~1`).map((result) => {
       return documents.filter((page) => {
         return page.uri === result.ref;
       })[0];
@@ -132,50 +133,54 @@ dom.watch();
   const renderResults = (results) => {
     if (!results.length)
       return (searchResults.innerHTML = `
-        <ul class="Search-list">
-          <li class="Search-item">
-            <a class="Search-link">No Results...</a>
-          </li>
+        <ul class="search__list">
+          <li class="search__item" style="padding: 1.2rem;">No Results...</li>
         </ul>
       `);
     let formattedResults = '';
     results.slice(0, 10).forEach((result) => {
       formattedResults += `
-        <li class="Search-item">
-          <a class="Search-link" href="${result.uri}" title="${result.title}">${result.title}</a>
+        <li class="search__item">
+          <a class="search__link" href="${result.uri}" title="${result.title}">${result.title}</a>
         </li>
       `;
     });
-    return (searchResults.innerHTML = `<ul class="Search-list">${formattedResults}</ul>`);
+    return (searchResults.innerHTML = `<ul class="search__list">${formattedResults}</ul>`);
   };
 
-  searchInput.addEventListener('keyup', (e) => {
+  const doSearch = (e) => {
     searchResults.innerHTML = '';
     let query = e.target.value;
     if (query.length < 2) return;
-    let results = search(query);
+    let results = executeQuery(query);
     renderResults(results);
-  });
+  };
+  searchInput.addEventListener('keyup', doSearch);
 
-  document.addEventListener('keyup', (e) => {
-    if (
-      e.which === 27 &&
-      searchInput.classList.contains('Search-input--active')
-    ) {
-      searchInput.classList.remove('Search-input--active');
-      searchInput.value = '';
-      searchResults.innerHTML = '';
-    }
-  });
-
-  searchIcon.addEventListener('click', (e) => {
-    if (!searchInput.classList.contains('Search-input--active')) {
-      searchInput.classList.add('Search-input--active');
+  const toggleSearch = (e) => {
+    if (e.which !== 13 && e.which !== 1) return;
+    const open = search.classList.contains('search--open');
+    if (!open) {
+      search.classList.add('search--open');
       searchInput.focus();
     } else {
-      searchInput.classList.remove('Search-input--active');
+      search.classList.remove('search--open');
       searchInput.value = '';
-      searchResults.innerHTML = '';
+      searchResults.innerHTML = null;
+      searchIcon.focus();
     }
-  });
+  };
+  searchIcon.addEventListener('click', toggleSearch);
+  searchClose.addEventListener('click', toggleSearch);
+
+  const closeSearch = (e) => {
+    const open = search.classList.contains('search--open');
+    if (e.which === 27 && open) {
+      search.classList.remove('search--open');
+      searchInput.value = '';
+      searchResults.innerHTML = null;
+      searchIcon.focus();
+    }
+  };
+  document.addEventListener('keydown', closeSearch);
 })();

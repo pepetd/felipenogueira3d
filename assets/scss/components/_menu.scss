@@ -1,5 +1,4 @@
-.site,
-.social {
+.menu {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -9,7 +8,8 @@
 
   @media #{$bp-desktop} {
     margin-bottom: 0;
-    .social {
+
+    &--social {
       margin-left: auto;
     }
   }
@@ -27,11 +27,5 @@
     &:active {
       color: $color-white-100;
     }
-  }
-}
-
-@media #{$bp-desktop} {
-  .social {
-    margin-left: auto;
   }
 }
