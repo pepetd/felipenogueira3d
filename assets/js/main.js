@@ -1,3 +1,4 @@
+require('intersection-observer');
 import { library, dom } from '@fortawesome/fontawesome-svg-core';
 import {
   faTwitter,
@@ -46,49 +47,39 @@ library.add(
 
 dom.watch();
 
+// Target blank external links
+(() => {
+  const links = Array.from(document.getElementsByTagName('a'));
+  links.map((link) => {
+    if (link.hostname && link.hostname !== location.hostname) {
+      link.setAttribute('target', '_blank');
+      link.setAttribute('rel', 'nofollow noreferrer noopener');
+    }
+  });
+})();
+
 // Lazy load images
 (() => {
-  let lazy = [];
+  document.addEventListener('DOMContentLoaded', () => {
+    var lazyImages = [].slice.call(document.querySelectorAll('img.lazy'));
 
-  const setLazy = () => {
-    lazy = document.getElementsByClassName('lazy');
-  };
-
-  const lazyLoad = () => {
-    for (let i = 0; i < lazy.length; i++) {
-      if (isInViewport(lazy[i])) {
-        if (lazy[i].getAttribute('data-src')) {
-          lazy[i].src = lazy[i].getAttribute('data-src');
-          lazy[i].removeAttribute('data-src');
-        }
-      }
+    if ('IntersectionObserver' in window) {
+      let lazyImageObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            let lazyImage = entry.target;
+            lazyImage.src = lazyImage.dataset.src;
+            // lazyImage.srcset = lazyImage.dataset.srcset;
+            lazyImage.classList.remove('lazy');
+            lazyImageObserver.unobserve(lazyImage);
+          }
+        });
+      });
+      lazyImages.forEach((lazyImage) => lazyImageObserver.observe(lazyImage));
+    } else {
+      // Possibly fall back to a more compatible method here
     }
-    cleanLazy();
-  };
-
-  const cleanLazy = () => {
-    lazy = Array.prototype.filter.call(lazy, (l) => l.getAttribute('data-src'));
-  };
-
-  const isInViewport = (el) => {
-    let rect = el.getBoundingClientRect();
-
-    return (
-      rect.bottom >= 0 &&
-      rect.top <= (window.innerHeight || document.documentElement.clientHeight)
-    );
-  };
-
-  const registerListener = (e, f) => {
-    window.addEventListener
-      ? window.addEventListener(e, f)
-      : window.attachEvent('on' + e, f);
-  };
-
-  registerListener('load', setLazy);
-  registerListener('load', lazyLoad);
-  registerListener('scroll', lazyLoad);
-  registerListener('resize', lazyLoad);
+  });
 })();
 
 // Lunr search

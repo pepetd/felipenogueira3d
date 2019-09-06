@@ -8,7 +8,13 @@
   {{- range (where .Site.RegularPages "Type" "project") -}}
   <a class="projects__link" href="{{- .Permalink -}}" title="{{- .Title -}}">
     <span class="projects__title">{{- .Title -}}</span>
-    <img class="projects__image" src="{{- .Params.image -}}" alt="{{- .Title -}}">
+    <img class="projects__image lazy" style="display: block; margin: 0 auto;"
+      src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{- .Params.image -}}"
+      alt="{{ .Title }}">
+    <noscript>
+      <img class="projects__image" style="display: block; margin: 0 auto;" src="{{- .Params.image -}}"
+        alt="{{ .Title }}">
+    </noscript>
   </a>
   {{- end -}}
 </section>

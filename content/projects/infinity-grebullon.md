@@ -2,7 +2,7 @@
 title: Infinity Grebullon
 author: Anonymous
 date: 2017-02-19T12:48:33-07:00
-image: https://placehold.it/1280x720
+image: https://source.unsplash.com/random/?tech,lamp
 categories:
   - Uncategorized
 tags:
@@ -12,4 +12,4 @@ layout: single
 draft: false
 ---
 
-<iframe src="https://player.vimeo.com/video/31982596" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+{{< vimeo "31982596" >}}

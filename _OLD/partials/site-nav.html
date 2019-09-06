@@ -1,9 +1,0 @@
-<div class="SiteNav">
-  <ul class="SiteNav-links" role="navigation" aria-label="site navigation">
-    {{ range .Site.Menus.site.ByWeight }}
-    <li class="SiteNav-item">
-      <a class="SiteNav-link" href="{{ .URL }}" title="{{ .Name }}">{{ .Name }}</a>
-    </li>
-    {{ end }}
-  </ul>
-</div>

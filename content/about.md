@@ -4,7 +4,7 @@ type: about
 layout: single
 ---
 
-![](/uploads/2017/02/21/aboutmeop.jpg)
+{{< image "https://placehold.it/1280x720" "Me" "right" >}}
 
 My name is Felipe Nogueira. I am a Character TD/Pipeline TD/Technical Artist in the computer graphics industry. I am a graduate of the Multimedia 3D Computer Animation, diploma program, and 3D for Production: gaming and entertainment , post-graduate program, from Humber College in Toronto, Ontario.
 

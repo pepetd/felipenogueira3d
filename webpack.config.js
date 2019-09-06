@@ -15,6 +15,7 @@ module.exports = (env, argv) => {
     entry: {
       main: ['./assets/js/main.js', './assets/scss/main.scss'],
       images: './assets/images/index.js',
+      notfound: './assets/scss/notfound.scss',
     },
     output: {
       filename: devMode ? 'js/[name].js' : 'js/[name].[chunkhash:8].js',
