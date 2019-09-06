@@ -6,11 +6,11 @@
   </a>
   <ul class="menu" role="navigation">
     {{- range .Site.Menus.site -}}
-    <li class="menu__item">
+    <li class="menu__item" role="presentation">
       <a class="menu__link" href="{{- .URL -}}" title="{{- .Name -}}">{{- .Name -}}</a>
     </li>
     {{- end -}}
-    <li class="menu__item">
+    <li class="menu__item" role="presentation">
       <a class="menu__link" href="#!" id="search-icon" role="button" title="Search">
         <i class="fas fa-search fa-fw"></i>
         <span class="u-vh">Search</span>
