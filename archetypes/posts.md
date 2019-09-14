@@ -1,6 +1,5 @@
 ---
 title: {{ replace .Name "-" " " | title }}
-author: Anonymous
 summary:
 date: {{ .Date }}
 categories:

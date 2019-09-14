@@ -15,7 +15,7 @@ paginatePath = "/page"
 # disqusShortname = "felipenogueirablog" # felipenogueirablog
 
 # Code highlighting options
-PygmentsCodeFences = true
+pygmentsCodeFences = true
 
 [taxonomies]
   tag = "tags"
@@ -24,9 +24,6 @@ PygmentsCodeFences = true
 [permalinks]
   tags = "/posts/tags/:title/"
   categories = "/posts/categories/:title/"
-# posts = "/posts/:title/"
-# projects = "/projects/:title/"
-# pages = "/:title/"
 
 [params]
   domain = "https://felipenogueira3d.com"
@@ -34,7 +31,7 @@ PygmentsCodeFences = true
   description = "Personal blog and project site of Felipe Nogueira."
   keywords = ["3d", "technical", "artist", "game", "development"]
   copyright = "&copy; 2019 Felipe Nogueira 3D"
-  cloudinary_url = ""
+  cloudinary_url = "https://res.cloudinary.com/felipenogueira3d-cloud/image/upload"
 
   [params.social]
     twitter = "pepetd3d"

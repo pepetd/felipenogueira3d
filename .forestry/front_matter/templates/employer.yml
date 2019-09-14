@@ -1,0 +1,46 @@
+---
+label: Employer
+hide_body: true
+display_field: name
+fields:
+- type: text
+  name: name
+  label: Name
+  config:
+    required: true
+- type: text
+  name: website
+  label: Website
+  config:
+    required: true
+- type: number
+  name: weight
+  label: Weight
+  description: Weight affects the ordering of content; low (first) to high (last).
+  config:
+    required: true
+    min: '1'
+    step: '1'
+- type: text
+  name: type
+  label: Type
+  hidden: true
+  config:
+    required: true
+  default: employer
+- type: text
+  name: layout
+  label: Layout
+  hidden: true
+  config:
+    required: true
+  default: single
+pages:
+- content/employers/igloo-vfx.md
+- content/employers/ubisoft-toronto.md
+- content/employers/toonbox-entertainment.md
+- content/employers/tendril-studios.md
+- content/employers/house-of-cool-studios.md
+- content/employers/hatch-studios.md
+- content/employers/big-huge-games.md
+- content/employers/bethesda-softworks.md

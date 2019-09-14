@@ -1,15 +1,13 @@
 ---
 title: Sasktel Expressions
-author: Anonymous
-date: 2017-02-19T12:48:33-07:00
-image: https://source.unsplash.com/random/?tech,pass
+date: 2017-02-19T19:48:33.000+00:00
+image: "/v1568430863/sasktelexpressions_zsuvvo.jpg"
 categories:
-  - Uncategorized
+- Uncategorized
 tags:
-  - Project
+- Project
 type: project
 layout: single
-draft: false
----
 
+---
 {{< vimeo "32025304" >}}

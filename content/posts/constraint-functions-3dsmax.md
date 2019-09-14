@@ -1,20 +1,20 @@
 ---
 title: Constraint Functions - 3DS Max
-date: 2015-03-22T12:28:09-07:00
-author: Anonymous
-summary: In the past years I started creating my own library of functions and scripts that would automate a lot of the processes that I often use when rigging characters to speed up the rigging process even more.
+date: 2015-03-22T19:28:09.000+00:00
+summary: In the past years I started creating my own library of functions and scripts
+  that would automate a lot of the processes that I often use when rigging characters
+  to speed up the rigging process even more.
 categories:
-  - Development
+- Development
 tags:
-  - 3DSMax
-  - Development
-  - MaxScript
-  - Snippets
+- 3DSMax
+- Development
+- MaxScript
+- Snippets
 type: post
 layout: single
-draft: false
----
 
+---
 In the past years I started creating my own library of functions and scripts that would automate a lot of the processes that I often use when rigging characters to speed up the rigging process even more.
 
 I have so many rigging functions that one day I realized I could create an entire humanoid rig in a matter of minutes by using all these functions as long as I had a skeleton created.

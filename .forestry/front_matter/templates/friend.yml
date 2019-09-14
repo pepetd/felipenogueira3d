@@ -1,0 +1,50 @@
+---
+label: Friend
+hide_body: true
+display_field: name
+fields:
+- type: text
+  name: name
+  label: Name
+  config:
+    required: true
+- type: text
+  name: website
+  label: Website
+  hidden: false
+  config:
+    required: true
+- type: number
+  name: weight
+  label: Weight
+  description: Weight affects the ordering of content; low (first) to high (last).
+  config:
+    required: true
+    min: '1'
+    step: '1'
+- type: text
+  name: type
+  label: Type
+  hidden: true
+  config:
+    required: true
+  default: friend
+- type: text
+  name: layout
+  label: Layout
+  hidden: true
+  config:
+    required: true
+  default: single
+pages:
+- content/friends/paul-neale.md
+- content/friends/michelle-ryan.md
+- content/friends/matt-lewis.md
+- content/friends/mathieson-facer.md
+- content/friends/joel-lelievre.md
+- content/friends/jason-stalker.md
+- content/friends/jason-labbe.md
+- content/friends/felix-joleanes.md
+- content/friends/eric-d-lagare.md
+- content/friends/chad-vernon.md
+- content/friends/borislav-bobo-petrov.md

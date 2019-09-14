@@ -1,4 +1,0 @@
----
-type: home
-layout: list
----

@@ -1,19 +1,20 @@
 ---
 title: Find Verts Weighted to Bone Function
-date: 2015-03-23T12:31:28-07:00
-author: Anonymous
-summary: Here is a little function I wrote that will go through all selected meshes and find all the vertices weighted to a given bone. I had to write this to find all the meshes that had a specific bone in their skin mod, but not just that! I needed to know which of those meshes had verts weighted to this specific bone.
+date: 2015-03-23T19:31:28.000+00:00
+summary: Here is a little function I wrote that will go through all selected meshes
+  and find all the vertices weighted to a given bone. I had to write this to find
+  all the meshes that had a specific bone in their skin mod, but not just that! I
+  needed to know which of those meshes had verts weighted to this specific bone.
 categories:
-  - Tutorials
+- Tutorials
 tags:
-  - 3DSMax
-  - MaxScripts
-  - Scripts
+- 3DSMax
+- MaxScripts
+- Scripts
 type: post
 layout: single
-draft: false
----
 
+---
 Here is a little function I wrote that will go through all selected meshes and find all the vertices weighted to a given bone. I had to write this to find all the meshes that had a specific bone in their skin mod, but not just that! I needed to know which of those meshes had verts weighted to this specific bone.
 
 The main task was to remove the influence of that bone from all meshes not necessarily remove the bone as the engine export strips out any bone that has no vertices weighted to it.
