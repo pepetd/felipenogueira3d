@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on </title>
+    <link>//localhost:8080/categories/</link>
+    <description>Recent content in Categories on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en_US</language>
+    <lastBuildDate>Sun, 19 Feb 2017 19:48:33 +0000</lastBuildDate>
+    
+	<atom:link href="//localhost:8080/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Uncategorized</title>
+      <link>//localhost:8080/posts/categories/uncategorized/</link>
+      <pubDate>Sun, 19 Feb 2017 19:48:33 +0000</pubDate>
+      
+      <guid>//localhost:8080/posts/categories/uncategorized/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>//localhost:8080/posts/categories/development/</link>
+      <pubDate>Mon, 23 Mar 2015 19:34:20 +0000</pubDate>
+      
+      <guid>//localhost:8080/posts/categories/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorials</title>
+      <link>//localhost:8080/posts/categories/tutorials/</link>
+      <pubDate>Mon, 23 Mar 2015 19:31:28 +0000</pubDate>
+      
+      <guid>//localhost:8080/posts/categories/tutorials/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>General</title>
+      <link>//localhost:8080/posts/categories/general/</link>
+      <pubDate>Mon, 09 Sep 2013 19:26:26 +0000</pubDate>
+      
+      <guid>//localhost:8080/posts/categories/general/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

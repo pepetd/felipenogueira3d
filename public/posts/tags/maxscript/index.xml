@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MaxScript on </title>
+    <link>//localhost:8080/posts/tags/maxscript/</link>
+    <description>Recent content in MaxScript on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en_US</language>
+    <lastBuildDate>Sun, 22 Mar 2015 19:28:09 +0000</lastBuildDate>
+    
+	<atom:link href="//localhost:8080/posts/tags/maxscript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Constraint Functions - 3DS Max</title>
+      <link>//localhost:8080/posts/constraint-functions-3dsmax/</link>
+      <pubDate>Sun, 22 Mar 2015 19:28:09 +0000</pubDate>
+      
+      <guid>//localhost:8080/posts/constraint-functions-3dsmax/</guid>
+      <description>In the past years I started creating my own library of functions and scripts that would automate a lot of the processes that I often use when rigging characters to speed up the rigging process even more.</description>
+    </item>
+    
+  </channel>
+</rss>

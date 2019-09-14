@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>General on </title>
+    <link>//localhost:8080/posts/categories/general/</link>
+    <description>Recent content in General on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en_US</language>
+    <lastBuildDate>Mon, 09 Sep 2013 19:26:26 +0000</lastBuildDate>
+    
+	<atom:link href="//localhost:8080/posts/categories/general/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Future of 3DS Max</title>
+      <link>//localhost:8080/posts/the-future-of-3ds-max/</link>
+      <pubDate>Mon, 09 Sep 2013 19:26:26 +0000</pubDate>
+      
+      <guid>//localhost:8080/posts/the-future-of-3ds-max/</guid>
+      <description>Read the comments section of this post on Max Underground.</description>
+    </item>
+    
+  </channel>
+</rss>

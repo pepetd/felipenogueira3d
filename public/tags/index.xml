@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on </title>
+    <link>//localhost:8080/tags/</link>
+    <description>Recent content in Tags on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en_US</language>
+    <lastBuildDate>Sun, 19 Feb 2017 19:48:33 +0000</lastBuildDate>
+    
+	<atom:link href="//localhost:8080/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Project</title>
+      <link>//localhost:8080/posts/tags/project/</link>
+      <pubDate>Sun, 19 Feb 2017 19:48:33 +0000</pubDate>
+      
+      <guid>//localhost:8080/posts/tags/project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>//localhost:8080/posts/tags/development/</link>
+      <pubDate>Mon, 23 Mar 2015 19:34:20 +0000</pubDate>
+      
+      <guid>//localhost:8080/posts/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maya</title>
+      <link>//localhost:8080/posts/tags/maya/</link>
+      <pubDate>Mon, 23 Mar 2015 19:34:20 +0000</pubDate>
+      
+      <guid>//localhost:8080/posts/tags/maya/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>//localhost:8080/posts/tags/python/</link>
+      <pubDate>Mon, 23 Mar 2015 19:34:20 +0000</pubDate>
+      
+      <guid>//localhost:8080/posts/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Snippets</title>
+      <link>//localhost:8080/posts/tags/snippets/</link>
+      <pubDate>Mon, 23 Mar 2015 19:34:20 +0000</pubDate>
+      
+      <guid>//localhost:8080/posts/tags/snippets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3DSMax</title>
+      <link>//localhost:8080/posts/tags/3dsmax/</link>
+      <pubDate>Mon, 23 Mar 2015 19:31:28 +0000</pubDate>
+      
+      <guid>//localhost:8080/posts/tags/3dsmax/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MaxScripts</title>
+      <link>//localhost:8080/posts/tags/maxscripts/</link>
+      <pubDate>Mon, 23 Mar 2015 19:31:28 +0000</pubDate>
+      
+      <guid>//localhost:8080/posts/tags/maxscripts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scripts</title>
+      <link>//localhost:8080/posts/tags/scripts/</link>
+      <pubDate>Mon, 23 Mar 2015 19:31:28 +0000</pubDate>
+      
+      <guid>//localhost:8080/posts/tags/scripts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MaxScript</title>
+      <link>//localhost:8080/posts/tags/maxscript/</link>
+      <pubDate>Sun, 22 Mar 2015 19:28:09 +0000</pubDate>
+      
+      <guid>//localhost:8080/posts/tags/maxscript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Autodesk</title>
+      <link>//localhost:8080/posts/tags/autodesk/</link>
+      <pubDate>Mon, 09 Sep 2013 19:26:26 +0000</pubDate>
+      
+      <guid>//localhost:8080/posts/tags/autodesk/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

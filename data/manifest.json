@@ -1,0 +1,8 @@
+{
+  "images.js": "/js/images.js",
+  "main.css": "/css/main.css",
+  "main.js": "/js/main.js",
+  "notfound.css": "/css/notfound.css",
+  "vendors~main.js": "/js/vendors~main.js",
+  "images/logo.svg": "/images/logo.svg"
+}

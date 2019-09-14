@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Employers on </title>
+    <link>//localhost:8080/employers/</link>
+    <description>Recent content in Employers on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en_US</language>
+    
+	<atom:link href="//localhost:8080/employers/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>//localhost:8080/employers/bethesda-softworks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:8080/employers/bethesda-softworks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:8080/employers/big-huge-games/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:8080/employers/big-huge-games/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:8080/employers/hatch-studios/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:8080/employers/hatch-studios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:8080/employers/house-of-cool-studios/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:8080/employers/house-of-cool-studios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:8080/employers/igloo-vfx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:8080/employers/igloo-vfx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:8080/employers/tendril-studios/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:8080/employers/tendril-studios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:8080/employers/toonbox-entertainment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:8080/employers/toonbox-entertainment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:8080/employers/ubisoft-toronto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:8080/employers/ubisoft-toronto/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

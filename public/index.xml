@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>//localhost:8080/</link>
+    <description>Recent content on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en_US</language>
+    <lastBuildDate>Sun, 19 Feb 2017 19:48:33 +0000</lastBuildDate>
+    
+	<atom:link href="//localhost:8080/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>//localhost:8080/employers/bethesda-softworks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:8080/employers/bethesda-softworks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:8080/friends/borislav-bobo-petrov/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:8080/friends/borislav-bobo-petrov/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:8080/employers/big-huge-games/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:8080/employers/big-huge-games/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:8080/friends/chad-vernon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:8080/friends/chad-vernon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:8080/employers/hatch-studios/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:8080/employers/hatch-studios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:8080/friends/eric-d-lagare/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:8080/friends/eric-d-lagare/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:8080/employers/house-of-cool-studios/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:8080/employers/house-of-cool-studios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:8080/friends/felix-joleanes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:8080/friends/felix-joleanes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:8080/employers/igloo-vfx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:8080/employers/igloo-vfx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:8080/friends/jason-labbe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:8080/friends/jason-labbe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:8080/employers/tendril-studios/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:8080/employers/tendril-studios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:8080/friends/jason-stalker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:8080/friends/jason-stalker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:8080/employers/toonbox-entertainment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:8080/employers/toonbox-entertainment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:8080/friends/joel-lelievre/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:8080/friends/joel-lelievre/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:8080/employers/ubisoft-toronto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:8080/employers/ubisoft-toronto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:8080/friends/mathieson-facer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:8080/friends/mathieson-facer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:8080/friends/matt-lewis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:8080/friends/matt-lewis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:8080/friends/michelle-ryan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:8080/friends/michelle-ryan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:8080/friends/paul-neale/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:8080/friends/paul-neale/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Brawny Lean on Me</title>
+      <link>//localhost:8080/projects/brawny-lean-on-me/</link>
+      <pubDate>Sun, 19 Feb 2017 19:48:33 +0000</pubDate>
+      
+      <guid>//localhost:8080/projects/brawny-lean-on-me/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>ClubHouse Mother&#39;s Little Helper</title>
+      <link>//localhost:8080/projects/clubhouse-mothers-little-helper/</link>
+      <pubDate>Sun, 19 Feb 2017 19:48:33 +0000</pubDate>
+      
+      <guid>//localhost:8080/projects/clubhouse-mothers-little-helper/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>Colgate 360 Activeflex</title>
+      <link>//localhost:8080/projects/colgate-360-activeflex/</link>
+      <pubDate>Sun, 19 Feb 2017 19:48:33 +0000</pubDate>
+      
+      <guid>//localhost:8080/projects/colgate-360-activeflex/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>Garanimals Mix Match Save</title>
+      <link>//localhost:8080/projects/garanimals-mix-match-save/</link>
+      <pubDate>Sun, 19 Feb 2017 19:48:33 +0000</pubDate>
+      
+      <guid>//localhost:8080/projects/garanimals-mix-match-save/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>Infinity Grebullon</title>
+      <link>//localhost:8080/projects/infinity-grebullon/</link>
+      <pubDate>Sun, 19 Feb 2017 19:48:33 +0000</pubDate>
+      
+      <guid>//localhost:8080/projects/infinity-grebullon/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>Infinity Grebullon Outtake Door</title>
+      <link>//localhost:8080/projects/infinity-grebullon-outtake-door/</link>
+      <pubDate>Sun, 19 Feb 2017 19:48:33 +0000</pubDate>
+      
+      <guid>//localhost:8080/projects/infinity-grebullon-outtake-door/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>Infinity Remulak</title>
+      <link>//localhost:8080/projects/infinity-remulak/</link>
+      <pubDate>Sun, 19 Feb 2017 19:48:33 +0000</pubDate>
+      
+      <guid>//localhost:8080/projects/infinity-remulak/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>Invigor Live for Invigor</title>
+      <link>//localhost:8080/projects/invigor-live-for-invigor/</link>
+      <pubDate>Sun, 19 Feb 2017 19:48:33 +0000</pubDate>
+      
+      <guid>//localhost:8080/projects/invigor-live-for-invigor/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>Koei Warriors Legends of Troy</title>
+      <link>//localhost:8080/projects/koei-warriors-legends-of-troy/</link>
+      <pubDate>Sun, 19 Feb 2017 19:48:33 +0000</pubDate>
+      
+      <guid>//localhost:8080/projects/koei-warriors-legends-of-troy/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>RedRover Death Dodge</title>
+      <link>//localhost:8080/projects/redrover-death-dodge/</link>
+      <pubDate>Sun, 19 Feb 2017 19:48:33 +0000</pubDate>
+      
+      <guid>//localhost:8080/projects/redrover-death-dodge/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>Robinhood County Fair</title>
+      <link>//localhost:8080/projects/robinhood-county-fair/</link>
+      <pubDate>Sun, 19 Feb 2017 19:48:33 +0000</pubDate>
+      
+      <guid>//localhost:8080/projects/robinhood-county-fair/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>Sasktel Bundles</title>
+      <link>//localhost:8080/projects/sasktel-bundles/</link>
+      <pubDate>Sun, 19 Feb 2017 19:48:33 +0000</pubDate>
+      
+      <guid>//localhost:8080/projects/sasktel-bundles/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>Sasktel Expressions</title>
+      <link>//localhost:8080/projects/sasktel-expressions/</link>
+      <pubDate>Sun, 19 Feb 2017 19:48:33 +0000</pubDate>
+      
+      <guid>//localhost:8080/projects/sasktel-expressions/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>Sasktel Gainer&#39;s Max Bowl</title>
+      <link>//localhost:8080/projects/sasktel-gainers-max-bowl/</link>
+      <pubDate>Sun, 19 Feb 2017 19:48:33 +0000</pubDate>
+      
+      <guid>//localhost:8080/projects/sasktel-gainers-max-bowl/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>Sasktel Hang Loose</title>
+      <link>//localhost:8080/projects/sasktel-hang-loose/</link>
+      <pubDate>Sun, 19 Feb 2017 19:48:33 +0000</pubDate>
+      
+      <guid>//localhost:8080/projects/sasktel-hang-loose/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>Sasktel Once Upon a Dream</title>
+      <link>//localhost:8080/projects/sasktel-once-upon-a-dream/</link>
+      <pubDate>Sun, 19 Feb 2017 19:48:33 +0000</pubDate>
+      
+      <guid>//localhost:8080/projects/sasktel-once-upon-a-dream/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>Sasktel Raving Red</title>
+      <link>//localhost:8080/projects/sasktel-raving-red/</link>
+      <pubDate>Sun, 19 Feb 2017 19:48:33 +0000</pubDate>
+      
+      <guid>//localhost:8080/projects/sasktel-raving-red/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>Sasktel River Ride</title>
+      <link>//localhost:8080/projects/sasktel-river-ride/</link>
+      <pubDate>Sun, 19 Feb 2017 19:48:33 +0000</pubDate>
+      
+      <guid>//localhost:8080/projects/sasktel-river-ride/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>Sasktel The Ride</title>
+      <link>//localhost:8080/projects/sasktel-the-ride/</link>
+      <pubDate>Sun, 19 Feb 2017 19:48:33 +0000</pubDate>
+      
+      <guid>//localhost:8080/projects/sasktel-the-ride/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>Tendril Coke</title>
+      <link>//localhost:8080/projects/tendril-coke/</link>
+      <pubDate>Sun, 19 Feb 2017 19:48:33 +0000</pubDate>
+      
+      <guid>//localhost:8080/projects/tendril-coke/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>Tendril Fck Wntr</title>
+      <link>//localhost:8080/projects/tendril-fck-wntr/</link>
+      <pubDate>Sun, 19 Feb 2017 19:48:33 +0000</pubDate>
+      
+      <guid>//localhost:8080/projects/tendril-fck-wntr/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>Tendril S/M/L</title>
+      <link>//localhost:8080/projects/tendril-s-m-l/</link>
+      <pubDate>Sun, 19 Feb 2017 19:48:33 +0000</pubDate>
+      
+      <guid>//localhost:8080/projects/tendril-s-m-l/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>Toblerone Christmas</title>
+      <link>//localhost:8080/projects/toblerone-christmas/</link>
+      <pubDate>Sun, 19 Feb 2017 19:48:33 +0000</pubDate>
+      
+      <guid>//localhost:8080/projects/toblerone-christmas/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>Yahoo Using Your Yahoo</title>
+      <link>//localhost:8080/projects/yahoo-using-your-yahoo/</link>
+      <pubDate>Sun, 19 Feb 2017 19:48:33 +0000</pubDate>
+      
+      <guid>//localhost:8080/projects/yahoo-using-your-yahoo/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>Parent Constraint to Last - Maya Python</title>
+      <link>//localhost:8080/posts/parent-constraint-to-last-maya-python/</link>
+      <pubDate>Mon, 23 Mar 2015 19:34:20 +0000</pubDate>
+      
+      <guid>//localhost:8080/posts/parent-constraint-to-last-maya-python/</guid>
+      <description>Snippet to constraint all selected nodes to the last selected.</description>
+    </item>
+    
+    <item>
+      <title>Group Nodes - Maya Python</title>
+      <link>//localhost:8080/posts/group-nodes-maya-python/</link>
+      <pubDate>Mon, 23 Mar 2015 19:32:57 +0000</pubDate>
+      
+      <guid>//localhost:8080/posts/group-nodes-maya-python/</guid>
+      <description>Hey guys! Here is a quick snippet to just group nodes under their own little group hierarchie, which will provide us with a driver group and a x_form group. The x_form group is the one that contains the offset values from the parent node while the driver is the group we will use for all connections needed (sometime I even have two driver groups).</description>
+    </item>
+    
+    <item>
+      <title>Find Verts Weighted to Bone Function</title>
+      <link>//localhost:8080/posts/find-verts-weighted-to-bone-function/</link>
+      <pubDate>Mon, 23 Mar 2015 19:31:28 +0000</pubDate>
+      
+      <guid>//localhost:8080/posts/find-verts-weighted-to-bone-function/</guid>
+      <description>Here is a little function I wrote that will go through all selected meshes and find all the vertices weighted to a given bone. I had to write this to find all the meshes that had a specific bone in their skin mod, but not just that! I needed to know which of those meshes had verts weighted to this specific bone.</description>
+    </item>
+    
+    <item>
+      <title>Create FK Chain - Maya Python</title>
+      <link>//localhost:8080/posts/create-fk-chain-maya-python/</link>
+      <pubDate>Mon, 23 Mar 2015 19:29:30 +0000</pubDate>
+      
+      <guid>//localhost:8080/posts/create-fk-chain-maya-python/</guid>
+      <description>Hey guys! first rigging script for python in maya! pretty simple, it creates a FK chain from selected joints with flags to align the controllers to world or to the Joint. Wrote this script to do Gainer&amp;rsquo;s(Sasktel) spine rig in Maya ( I am re-rigging him in Maya.)</description>
+    </item>
+    
+    <item>
+      <title>Constraint Functions - 3DS Max</title>
+      <link>//localhost:8080/posts/constraint-functions-3dsmax/</link>
+      <pubDate>Sun, 22 Mar 2015 19:28:09 +0000</pubDate>
+      
+      <guid>//localhost:8080/posts/constraint-functions-3dsmax/</guid>
+      <description>In the past years I started creating my own library of functions and scripts that would automate a lot of the processes that I often use when rigging characters to speed up the rigging process even more.</description>
+    </item>
+    
+    <item>
+      <title>The Future of 3DS Max</title>
+      <link>//localhost:8080/posts/the-future-of-3ds-max/</link>
+      <pubDate>Mon, 09 Sep 2013 19:26:26 +0000</pubDate>
+      
+      <guid>//localhost:8080/posts/the-future-of-3ds-max/</guid>
+      <description>Read the comments section of this post on Max Underground.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:8080/search.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:8080/search.json</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>//localhost:8080/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:8080/about/</guid>
+      <description>My name is Felipe Nogueira. I am a Character TD/Pipeline TD/Technical Artist in the computer graphics industry. I am a graduate of the Multimedia 3D Computer Animation, diploma program, and 3D for Production: gaming and entertainment , post-graduate program, from Humber College in Toronto, Ontario.
+While growing up I became interested in game developing and started creating simple Pascal “play by text” games and simple Visual Basics games. I then moved on to creating several online Text RPG’s based on famous Japanese cartoons at the time.</description>
+    </item>
+    
+    <item>
+      <title>Archive</title>
+      <link>//localhost:8080/archive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:8080/archive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Demo Reel</title>
+      <link>//localhost:8080/demo-reel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:8080/demo-reel/</guid>
+      <description>  </description>
+    </item>
+    
+  </channel>
+</rss>
