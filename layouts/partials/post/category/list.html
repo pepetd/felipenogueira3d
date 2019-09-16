@@ -1,0 +1,6 @@
+{{ with .Params.categories }}
+{{ $sort := sort . }}
+{{ $links := apply $sort "partial" "post/category/link" "." }}
+{{ $clean := apply $links "chomp" "." }}
+<span>{{ delimit $clean ", " }}</span>
+{{ end }}

@@ -1,0 +1,104 @@
+.search {
+  box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.12),
+    0 0.1rem 0.2rem rgba(0, 0, 0, 0.24);
+  display: none;
+  margin-bottom: 0.8rem;
+  position: relative;
+  width: 100%;
+
+  &--open {
+    display: block;
+  }
+
+  @media #{$bp-desktop} {
+    box-shadow: none;
+    height: 100%;
+    left: 8.8rem;
+    margin-bottom: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+  }
+
+  &__input {
+    border: 0;
+    color: $color-black-087;
+    font-size: 1.6rem;
+    height: 100%;
+    padding: 1.2rem 4.4rem 1.2rem 1.2rem;
+    width: 100%;
+
+    @media #{$bp-desktop} {
+      font-size: 2.4rem;
+      padding: 1.2rem 8.8rem 1.2rem 1.2rem;
+    }
+  }
+
+  &__close {
+    background-color: $color-teal;
+    border: 0;
+    color: $color-white-100;
+    cursor: pointer;
+    font-size: 2.4rem;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 4.4rem;
+
+    &:hover,
+    &:focus {
+      background-color: $color-red;
+    }
+
+    @media #{$bp-desktop} {
+      width: 8.8rem;
+    }
+  }
+
+  &__results {
+    background-color: $color-white-100;
+    box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.12),
+      0 0.1rem 0.2rem rgba(0, 0, 0, 0.24);
+    left: 0;
+    position: absolute;
+    right: 4.4rem;
+    z-index: 100;
+
+    @media #{$bp-desktop} {
+      right: 8.8rem;
+    }
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+  }
+
+  &__item {
+    border-bottom: 0.1rem solid $color-black-012;
+    font-size: 1.6rem;
+    list-style: none;
+
+    &:last-of-type {
+      border-bottom: 0;
+    }
+
+    @media #{$bp-desktop} {
+      font-size: 2.4rem;
+    }
+  }
+
+  &__link {
+    color: $color-black-087;
+    display: block;
+    padding: 1.2rem;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      color: $color-red;
+    }
+  }
+}

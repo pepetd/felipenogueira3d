@@ -1,0 +1,28 @@
+{{- define "main" -}}
+<section class="container">
+  {{- $paginator := .Paginate (where .Site.RegularPages "Type" "post") -}}
+  {{- range $paginator.Pages -}}
+  <article class="article">
+    <h2 class="article__title">
+      <a class="article__link" href="{{- .Permalink -}}" title="{{- .Title -}}">{{- .Title -}}</a>
+    </h2>
+    <ul class="details">
+      <li class="details__item">
+        <i class="fas fa-calendar-day fa-fw"></i>
+        {{- .Date.Format "Monday, January 2 2006" -}}
+      </li>
+      <li class="details__item">
+        <i class="fas fa-folder-open fa-fw"></i>
+        {{ partial "post/category/list.html" . }}
+      </li>
+      <li class="details__item">
+        <i class="fas fa-tags fa-fw"></i>
+        {{ partial "post/tag/list.html" . }}
+      </li>
+    </ul>
+    <p class="article__summary">{{- .Params.Summary -}}</p>
+  </article>
+  {{- end -}}
+  {{- partial "pagination.html" . -}}
+</section>
+{{- end -}}

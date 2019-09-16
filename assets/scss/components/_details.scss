@@ -1,0 +1,31 @@
+.details {
+  color: $color-black-054;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+
+  &__item {
+    align-items: center;
+    border: 0.1rem dashed $color-black-012;
+    display: flex;
+    list-style: none;
+    margin-bottom: 0.8rem;
+    padding: 0 0.8rem;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+
+    svg {
+      margin-right: 0.6rem;
+    }
+  }
+
+  &__link {
+    &:hover,
+    &:active {
+      color: $color-red;
+    }
+  }
+}

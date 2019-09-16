@@ -1,0 +1,37 @@
+{{- define "main" -}}
+<section class="archive container">
+  <h2 class="heading">
+    <span class="heading__text">{{ .Title }}</span>
+  </h2>
+  <h3 class="heading">
+    <span class="heading__text">Posts</span>
+  </h3>
+  {{- $posts := (where .Site.RegularPages "Type" "post") -}}
+  {{- range $posts.GroupByDate "2006" -}}
+  <h4 class="archive__year">{{ .Key }}</h4>
+  <ul class="archive__list">
+    {{- range .Pages -}}
+    <li class="archive__item">
+      <span class="archive__date">{{- .Date.Format "January 2, 2006" -}}</span>
+      <a class="archive__link" href="{{ .Permalink }}" title="{{- .Title -}}">{{- .Title -}}</a>
+    </li>
+    {{- end -}}
+  </ul>
+  {{- end -}}
+  <h3 class="heading">
+    <span class="heading__text">Projects</span>
+  </h3>
+  {{- $projects := (where .Site.RegularPages "Type" "project") -}}
+  {{- range $projects.GroupByDate "2006" -}}
+  <h4 class="archive__year">{{ .Key }}</h4>
+  <ul class="archive__list">
+    {{- range .Pages -}}
+    <li class="archive__item">
+      <span class="archive__date">{{- .Date.Format "January 2, 2006" -}}</span>
+      <a class="archive__link" href="{{ .Permalink }}" title="{{- .Title -}}">{{- .Title -}}</a>
+    </li>
+    {{- end -}}
+  </ul>
+  {{- end -}}
+</section>
+{{- end -}}

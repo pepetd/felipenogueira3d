@@ -1,0 +1,28 @@
+{{- define "main" -}}
+<section class="container">
+  <h2 class="heading">
+    <span class="heading__text">{{ .Title }}</span>
+  </h2>
+  <ul class="details">
+    <li class="details__item">
+      <i class="fas fa-calendar-day fa-fw"></i>
+      {{- .Date.Format "Monday, January 2 2006" -}}
+    </li>
+    <li class="details__item">
+      <i class="fas fa-folder-open fa-fw"></i>
+      {{ partial "post/category/list.html" . }}
+    </li>
+    <li class="details__item">
+      <i class="fas fa-tags fa-fw"></i>
+      {{ partial "post/tag/list.html" . }}
+    </li>
+    <li class="details__item">
+      <i class="fas fa-clock fa-fw"></i>
+      {{ .ReadingTime }} min read
+    </li>
+  </ul>
+  <div class="markdown-text">
+    {{ .Content }}
+  </div>
+</section>
+{{- end -}}

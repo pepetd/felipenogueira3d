@@ -1,0 +1,41 @@
+/* Resets & Global */
+@import './lib/normalize';
+@import './settings/variables';
+@import './settings/reset';
+@import './settings/base';
+@import './settings/helpers';
+
+.error {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+
+  &__icon {
+    height: 12.8rem;
+    stroke: $color-red;
+    width: 12.8rem;
+  }
+
+  &__message {
+    color: $color-black-054;
+    font-size: 3.2rem;
+    margin: 0;
+
+    @media #{$bp-desktop} {
+      font-size: 6.4rem;
+    }
+  }
+
+  &__link {
+    color: $color-teal;
+    display: block;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-red;
+    }
+  }
+}

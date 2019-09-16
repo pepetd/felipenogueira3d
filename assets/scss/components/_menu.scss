@@ -1,0 +1,33 @@
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  margin-bottom: 0.8rem;
+  padding: 0;
+
+  @media #{$bp-desktop} {
+    margin-bottom: 0;
+
+    &--social {
+      margin-left: auto;
+    }
+  }
+
+  &__item {
+    display: flex;
+    list-style: none;
+    margin: 0 1.2rem;
+  }
+
+  &__link {
+    color: $color-white-100;
+    display: inline-block;
+    font-weight: 700;
+
+    &:hover,
+    &:active {
+      color: $color-white-070;
+    }
+  }
+}

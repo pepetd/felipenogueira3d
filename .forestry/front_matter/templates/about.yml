@@ -1,0 +1,26 @@
+---
+label: About
+hide_body: false
+display_field: title
+fields:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: text
+  name: type
+  label: Type
+  hidden: true
+  config:
+    required: true
+  default: about
+- type: text
+  name: layout
+  label: Layout
+  hidden: true
+  config:
+    required: true
+  default: single
+pages:
+- content/about.md

@@ -1,0 +1,9 @@
+.container {
+	margin: 0 auto;
+	padding: 0 1.2rem;
+	width: 100%;
+
+	@media #{$bp-desktop} {
+		max-width: $desktop;
+	}
+}

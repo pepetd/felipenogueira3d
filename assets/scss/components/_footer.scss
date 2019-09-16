@@ -1,0 +1,54 @@
+.footer {
+  &__line {
+    background-color: $color-black-012;
+    border: 0;
+    height: 0.1rem;
+    margin-top: 6.4rem;
+  }
+
+  &__links {
+    margin: 0;
+    padding: 0;
+
+    &--right {
+      text-align: right;
+    }
+
+    &--columns {
+      column-count: 2;
+
+      @media #{$bp-desktop} {
+        column-count: 3;
+      }
+    }
+  }
+
+  &__item {
+    list-style: none;
+
+    &--inline {
+      display: inline-block;
+    }
+  }
+
+  &__link {
+    color: $color-black-054;
+    display: inline-block;
+
+    &:hover,
+    &:active {
+      color: $color-red;
+    }
+  }
+
+  &__heading {
+    color: $color-black-087;
+    font-weight: 400;
+    margin-top: 2.4rem;
+  }
+
+  &__copyright {
+    margin-bottom: 6.4rem;
+    margin-top: 2.4rem;
+  }
+}

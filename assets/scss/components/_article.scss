@@ -1,0 +1,17 @@
+.article {
+  margin-top: 6.4rem;
+
+  &__title {
+    font-weight: 400;
+  }
+
+  &__link {
+    color: $color-teal;
+    display: inline-block;
+
+    &:hover,
+    &:active {
+      color: $color-red;
+    }
+  }
+}

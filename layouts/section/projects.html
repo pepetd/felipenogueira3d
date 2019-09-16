@@ -1,0 +1,22 @@
+{{- define "main" -}}
+<section class="container">
+  <h2 class="heading">
+    <span class="heading__text">{{ .Title }}</span>
+  </h2>
+</section>
+<section class="projects">
+  {{- range (where .Site.RegularPages "Type" "project") -}}
+  <a class="projects__link" href="{{- .Permalink -}}" title="{{- .Title -}}">
+    <span class="projects__title">{{- .Title -}}</span>
+    <img class="projects__image lazy" style="display: block; margin: 0 auto;"
+      src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+      data-src="{{- $.Site.Params.cloudinary_url -}}/w_800,h_430,c_thumb,f_auto{{- .Params.image -}}"
+      alt="{{ .Title }}">
+    <noscript>
+      <img class="projects__image" style="display: block; margin: 0 auto;" src="{{- $.Site.Params.cloudinary_url -}}/w_800,h_430,c_thumb,f_auto{{- .Params.image -}}"
+        alt="{{ .Title }}">
+    </noscript>
+  </a>
+  {{- end -}}
+</section>
+{{- end -}}

@@ -1,0 +1,7 @@
+{{- $.Scratch.Add "index" slice -}}
+{{- range where .Site.RegularPages "Type" "not in" (slice "employer" "friend" "archive" "about" "demo-reel" "search") -}}
+{{- $contents := "" -}}
+{{- if ne .Plain " " -}}{{- $contents = .Plain -}}{{- end -}}
+{{- $.Scratch.Add "index" (dict "type" .Type "title" .Title "uri" .Permalink "content" (trim .Plain " ") "tags" .Params.tags "categories" .Params.categories) -}}
+{{- end -}}
+{{- $.Scratch.Get "index" | jsonify -}}

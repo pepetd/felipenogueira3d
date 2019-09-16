@@ -1,0 +1,27 @@
+.header {
+  align-items: center;
+  background-color: $color-teal;
+  box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.12),
+    0 0.1rem 0.2rem rgba(0, 0, 0, 0.24);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1.2rem;
+  position: relative;
+
+  @media #{$bp-desktop} {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__branding {
+    display: inline-block;
+  }
+
+  &__logo {
+    height: 6.4rem;
+    margin: 0.8rem 0;
+    max-width: unset;
+    width: 6.4rem;
+  }
+}

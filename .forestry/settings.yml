@@ -1,0 +1,47 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: ''
+webhook_url: 
+sections:
+- type: directory
+  path: content
+  label: Pages
+  create: documents
+  match: "*"
+- type: directory
+  path: content/posts
+  label: Posts
+  create: documents
+  match: "**/*"
+- type: directory
+  path: content/employers
+  label: Employers
+  create: documents
+  match: "**/*"
+- type: directory
+  path: content/friends
+  label: Friends
+  create: documents
+  match: "**/*"
+- type: directory
+  path: content/projects
+  label: Projects
+  create: documents
+  match: "**/*"
+upload_dir: ''
+public_path: https://res.cloudinary.com/felipenogueira3d-cloud/image/upload/w_696,c_scale,f_auto
+front_matter_path: ''
+use_front_matter_path: true
+file_template: ":filename:"
+build:
+  preview_env:
+  - HUGO_ENV=staging
+  - HUGO_VERSION=0.57.1
+  preview_output_directory: public
+  install_dependencies_command: npm install
+  preview_docker_image: forestryio/hugo:node10
+  mount_path: "/srv"
+  working_dir: "/srv"
+  instant_preview_command: npm start
+version: 0.57.1

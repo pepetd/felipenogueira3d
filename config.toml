@@ -1,0 +1,86 @@
+# hostname (and path) to the root eg. http://spf13.com/
+baseurl = "/"
+
+# Language
+languageCode = "en_US"
+
+# disable things from being generated
+disableKinds= ["sitemap"]
+
+# Pagination
+paginate = 5
+paginatePath = "/page"
+
+# Enable Disqus integration
+# disqusShortname = "felipenogueirablog" # felipenogueirablog
+
+# Code highlighting options
+pygmentsCodeFences = true
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[permalinks]
+  tags = "/posts/tags/:title/"
+  categories = "/posts/categories/:title/"
+
+[params]
+  domain = "https://felipenogueira3d.com"
+  title = "Felipe Nogueira 3D"
+  description = "Personal blog and project site of Felipe Nogueira."
+  keywords = ["3d", "technical", "artist", "game", "development"]
+  copyright = "&copy; 2019 Felipe Nogueira 3D"
+  cloudinary_url = "https://res.cloudinary.com/felipenogueira3d-cloud/image/upload"
+
+  [params.social]
+    twitter = "pepetd3d"
+    github = "pepetd"
+    youtube = "TheDragoon"
+    vimeo = "pepetd"
+    linkedin = "pepetd"
+    email = "felipe@felipenogueira3d.com"
+
+# Site menu - internal links
+[menu]
+  [[menu.site]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/posts"
+    weight = 1
+
+  [[menu.site]]
+    identifier = "development"
+    name = "Development"
+    url = "/posts/categories/development"
+    weight = 2
+
+  [[menu.site]]
+    identifier = "tutorials"
+    name = "Tutorials"
+    url = "/posts/categories/tutorials"
+    weight = 3
+
+  [[menu.site]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects"
+    weight = 4
+
+  [[menu.site]]
+    identifier = "demo-reel"
+    name = "Demo Reel"
+    url = "/demo-reel"
+    weight = 5
+
+  [[menu.site]]
+    identifier = "about"
+    name = "About"
+    url = "/about"
+    weight = 6
+
+  [[menu.footer]]
+    identifier = "archive"
+    name = "Archive"
+    url = "/archive"
+    weight = 1
