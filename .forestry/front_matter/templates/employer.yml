@@ -36,11 +36,11 @@ fields:
     required: true
   default: single
 pages:
-- content/employers/bethesda-softworks.md
-- content/employers/big-huge-games.md
-- content/employers/hatch-studios.md
-- content/employers/house-of-cool-studios.md
-- content/employers/tendril-studios.md
-- content/employers/toonbox-entertainment.md
-- content/employers/ubisoft-toronto.md
 - content/employers/igloo-vfx.md
+- content/employers/ubisoft-toronto.md
+- content/employers/toonbox-entertainment.md
+- content/employers/tendril-studios.md
+- content/employers/house-of-cool-studios.md
+- content/employers/hatch-studios.md
+- content/employers/big-huge-games.md
+- content/employers/bethesda-softworks.md

@@ -37,14 +37,14 @@ fields:
     required: true
   default: single
 pages:
-- content/friends/borislav-bobo-petrov.md
-- content/friends/chad-vernon.md
-- content/friends/eric-d-lagare.md
-- content/friends/felix-joleanes.md
-- content/friends/jason-labbe.md
-- content/friends/jason-stalker.md
-- content/friends/joel-lelievre.md
-- content/friends/mathieson-facer.md
-- content/friends/matt-lewis.md
-- content/friends/michelle-ryan.md
 - content/friends/paul-neale.md
+- content/friends/michelle-ryan.md
+- content/friends/matt-lewis.md
+- content/friends/mathieson-facer.md
+- content/friends/joel-lelievre.md
+- content/friends/jason-stalker.md
+- content/friends/jason-labbe.md
+- content/friends/felix-joleanes.md
+- content/friends/eric-d-lagare.md
+- content/friends/chad-vernon.md
+- content/friends/borislav-bobo-petrov.md

@@ -40,9 +40,9 @@ fields:
     required: true
   default: single
 pages:
-- content/posts/find-verts-weighted-to-bone-function.md
-- content/posts/the-future-of-3ds-max.md
-- content/posts/constraint-functions-3dsmax.md
-- content/posts/create-fk-chain-maya-python.md
-- content/posts/parent-constraint-to-last-maya-python.md
 - content/posts/group-nodes-maya-python.md
+- content/posts/parent-constraint-to-last-maya-python.md
+- content/posts/create-fk-chain-maya-python.md
+- content/posts/constraint-functions-3dsmax.md
+- content/posts/the-future-of-3ds-max.md
+- content/posts/find-verts-weighted-to-bone-function.md
