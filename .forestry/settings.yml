@@ -32,7 +32,7 @@ sections:
 upload_dir: ''
 public_path: https://res.cloudinary.com/felipenogueira3d-cloud/image/upload/w_696,c_scale,f_auto
 front_matter_path: ''
-use_front_matter_path: 
+use_front_matter_path: true
 file_template: ":filename:"
 build:
   preview_env:
