@@ -40,6 +40,7 @@ fields:
     required: true
   default: single
 pages:
+- content/posts/testing-new-site-set-up.md
 - content/posts/group-nodes-maya-python.md
 - content/posts/parent-constraint-to-last-maya-python.md
 - content/posts/create-fk-chain-maya-python.md
