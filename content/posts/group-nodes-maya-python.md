@@ -2,10 +2,10 @@
 title: Group Nodes - Maya Python
 date: 2015-03-23T19:32:57.000+00:00
 summary: Hey guys! Here is a quick snippet to just group nodes under their own little
-  group hierarchie, which will provide us with a driver group and a x_form group.
-  The x_form group is the one that contains the offset values from the parent node
-  while the driver is the group we will use for all connections needed (sometime I
-  even have two driver groups).
+  group hierarchy, which will provide us with a driver group and a xform group. The
+  xform group is the one that contains the offset values from the parent node while
+  the driver is the group we will use for all connections needed (sometime I even
+  have two driver groups).
 categories:
 - Development
 tags:
