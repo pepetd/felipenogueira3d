@@ -30,7 +30,7 @@ pygmentsCodeFences = true
   title = "Felipe Nogueira 3D"
   description = "Personal blog and project site of Felipe Nogueira."
   keywords = ["3d", "technical", "artist", "game", "development"]
-  copyright = "&copy; 2019 Felipe Nogueira 3D"
+  copyright = "&copy; 2020 Felipe Nogueira 3D"
   cloudinary_url = "https://res.cloudinary.com/felipenogueira3d-cloud/image/upload"
 
   [params.social]
