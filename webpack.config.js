@@ -82,14 +82,14 @@ module.exports = (env, argv) => {
       devMode
         ? null
         : new CompressionPlugin({
-            filename: '[path].br[query]',
-            algorithm: 'brotliCompress',
-            test: /\.(js|css)$/,
-            compressionOptions: { level: 11 },
-            threshold: 10240,
-            minRatio: 0.8,
-            deleteOriginalAssets: false,
-          }),
+          filename: '[path].br[query]',
+          algorithm: 'brotliCompress',
+          test: /\.(js|css)$/,
+          compressionOptions: { level: 11 },
+          threshold: 10240,
+          minRatio: 0.8,
+          deleteOriginalAssets: false,
+        }),
     ].filter(Boolean),
     optimization: {
       splitChunks: {
